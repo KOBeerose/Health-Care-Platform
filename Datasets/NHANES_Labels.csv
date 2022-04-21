@@ -1,0 +1,3852 @@
+variable,label
+SEQN,Respondent sequence number
+SDDSRVYR,Data release cycle
+RIDSTATR,Interview/Examination status
+RIAGENDR,Gender
+RIDAGEYR,Age in years at screening
+RIDAGEMN,Age in months at screening - 0 to 24 mos
+RIDRETH1,Race/Hispanic origin
+RIDRETH3,Race/Hispanic origin w/ NH Asian
+RIDEXMON,Six month time period
+RIDEXAGM,Age in months at exam - 0 to 19 years
+DMQMILIZ,Served active duty in US Armed Forces
+DMQADFC,Served in a foreign country
+DMDBORN4,Country of birth
+DMDCITZN,Citizenship status
+DMDYRSUS,Length of time in US
+DMDEDUC3,Education level - Children/Youth 6-19
+DMDEDUC2,Education level - Adults 20+
+DMDMARTL,Marital status
+RIDEXPRG,Pregnancy status at exam
+SIALANG,Language of SP Interview
+SIAPROXY,Proxy used in SP Interview?
+SIAINTRP,Interpreter used in SP Interview?
+FIALANG,Language of Family Interview
+FIAPROXY,Proxy used in Family Interview?
+FIAINTRP,Interpreter used in Family Interview?
+MIALANG,Language of MEC Interview
+MIAPROXY,Proxy used in MEC Interview?
+MIAINTRP,Interpreter used in MEC Interview?
+AIALANGA,Language of ACASI Interview
+DMDHHSIZ,Total number of people in the Household
+DMDFMSIZ,Total number of people in the Family
+DMDHHSZA,# of children 5 years or younger in HH
+DMDHHSZB,# of children 6-17 years old in HH
+DMDHHSZE,# of adults 60 years or older in HH
+DMDHRGND,HH ref person's gender
+DMDHRAGE,HH ref person's age in years
+DMDHRBR4,HH ref person's country of birth
+DMDHREDU,HH ref person's education level
+DMDHRMAR,HH ref person's marital status
+DMDHSEDU,HH ref person's spouse's education level
+WTINT2YR,Full sample 2 year interview weight
+WTMEC2YR,Full sample 2 year MEC exam weight
+SDMVPSU,Masked variance pseudo-PSU
+SDMVSTRA,Masked variance pseudo-stratum
+INDHHIN2,Annual household income
+INDFMIN2,Annual family income
+INDFMPIR,Ratio of family income to poverty
+WTDRD1,Dietary day one sample weight
+WTDR2D,Dietary two-day sample weight
+DR1ILINE,Food/Individual component number
+DR1DRSTZ,Dietary recall status
+DR1EXMER,Interviewer ID code
+DRABF,Breast-fed infant (either day)
+DRDINT,Number of days of intake
+DR1DBIH,# of days b/w intake and HH interview
+DR1DAY,Intake day of the week
+DR1LANG,Language respondent used mostly
+DR1CCMNM,Combination food number
+DR1CCMTX,Combination food type
+DR1_020,Time of eating occasion (HH:MM)
+DR1_030Z,Name of eating occasion
+DR1FS,Source of food
+DR1_040Z,Did you eat this meal at home?
+DR1IFDCD,USDA food code
+DR1IGRMS,Grams
+DR1IKCAL,Energy (kcal)
+DR1IPROT,Protein (gm)
+DR1ICARB,Carbohydrate (gm)
+DR1ISUGR,Total sugars (gm)
+DR1IFIBE,Dietary fiber (gm)
+DR1ITFAT,Total fat (gm)
+DR1ISFAT,Total saturated fatty acids (gm)
+DR1IMFAT,Total monounsaturated fatty acids (gm)
+DR1IPFAT,Total polyunsaturated fatty acids (gm)
+DR1ICHOL,Cholesterol (mg)
+DR1IATOC,Vitamin E as alpha-tocopherol (mg)
+DR1IATOA,Added alpha-tocopherol (Vitamin E) (mg)
+DR1IRET,Retinol (mcg)
+DR1IVARA,"Vitamin A, RAE (mcg)"
+DR1IACAR,Alpha-carotene (mcg)
+DR1IBCAR,Beta-carotene (mcg)
+DR1ICRYP,Beta-cryptoxanthin (mcg)
+DR1ILYCO,Lycopene (mcg)
+DR1ILZ,Lutein + zeaxanthin (mcg)
+DR1IVB1,Thiamin (Vitamin B1) (mg)
+DR1IVB2,Riboflavin (Vitamin B2) (mg)
+DR1INIAC,Niacin (mg)
+DR1IVB6,Vitamin B6 (mg)
+DR1IFOLA,Total folate (mcg)
+DR1IFA,Folic acid (mcg)
+DR1IFF,Food folate (mcg)
+DR1IFDFE,"Folate, DFE (mcg)"
+DR1ICHL,Total choline (mg)
+DR1IVB12,Vitamin B12 (mcg)
+DR1IB12A,Added vitamin B12 (mcg)
+DR1IVC,Vitamin C (mg)
+DR1IVD,Vitamin D (D2 + D3) (mcg)
+DR1IVK,Vitamin K (mcg)
+DR1ICALC,Calcium (mg)
+DR1IPHOS,Phosphorus (mg)
+DR1IMAGN,Magnesium (mg)
+DR1IIRON,Iron (mg)
+DR1IZINC,Zinc (mg)
+DR1ICOPP,Copper (mg)
+DR1ISODI,Sodium (mg)
+DR1IPOTA,Potassium (mg)
+DR1ISELE,Selenium (mcg)
+DR1ICAFF,Caffeine (mg)
+DR1ITHEO,Theobromine (mg)
+DR1IALCO,Alcohol (gm)
+DR1IMOIS,Moisture (gm)
+DR1IS040,SFA 4:0 (Butanoic) (gm)
+DR1IS060,SFA 6:0 (Hexanoic) (gm)
+DR1IS080,SFA 8:0 (Octanoic) (gm)
+DR1IS100,SFA 10:0 (Decanoic) (gm)
+DR1IS120,SFA 12:0 (Dodecanoic) (gm)
+DR1IS140,SFA 14:0 (Tetradecanoic) (gm)
+DR1IS160,SFA 16:0 (Hexadecanoic) (gm)
+DR1IS180,SFA 18:0 (Octadecanoic) (gm)
+DR1IM161,MFA 16:1 (Hexadecenoic) (gm)
+DR1IM181,MFA 18:1 (Octadecenoic) (gm)
+DR1IM201,MFA 20:1 (Eicosenoic) (gm)
+DR1IM221,MFA 22:1 (Docosenoic) (gm)
+DR1IP182,PFA 18:2 (Octadecadienoic) (gm)
+DR1IP183,PFA 18:3 (Octadecatrienoic) (gm)
+DR1IP184,PFA 18:4 (Octadecatetraenoic) (gm)
+DR1IP204,PFA 20:4 (Eicosatetraenoic) (gm)
+DR1IP205,PFA 20:5 (Eicosapentaenoic) (gm)
+DR1IP225,PFA 22:5 (Docosapentaenoic) (gm)
+DR1IP226,PFA 22:6 (Docosahexaenoic) (gm)
+DR2ILINE,Food/Individual component number
+DR2DRSTZ,Dietary recall status
+DR2EXMER,Interviewer ID code
+DR2DBIH,# of days b/w intake and HH interview
+DR2DAY,Intake day of the week
+DR2LANG,Language respondent used mostly
+DR2CCMNM,Combination food number
+DR2CCMTX,Combination food type
+DR2_020,Time of eating occasion (HH:MM)
+DR2_030Z,Name of eating occasion
+DR2FS,Source of food
+DR2_040Z,Did you eat this meal at home?
+DR2IFDCD,USDA food code
+DR2IGRMS,Grams
+DR2IKCAL,Energy (kcal)
+DR2IPROT,Protein (gm)
+DR2ICARB,Carbohydrate (gm)
+DR2ISUGR,Total sugars (gm)
+DR2IFIBE,Dietary fiber (gm)
+DR2ITFAT,Total fat (gm)
+DR2ISFAT,Total saturated fatty acids (gm)
+DR2IMFAT,Total monounsaturated fatty acids (gm)
+DR2IPFAT,Total polyunsaturated fatty acids (gm)
+DR2ICHOL,Cholesterol (mg)
+DR2IATOC,Vitamin E as alpha-tocopherol (mg)
+DR2IATOA,Added alpha-tocopherol (Vitamin E) (mg)
+DR2IRET,Retinol (mcg)
+DR2IVARA,"Vitamin A, RAE (mcg)"
+DR2IACAR,Alpha-carotene (mcg)
+DR2IBCAR,Beta-carotene (mcg)
+DR2ICRYP,Beta-cryptoxanthin (mcg)
+DR2ILYCO,Lycopene (mcg)
+DR2ILZ,Lutein + zeaxanthin (mcg)
+DR2IVB1,Thiamin (Vitamin B1) (mg)
+DR2IVB2,Riboflavin (Vitamin B2) (mg)
+DR2INIAC,Niacin (mg)
+DR2IVB6,Vitamin B6 (mg)
+DR2IFOLA,Total folate (mcg)
+DR2IFA,Folic acid (mcg)
+DR2IFF,Food folate (mcg)
+DR2IFDFE,"Folate, DFE (mcg)"
+DR2ICHL,Total choline (mg)
+DR2IVB12,Vitamin B12 (mcg)
+DR2IB12A,Added vitamin B12 (mcg)
+DR2IVC,Vitamin C (mg)
+DR2IVD,Vitamin D (D2 + D3) (mcg)
+DR2IVK,Vitamin K (mcg)
+DR2ICALC,Calcium (mg)
+DR2IPHOS,Phosphorus (mg)
+DR2IMAGN,Magnesium (mg)
+DR2IIRON,Iron (mg)
+DR2IZINC,Zinc (mg)
+DR2ICOPP,Copper (mg)
+DR2ISODI,Sodium (mg)
+DR2IPOTA,Potassium (mg)
+DR2ISELE,Selenium (mcg)
+DR2ICAFF,Caffeine (mg)
+DR2ITHEO,Theobromine (mg)
+DR2IALCO,Alcohol (gm)
+DR2IMOIS,Moisture (gm)
+DR2IS040,SFA 4:0 (Butanoic) (gm)
+DR2IS060,SFA 6:0 (Hexanoic) (gm)
+DR2IS080,SFA 8:0 (Octanoic) (gm)
+DR2IS100,SFA 10:0 (Decanoic) (gm)
+DR2IS120,SFA 12:0 (Dodecanoic) (gm)
+DR2IS140,SFA 14:0 (Tetradecanoic) (gm)
+DR2IS160,SFA 16:0 (Hexadecanoic) (gm)
+DR2IS180,SFA 18:0 (Octadecanoic) (gm)
+DR2IM161,MFA 16:1 (Hexadecenoic) (gm)
+DR2IM181,MFA 18:1 (Octadecenoic) (gm)
+DR2IM201,MFA 20:1 (Eicosenoic) (gm)
+DR2IM221,MFA 22:1 (Docosenoic) (gm)
+DR2IP182,PFA 18:2 (Octadecadienoic) (gm)
+DR2IP183,PFA 18:3 (Octadecatrienoic) (gm)
+DR2IP184,PFA 18:4 (Octadecatetraenoic) (gm)
+DR2IP204,PFA 20:4 (Eicosatetraenoic) (gm)
+DR2IP205,PFA 20:5 (Eicosapentaenoic) (gm)
+DR2IP225,PFA 22:5 (Docosapentaenoic) (gm)
+DR2IP226,PFA 22:6 (Docosahexaenoic) (gm)
+DR1MNRSP,Main respondent for this interview
+DR1HELPD,Helped in responding for this interview
+DBQ095Z,Type of table salt used
+DBD100,How often add salt to food at table
+DRQSPREP,Salt used in preparation?
+DR1STY,Salt used at table yesterday?
+DR1SKY,Type of salt used yesterday
+DRQSDIET,On special diet?
+DRQSDT1,Weight loss/Low calorie diet
+DRQSDT2,Low fat/Low cholesterol diet
+DRQSDT3,Low salt/Low sodium diet
+DRQSDT4,Sugar free/Low sugar diet
+DRQSDT5,Low fiber diet
+DRQSDT6,High fiber diet
+DRQSDT7,Diabetic diet
+DRQSDT8,Weight gain/Muscle building diet
+DRQSDT9,Low carbohydrate diet
+DRQSDT10,High protein diet
+DRQSDT11,Gluten-free/Celiac diet
+DRQSDT12,Renal/Kidney diet
+DRQSDT91,Other special diet
+DR1TNUMF,Number of foods/beverages reported
+DR1TKCAL,Energy (kcal)
+DR1TPROT,Protein (gm)
+DR1TCARB,Carbohydrate (gm)
+DR1TSUGR,Total sugars (gm)
+DR1TFIBE,Dietary fiber (gm)
+DR1TTFAT,Total fat (gm)
+DR1TSFAT,Total saturated fatty acids (gm)
+DR1TMFAT,Total monounsaturated fatty acids (gm)
+DR1TPFAT,Total polyunsaturated fatty acids (gm)
+DR1TCHOL,Cholesterol (mg)
+DR1TATOC,Vitamin E as alpha-tocopherol (mg)
+DR1TATOA,Added alpha-tocopherol (Vitamin E) (mg)
+DR1TRET,Retinol (mcg)
+DR1TVARA,"Vitamin A, RAE (mcg)"
+DR1TACAR,Alpha-carotene (mcg)
+DR1TBCAR,Beta-carotene (mcg)
+DR1TCRYP,Beta-cryptoxanthin (mcg)
+DR1TLYCO,Lycopene (mcg)
+DR1TLZ,Lutein + zeaxanthin (mcg)
+DR1TVB1,Thiamin (Vitamin B1) (mg)
+DR1TVB2,Riboflavin (Vitamin B2) (mg)
+DR1TNIAC,Niacin (mg)
+DR1TVB6,Vitamin B6 (mg)
+DR1TFOLA,Total folate (mcg)
+DR1TFA,Folic acid (mcg)
+DR1TFF,Food folate (mcg)
+DR1TFDFE,"Folate, DFE (mcg)"
+DR1TCHL,Total choline (mg)
+DR1TVB12,Vitamin B12 (mcg)
+DR1TB12A,Added vitamin B12 (mcg)
+DR1TVC,Vitamin C (mg)
+DR1TVD,Vitamin D (D2 + D3) (mcg)
+DR1TVK,Vitamin K (mcg)
+DR1TCALC,Calcium (mg)
+DR1TPHOS,Phosphorus (mg)
+DR1TMAGN,Magnesium (mg)
+DR1TIRON,Iron (mg)
+DR1TZINC,Zinc (mg)
+DR1TCOPP,Copper (mg)
+DR1TSODI,Sodium (mg)
+DR1TPOTA,Potassium (mg)
+DR1TSELE,Selenium (mcg)
+DR1TCAFF,Caffeine (mg)
+DR1TTHEO,Theobromine (mg)
+DR1TALCO,Alcohol (gm)
+DR1TMOIS,Moisture (gm)
+DR1TS040,SFA 4:0 (Butanoic) (gm)
+DR1TS060,SFA 6:0 (Hexanoic) (gm)
+DR1TS080,SFA 8:0 (Octanoic) (gm)
+DR1TS100,SFA 10:0 (Decanoic) (gm)
+DR1TS120,SFA 12:0 (Dodecanoic) (gm)
+DR1TS140,SFA 14:0 (Tetradecanoic) (gm)
+DR1TS160,SFA 16:0 (Hexadecanoic) (gm)
+DR1TS180,SFA 18:0 (Octadecanoic) (gm)
+DR1TM161,MFA 16:1 (Hexadecenoic) (gm)
+DR1TM181,MFA 18:1 (Octadecenoic) (gm)
+DR1TM201,MFA 20:1 (Eicosenoic) (gm)
+DR1TM221,MFA 22:1 (Docosenoic) (gm)
+DR1TP182,PFA 18:2 (Octadecadienoic) (gm)
+DR1TP183,PFA 18:3 (Octadecatrienoic) (gm)
+DR1TP184,PFA 18:4 (Octadecatetraenoic) (gm)
+DR1TP204,PFA 20:4 (Eicosatetraenoic) (gm)
+DR1TP205,PFA 20:5 (Eicosapentaenoic) (gm)
+DR1TP225,PFA 22:5 (Docosapentaenoic) (gm)
+DR1TP226,PFA 22:6 (Docosahexaenoic) (gm)
+DR1_300,Compare food consumed yesterday to usual
+DR1_320Z,Total plain water drank yesterday (gm)
+DR1_330Z,Total tap water drank yesterday (gm)
+DR1BWATZ,Total bottled water drank yesterday (gm)
+DR1TWS,Tap water source
+DRD340,Shellfish eaten during past 30 days
+DRD350A,Clams eaten during past 30 days
+DRD350AQ,# of times clams eaten in past 30 days
+DRD350B,Crabs eaten during past 30 days
+DRD350BQ,# of times crabs eaten in past 30 days
+DRD350C,Crayfish eaten during past 30 days
+DRD350CQ,# of times crayfish eaten past 30 days
+DRD350D,Lobsters eaten during past 30 days
+DRD350DQ,# of times lobsters eaten past 30 days
+DRD350E,Mussels eaten during past 30 days
+DRD350EQ,# of times mussels eaten in past 30 days
+DRD350F,Oysters eaten during past 30 days
+DRD350FQ,# of times oysters eaten in past 30 days
+DRD350G,Scallops eaten during past 30 days
+DRD350GQ,# of times scallops eaten past 30 days
+DRD350H,Shrimp eaten during past 30 days
+DRD350HQ,# of times shrimp eaten in past 30 days
+DRD350I,Other shellfish eaten past 30 days
+DRD350IQ,# of times other shellfish eaten
+DRD350J,Other unknown shellfish eaten past 30 d
+DRD350JQ,# of times other unknown shellfish eaten
+DRD350K,Refused on shellfish eaten past 30 days
+DRD360,Fish eaten during past 30 days
+DRD370A,Breaded fish products eaten past 30 days
+DRD370AQ,# of times breaded fish products eaten
+DRD370B,Tuna eaten during past 30 days
+DRD370BQ,# of times tuna eaten in past 30 days
+DRD370C,Bass eaten during past 30 days
+DRD370CQ,# of times bass eaten in past 30 days
+DRD370D,Catfish eaten during past 30 days
+DRD370DQ,# of times catfish eaten in past 30 days
+DRD370E,Cod eaten during past 30 days
+DRD370EQ,# of times cod eaten in past 30 days
+DRD370F,Flatfish eaten during past 30 days
+DRD370FQ,# of times flatfish eaten past 30 days
+DRD370G,Haddock eaten during past 30 days
+DRD370GQ,# of times haddock eaten in past 30 days
+DRD370H,Mackerel eaten during past 30 days
+DRD370HQ,# of times mackerel eaten past 30 days
+DRD370I,Perch eaten during past 30 days
+DRD370IQ,# of times perch eaten in past 30 days
+DRD370J,Pike eaten during past 30 days
+DRD370JQ,# of times pike eaten in past 30 days
+DRD370K,Pollock eaten during past 30 days
+DRD370KQ,# of times pollock eaten in past 30 days
+DRD370L,Porgy eaten during past 30 days
+DRD370LQ,# of times porgy eaten in past 30 days
+DRD370M,Salmon eaten during past 30 days
+DRD370MQ,# of times salmon eaten in past 30 days
+DRD370N,Sardines eaten during past 30 days
+DRD370NQ,# of times sardines eaten past 30 days
+DRD370O,Sea bass eaten during past 30 days
+DRD370OQ,# of times sea bass eaten past 30 days
+DRD370P,Shark eaten during past 30 days
+DRD370PQ,# of times shark eaten in past 30 days
+DRD370Q,Swordfish eaten during past 30 days
+DRD370QQ,# of times swordfish eaten past 30 days
+DRD370R,Trout eaten during past 30 days
+DRD370RQ,# of times trout eaten in past 30 days
+DRD370S,Walleye eaten during past 30 days
+DRD370SQ,# of times walleye eaten in past 30 days
+DRD370T,Other fish eaten during past 30 days
+DRD370TQ,# of times other fish eaten past 30 days
+DRD370U,Other unknown fish eaten in past 30 days
+DRD370UQ,# of times other unknown fish eaten
+DRD370V,Refused on fish eaten past 30 days
+DR2MNRSP,Main respondent for this interview
+DR2HELPD,Helped in responding for this interview
+DR2TNUMF,Number of foods/beverages reported
+DR2STY,Salt used at table yesterday?
+DR2SKY,Type of salt used yesterday
+DR2TKCAL,Energy (kcal)
+DR2TPROT,Protein (gm)
+DR2TCARB,Carbohydrate (gm)
+DR2TSUGR,Total sugars (gm)
+DR2TFIBE,Dietary fiber (gm)
+DR2TTFAT,Total fat (gm)
+DR2TSFAT,Total saturated fatty acids (gm)
+DR2TMFAT,Total monounsaturated fatty acids (gm)
+DR2TPFAT,Total polyunsaturated fatty acids (gm)
+DR2TCHOL,Cholesterol (mg)
+DR2TATOC,Vitamin E as alpha-tocopherol (mg)
+DR2TATOA,Added alpha-tocopherol (Vitamin E) (mg)
+DR2TRET,Retinol (mcg)
+DR2TVARA,"Vitamin A, RAE (mcg)"
+DR2TACAR,Alpha-carotene (mcg)
+DR2TBCAR,Beta-carotene (mcg)
+DR2TCRYP,Beta-cryptoxanthin (mcg)
+DR2TLYCO,Lycopene (mcg)
+DR2TLZ,Lutein + zeaxanthin (mcg)
+DR2TVB1,Thiamin (Vitamin B1) (mg)
+DR2TVB2,Riboflavin (Vitamin B2) (mg)
+DR2TNIAC,Niacin (mg)
+DR2TVB6,Vitamin B6 (mg)
+DR2TFOLA,Total folate (mcg)
+DR2TFA,Folic acid (mcg)
+DR2TFF,Food folate (mcg)
+DR2TFDFE,"Folate, DFE (mcg)"
+DR2TCHL,Total choline (mg)
+DR2TVB12,Vitamin B12 (mcg)
+DR2TB12A,Added vitamin B12 (mcg)
+DR2TVC,Vitamin C (mg)
+DR2TVD,Vitamin D (D2 + D3) (mcg)
+DR2TVK,Vitamin K (mcg)
+DR2TCALC,Calcium (mg)
+DR2TPHOS,Phosphorus (mg)
+DR2TMAGN,Magnesium (mg)
+DR2TIRON,Iron (mg)
+DR2TZINC,Zinc (mg)
+DR2TCOPP,Copper (mg)
+DR2TSODI,Sodium (mg)
+DR2TPOTA,Potassium (mg)
+DR2TSELE,Selenium (mcg)
+DR2TCAFF,Caffeine (mg)
+DR2TTHEO,Theobromine (mg)
+DR2TALCO,Alcohol (gm)
+DR2TMOIS,Moisture (gm)
+DR2TS040,SFA 4:0 (Butanoic) (gm)
+DR2TS060,SFA 6:0 (Hexanoic) (gm)
+DR2TS080,SFA 8:0 (Octanoic) (gm)
+DR2TS100,SFA 10:0 (Decanoic) (gm)
+DR2TS120,SFA 12:0 (Dodecanoic) (gm)
+DR2TS140,SFA 14:0 (Tetradecanoic) (gm)
+DR2TS160,SFA 16:0 (Hexadecanoic) (gm)
+DR2TS180,SFA 18:0 (Octadecanoic) (gm)
+DR2TM161,MFA 16:1 (Hexadecenoic) (gm)
+DR2TM181,MFA 18:1 (Octadecenoic) (gm)
+DR2TM201,MFA 20:1 (Eicosenoic) (gm)
+DR2TM221,MFA 22:1 (Docosenoic) (gm)
+DR2TP182,PFA 18:2 (Octadecadienoic) (gm)
+DR2TP183,PFA 18:3 (Octadecatrienoic) (gm)
+DR2TP184,PFA 18:4 (Octadecatetraenoic) (gm)
+DR2TP204,PFA 20:4 (Eicosatetraenoic) (gm)
+DR2TP205,PFA 20:5 (Eicosapentaenoic) (gm)
+DR2TP225,PFA 22:5 (Docosapentaenoic) (gm)
+DR2TP226,PFA 22:6 (Docosahexaenoic) (gm)
+DR2_300,Compare food consumed yesterday to usual
+DR2_320Z,Total plain water drank yesterday (gm)
+DR2_330Z,Total tap water drank yesterday (gm)
+DR2BWATZ,Total bottled water drank yesterday (gm)
+DR2TWS,Tap water source
+DRXFDCD,Food Code
+DRXFCSD,Short Food Code Description
+DRXFCLD,Long Food Code Description
+DSDIID,INGREDIENT ID NUMBER
+DSDINGR,INGREDIENT NAME
+DSDBID,BLEND COMPONENT ID
+DSDBCNAM,BLEND COMPONENT NAME
+DSDBCCAT,BLEND COMPONENT CATEGORY
+DSDBCID,BLEND COMPONENT ID - OLD VERSION
+DSDPID,SUPPLEMENT ID NUMBER
+DSDSUPP,SUPPLEMENT NAME
+DSDOPER,INGREDIENT OPERATOR
+DSDQTY,INGREDIENT QUANTITY
+DSDUNIT,INGREDIENT UNIT
+DSDCAT,INGREDIENT CATEGORY
+DSDBLFLG,BLEND FLAG
+DSDINGID,INGREDIENT ID NUMBER - OLD VERSION
+DSDPRDT,PRODUCT TYPE
+DSDSRCE,SUPPLEMENT INFORMATION SOURCE
+DSDTYPE,SUPPLEMENT TYPE
+DSDSERVQ,SERVING SIZE QUANTITY
+DSDSERVU,SERVING SIZE UNIT
+DSDPREID,PREVIOUS PRODUCT ID
+DSDORGID,ORIGINAL PRODUCT ID
+DSDSGPF,SEQUENTIAL GROUP FORMULATION
+DSDSEQF,SEQUENTIAL FORMULATION
+DSDLINRF,LINEAR FORMULATION
+DSDCNTV,COUNT OF VITAMINS IN THE SUPPLEMENT
+DSDCNTM,COUNT OF MINERALS IN THE SUPPLEMENT
+DSDCNTA,COUNT OF AMINO ACIDS IN THE SUPPLEMENT
+DSDCNTB,COUNT OF BOTANICALS IN THE SUPPLEMENT
+DSDCNTO,COUNT OF OTHER INGREDIENTS IN SUPPLEMENT
+DSDSUPID,SUPPLEMENT ID NUMBER - OLD VERSION
+DS1LOC,Location supplement originally recorded
+DS1MTCH,Matching code
+DS1ANTA,Antacid containing calcium/magnesium
+DS1ACTSS,Reported serving size/label serving size
+DS1IKCAL,Energy (kcal)
+DS1IPROT,Protein (gm)
+DS1ICARB,Carbohydrate (gm)
+DS1ISUGR,Total sugars (gm)
+DS1IFIBE,Dietary fiber (gm)
+DS1ITFAT,Total fat (gm)
+DS1ISFAT,Total saturated fatty acids (gm)
+DS1IMFAT,Total monounsaturated fatty acids (gm)
+DS1IPFAT,Total polyunsaturated fatty acids (gm)
+DS1ICHOL,Cholesterol (mg)
+DS1ILYCO,Lycopene (mcg)
+DS1ILZ,Lutein + zeaxanthin (mcg)
+DS1IVB1,Thiamin (Vitamin B1) (mg)
+DS1IVB2,Riboflavin (Vitamin B2) (mg)
+DS1INIAC,Niacin (mg)
+DS1IVB6,Vitamin B6 (mg)
+DS1IFA,Folic acid (mcg)
+DS1IFDFE,"Folate, DFE (mcg)"
+DS1ICHL,Total choline (mg)
+DS1IVB12,Vitamin B12 (mcg)
+DS1IVC,Vitamin C (mg)
+DS1IVK,Vitamin K (mcg)
+DS1IVD,Vitamin D (D2 + D3) (mcg)
+DS1ICALC,Calcium (mg)
+DS1IPHOS,Phosphorus (mg)
+DS1IMAGN,Magnesium (mg)
+DS1IIRON,Iron (mg)
+DS1IZINC,Zinc (mg)
+DS1ICOPP,Copper (mg)
+DS1ISODI,Sodium (mg)
+DS1IPOTA,Potassium (mg)
+DS1ISELE,Selenium (mcg)
+DS1ICAFF,Caffeine (mg)
+DS1IIODI,Iodine (mcg)
+DS2LOC,Location supplement originally recorded
+DS2MTCH,Matching code
+DS2ANTA,Antacid containing calcium/magnesium
+DS2ACTSS,Reported serving size/label serving size
+DS2IKCAL,Energy (kcal)
+DS2IPROT,Protein (gm)
+DS2ICARB,Carbohydrate (gm)
+DS2ISUGR,Total sugars (gm)
+DS2IFIBE,Dietary fiber (gm)
+DS2ITFAT,Total fat (gm)
+DS2ISFAT,Total saturated fatty acids (gm)
+DS2IMFAT,Total monounsaturated fatty acids (gm)
+DS2IPFAT,Total polyunsaturated fatty acids (gm)
+DS2ICHOL,Cholesterol (mg)
+DS2ILYCO,Lycopene (mcg)
+DS2ILZ,Lutein + zeaxanthin (mcg)
+DS2IVB1,Thiamin (Vitamin B1) (mg)
+DS2IVB2,Riboflavin (Vitamin B2) (mg)
+DS2INIAC,Niacin (mg)
+DS2IVB6,Vitamin B6 (mg)
+DS2IFA,Folic acid (mcg)
+DS2IFDFE,"Folate, DFE (mcg)"
+DS2ICHL,Total choline (mg)
+DS2IVB12,Vitamin B12 (mcg)
+DS2IVC,Vitamin C (mg)
+DS2IVK,Vitamin K (mcg)
+DS2IVD,Vitamin D (D2 + D3) (mcg)
+DS2ICALC,Calcium (mg)
+DS2IPHOS,Phosphorus (mg)
+DS2IMAGN,Magnesium (mg)
+DS2IIRON,Iron (mg)
+DS2IZINC,Zinc (mg)
+DS2ICOPP,Copper (mg)
+DS2ISODI,Sodium (mg)
+DS2IPOTA,Potassium (mg)
+DS2ISELE,Selenium (mcg)
+DS2ICAFF,Caffeine (mg)
+DS2IIODI,Iodine (mcg)
+DS1DSCNT,Total # of Dietary Supplements Taken
+DS1DS,Any Dietary Supplements Taken?
+DS1ANCNT,Total # of Antacids Taken
+DS1AN,Any Antacids Taken?
+DS1TKCAL,Energy (kcal)
+DS1TPROT,Protein (gm)
+DS1TCARB,Carbohydrate (gm)
+DS1TSUGR,Total sugars (gm)
+DS1TFIBE,Dietary fiber (gm)
+DS1TTFAT,Total fat (gm)
+DS1TSFAT,Total saturated fatty acids (gm)
+DS1TMFAT,Total monounsaturated fatty acids (gm)
+DS1TPFAT,Total polyunsaturated fatty acids (gm)
+DS1TCHOL,Cholesterol (mg)
+DS1TLYCO,Lycopene (mcg)
+DS1TLZ,Lutein + zeaxanthin (mcg)
+DS1TVB1,Thiamin (Vitamin B1) (mg)
+DS1TVB2,Riboflavin (Vitamin B2) (mg)
+DS1TNIAC,Niacin (mg)
+DS1TVB6,Vitamin B6 (mg)
+DS1TVB12,Vitamin B12 (mcg)
+DS1TFA,Folic acid (mcg)
+DS1TFDFE,"Folate, DFE (mcg)"
+DS1TCHL,Total choline (mg)
+DS1TVC,Vitamin C (mg)
+DS1TVK,Vitamin K (mcg)
+DS1TVD,Vitamin D (D2 + D3) (mcg)
+DS1TCALC,Calcium (mg)
+DS1TPHOS,Phosphorus (mg)
+DS1TMAGN,Magnesium (mg)
+DS1TIRON,Iron (mg)
+DS1TZINC,Zinc (mg)
+DS1TCOPP,Copper (mg)
+DS1TSODI,Sodium (mg)
+DS1TPOTA,Potassium (mg)
+DS1TSELE,Selenium (mcg)
+DS1TCAFF,Caffeine (mg)
+DS1TIODI,Iodine (mcg)
+DS2DSCNT,Total # of Dietary Supplements Taken
+DS2DS,Any Dietary Supplements Taken?
+DS2ANCNT,Total # of Antacids Taken
+DS2AN,Any Antacids Taken?
+DS2TKCAL,Energy (kcal)
+DS2TPROT,Protein (gm)
+DS2TCARB,Carbohydrate (gm)
+DS2TSUGR,Total sugars (gm)
+DS2TFIBE,Dietary fiber (gm)
+DS2TTFAT,Total fat (gm)
+DS2TSFAT,Total saturated fatty acids (gm)
+DS2TMFAT,Total monounsaturated fatty acids (gm)
+DS2TPFAT,Total polyunsaturated fatty acids (gm)
+DS2TCHOL,Cholesterol (mg)
+DS2TLYCO,Lycopene (mcg)
+DS2TLZ,Lutein + zeaxanthin (mcg)
+DS2TVB1,Thiamin (Vitamin B1) (mg)
+DS2TVB2,Riboflavin (Vitamin B2) (mg)
+DS2TNIAC,Niacin (mg)
+DS2TVB6,Vitamin B6 (mg)
+DS2TVB12,Vitamin B12 (mcg)
+DS2TFA,Folic acid (mcg)
+DS2TFDFE,"Folate, DFE (mcg)"
+DS2TCHL,Total choline (mg)
+DS2TVC,Vitamin C (mg)
+DS2TVK,Vitamin K (mcg)
+DS2TVD,Vitamin D (D2 + D3) (mcg)
+DS2TCALC,Calcium (mg)
+DS2TPHOS,Phosphorus (mg)
+DS2TMAGN,Magnesium (mg)
+DS2TIRON,Iron (mg)
+DS2TZINC,Zinc (mg)
+DS2TCOPP,Copper (mg)
+DS2TSODI,Sodium (mg)
+DS2TPOTA,Potassium (mg)
+DS2TSELE,Selenium (mcg)
+DS2TCAFF,Caffeine (mg)
+DS2TIODI,Iodine (mcg)
+DSDANTA,Antacid reported as a dietary supplement
+DSD070,Was container seen?
+DSDMTCH,Matching code
+DSD090,How long supplement taken (days)?
+DSD103,"Days supplement taken, past 30 days"
+DSD122Q,Quantity of supplement taken daily
+DSD122U,Dosage form
+DSDACTSS,Reported serving size/label serving size
+DSDDAY1,Reported Product during Day 1
+DSDDAY2,Reported Product during Day 2
+DSQ124,Took product on own or doctor advised
+DSQ128A,For good bowel/colon health
+DSQ128B,For prostate health
+DSQ128C,For mental health
+DSQ128D,To prevent health problems
+DSQ128E,To improve my overall health
+DSQ128F,"For teeth, prevent cavities"
+DSQ128G,"To supplement my diet, food not enough"
+DSQ128H,To maintain health (to stay healthy)
+DSQ128I,"To prevent colds, boost immune system"
+DSQ128J,"For heart health, cholesterol"
+DSQ128K,For eye health
+DSQ128L,"For healthy joints, arthritis"
+DSQ128M,"For healthy skin, hair and nails"
+DSQ128N,For weight loss
+DSQ128O,For bone health
+DSQ128P,To get more energy
+DSQ128Q,For pregnancy/breastfeeding
+DSQ128R,"For anemia, such as low iron"
+DSD128T,"To maintain blood sugar, diabetes"
+DSD128V,For kidney and bladder health
+DSD128W,"For respiratory health, asthma"
+DSD128X,For allergies
+DSD128Z,To improve digestion
+DSD128AA,"For menopause, hot flashes"
+DSD128BB,"For muscle related issues, muscle cramps"
+DSD128DD,"For relaxation, stress, sleep"
+DSD128EE,For nervous system health
+DSD128FF,"For liver health, detoxification"
+DSD128GG,For antioxidants
+DSD128HH,"Word of mouth, advertisement"
+DSD128II,"For thyroid health, gout"
+DSD128JJ,For weight gain
+DSD128KK,Low levels in blood
+DSD128LL,For support after surgery
+DSD128MM,Headaches and dizziness
+DSQ128NN,To build muscle
+DSQ128S,Other
+RXQ215A,"Antacid, calcium supplement or both?"
+DSQIKCAL,Energy (kcal)
+DSQIPROT,Protein (gm)
+DSQICARB,Carbohydrate (gm)
+DSQISUGR,Total sugars (gm)
+DSQIFIBE,Dietary fiber (gm)
+DSQITFAT,Total fat (gm)
+DSQISFAT,Total saturated fatty acids (gm)
+DSQIMFAT,Total monounsaturated fatty acids (gm)
+DSQIPFAT,Total polyunsaturated fatty acids (gm)
+DSQICHOL,Cholesterol (mg)
+DSQILYCO,Lycopene (mcg)
+DSQILZ,Lutein + zeaxanthin (mcg)
+DSQIVB1,Thiamin (Vitamin B1) (mg)
+DSQIVB2,Riboflavin (Vitamin B2) (mg)
+DSQINIAC,Niacin (mg)
+DSQIVB6,Vitamin B6 (mg)
+DSQIFA,Folic acid (mcg)
+DSQIFDFE,"Folate, DFE (mcg)"
+DSQICHL,Total choline (mg)
+DSQIVB12,Vitamin B12 (mcg)
+DSQIVC,Vitamin C (mg)
+DSQIVK,Vitamin K (mcg)
+DSQIVD,Vitamin D (D2 + D3) (mcg)
+DSQICALC,Calcium (mg)
+DSQIPHOS,Phosphorus (mg)
+DSQIMAGN,Magnesium (mg)
+DSQIIRON,Iron (mg)
+DSQIZINC,Zinc (mg)
+DSQICOPP,Copper (mg)
+DSQISODI,Sodium (mg)
+DSQIPOTA,Potassium (mg)
+DSQISELE,Selenium (mcg)
+DSQICAFF,Caffeine (mg)
+DSQIIODI,Iodine (mcg)
+DSDCOUNT,Total # of Dietary Supplements Taken
+DSDANCNT,Total # of Antacids Taken
+DSD010,Any Dietary Supplements Taken?
+DSD010AN,Any Antacids Taken?
+DSQTKCAL,Energy (kcal)
+DSQTPROT,Protein (gm)
+DSQTCARB,Carbohydrate (gm)
+DSQTSUGR,Total sugars (gm)
+DSQTFIBE,Dietary fiber (gm)
+DSQTTFAT,Total fat (gm)
+DSQTSFAT,Total saturated fatty acids (gm)
+DSQTMFAT,Total monounsaturated fatty acids (gm)
+DSQTPFAT,Total polyunsaturated fatty acids (gm)
+DSQTCHOL,Cholesterol (mg)
+DSQTLYCO,Lycopene (mcg)
+DSQTLZ,Lutein + zeaxanthin (mcg)
+DSQTVB1,Thiamin (Vitamin B1) (mg)
+DSQTVB2,Riboflavin (Vitamin B2) (mg)
+DSQTNIAC,Niacin (mg)
+DSQTVB6,Vitamin B6 (mg)
+DSQTFA,Folic acid (mcg)
+DSQTFDFE,"Folate, DFE (mcg)"
+DSQTCHL,Total choline (mg)
+DSQTVB12,Vitamin B12 (mcg)
+DSQTVC,Vitamin C (mg)
+DSQTVK,Vitamin K (mcg)
+DSQTVD,Vitamin D (D2 + D3) (mcg)
+DSQTCALC,Calcium (mg)
+DSQTPHOS,Phosphorus (mg)
+DSQTMAGN,Magnesium (mg)
+DSQTIRON,Iron (mg)
+DSQTZINC,Zinc (mg)
+DSQTCOPP,Copper (mg)
+DSQTSODI,Sodium (mg)
+DSQTPOTA,Potassium (mg)
+DSQTSELE,Selenium (mcg)
+DSQTCAFF,Caffeine (mg)
+DSQTIODI,Iodine (mcg)
+PEASCST1,Blood Pressure Status
+PEASCTM1,Blood Pressure Time in Seconds
+PEASCCT1,Blood Pressure Comment
+BPXCHR,60 sec HR (30 sec HR * 2)
+BPAARM,Arm selected
+BPACSZ,Coded cuff size
+BPXPLS,60 sec. pulse (30 sec. pulse * 2)
+BPXPULS,Pulse regular or irregular?
+BPXPTY,Pulse type
+BPXML1,MIL: maximum inflation levels (mm Hg)
+BPXSY1,Systolic: Blood pres (1st rdg) mm Hg
+BPXDI1,Diastolic: Blood pres (1st rdg) mm Hg
+BPAEN1,Enhancement used first reading
+BPXSY2,Systolic: Blood pres (2nd rdg) mm Hg
+BPXDI2,Diastolic: Blood pres (2nd rdg) mm Hg
+BPAEN2,Enhancement used second reading
+BPXSY3,Systolic: Blood pres (3rd rdg) mm Hg
+BPXDI3,Diastolic: Blood pres (3rd rdg) mm Hg
+BPAEN3,Enhancement used third reading
+BPXSY4,Systolic: Blood pres (4th rdg) mm Hg
+BPXDI4,Diastolic: Blood pres (4th rdg) mm Hg
+BPAEN4,Enhancement used fourth reading
+BMDSTATS,Body Measures Component Status Code
+BMXWT,Weight (kg)
+BMIWT,Weight Comment
+BMXRECUM,Recumbent Length (cm)
+BMIRECUM,Recumbent Length Comment
+BMXHEAD,Head Circumference (cm)
+BMIHEAD,Head Circumference Comment
+BMXHT,Standing Height (cm)
+BMIHT,Standing Height Comment
+BMXBMI,Body Mass Index (kg/m**2)
+BMDBMIC,BMI Category - Children/Youth
+BMXLEG,Upper Leg Length (cm)
+BMILEG,Upper Leg Length Comment
+BMXARML,Upper Arm Length (cm)
+BMIARML,Upper Arm Length Comment
+BMXARMC,Arm Circumference (cm)
+BMIARMC,Arm Circumference Comment
+BMXWAIST,Waist Circumference (cm)
+BMIWAIST,Waist Circumference Comment
+BMXSAD1,Sagittal Abdominal Diameter 1st (cm)
+BMXSAD2,Sagittal Abdominal Diameter 2nd (cm)
+BMXSAD3,Sagittal Abdominal Diameter 3rd (cm)
+BMXSAD4,Sagittal Abdominal Diameter 4th (cm)
+BMDAVSAD,Average Sagittal Abdominal Diameter (cm)
+BMDSADCM,Sagittal Abdominal Diameter Comment
+DXDAACST,Abdominal Aortic Calcification Status
+DXXAACTV,AAC total invalidity code
+DXXAL1CC,AAC L1 invalidity code
+DXXAL2CC,AAC L2 invalidity code
+DXXAL3CC,AAC L3 invalidity code
+DXXAL4CC,AAC L4 invalidity code
+DXXAL1,AAC L1 Posterior score
+DXXAL1AN,AAC L1 Anterior score
+DXXAL2,AAC L2 Posterior score
+DXXAL2AN,AAC L2 Anterior score
+DXXAL3,AAC L3 Posterior score
+DXXAL3AN,AAC L3 Anterior score
+DXXAL4,AAC L4 Posterior score
+DXXAL4AN,AAC L4 Anterior score
+DXXAL4MD,AAC L4 mid score
+DXXAC8AN,AAC Anterior 8 score
+DXXAC8PO,AAC Posterior 8 score
+DXXAAC8,AAC Total 8 Score
+DXXAAC24,AAC Total 24 Score
+DXXAGST,Android/gynoid region status
+DXXVATV,VAT and SAT invalidity code
+DXXANTV,Android region invalidity code
+DXXGYTV,Gynoid region invalidity code
+DXXANFM,Android fat mass
+DXXANLM,Android lean mass
+DXXANTOM,Android total mass
+DXXGYFM,Gynoid fat mass
+DXXGYLM,Gynoid lean mass
+DXXGYTOM,Gynoid total mass
+DXXAGRAT,Android to Gynoid ratio
+DXXAPFAT,Android percent fat
+DXXGPFAT,Gynoid percent fat
+DXXSATA,Subcutaneous fat area
+DXXSATM,Subcutaneous fat mass
+DXXSATV,Subcutaneous fat volume
+DXXTATA,Total abdominal fat area
+DXXTATM,Total abdominal fat mass
+DXXTATV,Total abdominal fat volume
+DXXVFATA,Visceral adipose tissue area
+DXXVFATM,Visceral adipose tissue mass
+DXXVFATV,Visceral adipose tissue volume
+DXAFMRST,Femur scan status
+DXXFMBCC,Total femur BMD invalidity code
+DXXOFBMD,Total femur BMD
+DXXOFBMC,Total femur BMC
+DXXOFA,Total femur area
+DXXNKBMD,Femoral neck BMD
+DXXNKBMC,Femoral neck BMC
+DXXNKA,Femoral neck area
+DXXTRBMD,Trochanter BMD
+DXXTRBMC,Trochanter BMC
+DXXTRA,Trochanter area
+DXXINBMD,Intertrochanter BMD
+DXXINBMC,Intertrochanter BMC
+DXXINA,Intertrochanter area
+DXXWDBMD,Wards triangle BMD
+DXXWDBMC,Wards triangle BMC
+DXXWDA,Wards triangle area
+DXAFMRK,Calculated K for femur
+DXAFMRD0,Calculated DO for femur
+DXXPRVFX,Self-reported fracture age 20+
+DXXFRAX1,"Hip FRAX, previous fracture"
+DXXFRAX2,"Major FRAX, previous fracture"
+DXXFRAX3,"Hip FRAX, no previous fracture"
+DXXFRAX4,"Major FRAX, no previous fracture"
+DXDLSPST,IVA lateral spine scan status
+DXXL1CC,L1 fracture invalidity code
+DXXINITX,x-coordinate used as center point
+DXXINITY,y-coordinate used as center point
+DXXANIDX,Number of vertebra
+DXXLABEL,Label of the vertebra (T4 to L4)
+DXXSQSCR,Genant SQ score
+DXXPOSTH,Posterior height of the vertebra
+DXXANTEH,Anterior height of the vertebra
+DXXMIDH,Middle height of the vertebra
+DXXWDGRT,Amount of wedge
+DXXBICRT,Amount of biconcave
+DXXCRURT,Amount of UCSF crush
+DXXWDGDE,Percentage of wedge deformity
+DXXBICDE,Percentage of biconcave deformity
+DXXCRUDE,Percentage of UCSF crush deformity
+DXXSPX,x-coordinate of superior posterior point
+DXXSPY,y-coordinate of superior posterior point
+DXXSMX,x-coordinate of superior mid point
+DXXSMY,y-coordinate of superior mid point
+DXXSAX,x-coordinate of superior anterior point
+DXXSAY,y-coordinate of superior anterior point
+DXXIAX,x-coordinate of inferior anterior point
+DXXIAY,y-coordinate of inferior anterior point
+DXXIMX,x-coordinate of inferior mid point
+DXXIMY,y-coordinate of inferior mid point
+DXXIPX,x-coordinate of inferior posterior point
+DXXIPY,y-coordinate of inferior posterior point
+DXXPT0X,x-coordinate of first outline point
+DXXPT0Y,y-coordinate of first outline point
+DXXPT1X,x-coordinates of outline points 2
+DXXPT1Y,y-coordinates of outline points 2
+DXXPT2X,x-coordinates of outline points 3
+DXXPT2Y,y-coordinates of outline points 3
+DXXPT3X,x-coordinates of outline points 4
+DXXPT3Y,y-coordinates of outline points 4
+DXXPT4X,x-coordinates of outline points 5
+DXXPT4Y,y-coordinates of outline points 5
+DXXPT5X,x-coordinates of outline points 6
+DXXPT5Y,y-coordinates of outline points 6
+DXXPT6X,x-coordinates of outline points 7
+DXXPT6Y,y-coordinates of outline points 7
+DXXPT7X,x-coordinates of outline points 8
+DXXPT7Y,y-coordinates of outline points 8
+DXXPT8X,x-coordinates of outline points 9
+DXXPT8Y,y-coordinates of outline points 9
+DXXPT9X,x-coordinates of outline points 10
+DXXPT9Y,y-coordinates of outline points 10
+DXXPT10X,x-coordinates of outline points 11
+DXXPT10Y,y-coordinates of outline points 11
+DXXPT11X,x-coordinates of outline points 12
+DXXPT11Y,y-coordinates of outline points 12
+DXXPT12X,x-coordinates of outline points 13
+DXXPT12Y,y-coordinates of outline points 13
+DXXPT13X,x-coordinates of outline points 14
+DXXPT13Y,y-coordinates of outline points 14
+DXXPT14X,x-coordinates of outline points 15
+DXXPT14Y,y-coordinates of outline points 15
+DXXPT15X,x-coordinates of outline points 16
+DXXPT15Y,y-coordinates of outline points 16
+DXXPT16X,x-coordinates of outline points 17
+DXXPT16Y,y-coordinates of outline points 17
+DXXPT17X,x-coordinates of outline points 18
+DXXPT17Y,y-coordinates of outline points 18
+DXXPT18X,x-coordinates of outline points 19
+DXXPT18Y,y-coordinates of outline points 19
+DXXPT19X,x-coordinates of outline points 20
+DXXPT19Y,y-coordinates of outline points 20
+DXXPT20X,x-coordinates of outline points 21
+DXXPT20Y,y-coordinates of outline points 21
+DXXPT21X,x-coordinates of outline points 22
+DXXPT21Y,y-coordinates of outline points 22
+DXXPT22X,x-coordinates of outline points 23
+DXXPT22Y,y-coordinates of outline points 23
+DXXPT23X,x-coordinates of outline points 24
+DXXPT23Y,y-coordinates of outline points 24
+DXXPT24X,x-coordinates of outline points 25
+DXXPT24Y,y-coordinates of outline points 25
+DXXPT25X,x-coordinates of outline points 26
+DXXPT25Y,y-coordinates of outline points 26
+DXXPT26X,x-coordinates of outline points 27
+DXXPT26Y,y-coordinates of outline points 27
+DXXPT27X,x-coordinates of outline points 28
+DXXPT27Y,y-coordinates of outline points 28
+DXXPT28X,x-coordinates of outline points 29
+DXXPT28Y,y-coordinates of outline points 29
+DXXPT29X,x-coordinates of outline points 30
+DXXPT29Y,y-coordinates of outline points 30
+DXXPT30X,x-coordinates of outline points 31
+DXXPT30Y,y-coordinates of outline points 31
+DXXPT31X,x-coordinates of outline points 32
+DXXPT31Y,y-coordinates of outline points 32
+DXXPT32X,x-coordinates of outline points 33
+DXXPT32Y,y-coordinates of outline points 33
+DXXPT33X,x-coordinates of outline points 34
+DXXPT33Y,y-coordinates of outline points 34
+DXXPT34X,x-coordinates of outline points 35
+DXXPT34Y,y-coordinates of outline points 35
+DXXPT35X,x-coordinates of outline points 36
+DXXPT35Y,y-coordinates of outline points 36
+DXXPT36X,x-coordinates of outline points 37
+DXXPT36Y,y-coordinates of outline points 37
+DXXPT37X,x-coordinates of outline points 38
+DXXPT37Y,y-coordinates of outline points 38
+DXXPT38X,x-coordinates of outline points 39
+DXXPT38Y,y-coordinates of outline points 39
+DXXPT39X,x-coordinates of outline points 40
+DXXPT39Y,y-coordinates of outline points 40
+DXXPT40X,x-coordinates of outline points 41
+DXXPT40Y,y-coordinates of outline points 41
+DXXPT41X,x-coordinates of outline points 42
+DXXPT41Y,y-coordinates of outline points 42
+DXXPT42X,x-coordinates of outline points 43
+DXXPT42Y,y-coordinates of outline points 43
+DXXPT43X,x-coordinates of outline points 44
+DXXPT43Y,y-coordinates of outline points 44
+DXXPT44X,x-coordinates of outline points 45
+DXXPT44Y,y-coordinates of outline points 45
+DXXPT45X,x-coordinates of outline points 46
+DXXPT45Y,y-coordinates of outline points 46
+DXXPT46X,x-coordinates of outline points 47
+DXXPT46Y,y-coordinates of outline points 47
+DXXPT47X,x-coordinates of outline points 48
+DXXPT47Y,y-coordinates of outline points 48
+DXXPT48X,x-coordinates of outline points 49
+DXXPT48Y,y-coordinates of outline points 49
+DXXPT49X,x-coordinates of outline points 50
+DXXPT49Y,y-coordinates of outline points 50
+DXXPT50X,x-coordinates of outline points 51
+DXXPT50Y,y-coordinates of outline points 51
+DXXPT51X,x-coordinates of outline points 52
+DXXPT51Y,y-coordinates of outline points 52
+DXXPT52X,x-coordinates of outline points 53
+DXXPT52Y,y-coordinates of outline points 53
+DXXPT53X,x-coordinates of outline points 54
+DXXPT53Y,y-coordinates of outline points 54
+DXXPT54X,x-coordinates of outline points 55
+DXXPT54Y,y-coordinates of outline points 55
+DXXPT55X,x-coordinates of outline points 56
+DXXPT55Y,y-coordinates of outline points 56
+DXXPT56X,x-coordinates of outline points 57
+DXXPT56Y,y-coordinates of outline points 57
+DXXPT57X,x-coordinates of outline points 58
+DXXPT57Y,y-coordinates of outline points 58
+DXXPT58X,x-coordinates of outline points 59
+DXXPT58Y,y-coordinates of outline points 59
+DXXPT59X,x-coordinates of outline points 60
+DXXPT59Y,y-coordinates of outline points 60
+DXXPT60X,x-coordinates of outline points 61
+DXXPT60Y,y-coordinates of outline points 61
+DXXPT61X,x-coordinates of outline points 62
+DXXPT61Y,y-coordinates of outline points 62
+DXXPT62X,x-coordinates of outline points 63
+DXXPT62Y,y-coordinates of outline points 63
+DXXPT63X,x-coordinates of outline points 64
+DXXPT63Y,y-coordinates of outline points 64
+DXXPT64X,x-coordinates of outline points 65
+DXXPT64Y,y-coordinates of outline points 65
+DXXPT65X,x-coordinates of outline points 66
+DXXPT65Y,y-coordinates of outline points 66
+DXXPT66X,x-coordinates of outline points 67
+DXXPT66Y,y-coordinates of outline points 67
+DXXPT67X,x-coordinates of outline points 68
+DXXPT67Y,y-coordinates of outline points 68
+DXXPT68X,x-coordinates of outline points 69
+DXXPT68Y,y-coordinates of outline points 69
+DXXPT69X,x-coordinates of outline points 70
+DXXPT69Y,y-coordinates of outline points 70
+DXXPT70X,x-coordinates of outline points 71
+DXXPT70Y,y-coordinates of outline points 71
+DXXPT71X,x-coordinates of outline points 72
+DXXPT71Y,y-coordinates of outline points 72
+DXXPT72X,x-coordinates of outline points 73
+DXXPT72Y,y-coordinates of outline points 73
+DXXPT73X,x-coordinates of outline points 74
+DXXPT73Y,y-coordinates of outline points 74
+DXXPT74X,x-coordinates of outline points 75
+DXXPT74Y,y-coordinates of outline points 75
+DXXPT75X,x-coordinates of outline points 76
+DXXPT75Y,y-coordinates of outline points 76
+DXXPT76X,x-coordinates of outline points 77
+DXXPT76Y,y-coordinates of outline points 77
+DXXPT77X,x-coordinates of outline points 78
+DXXPT77Y,y-coordinates of outline points 78
+DXXPT78X,x-coordinates of outline points 79
+DXXPT78Y,y-coordinates of outline points 79
+DXXPT79X,x-coordinates of outline points 80
+DXXPT79Y,y-coordinates of outline points 80
+DXXPT80X,x-coordinates of outline points 81
+DXXPT80Y,y-coordinates of outline points 81
+DXXPT81X,x-coordinates of outline points 82
+DXXPT81Y,y-coordinates of outline points 82
+DXXPT82X,x-coordinates of outline points 83
+DXXPT82Y,y-coordinates of outline points 83
+DXXPT83X,x-coordinates of outline points 84
+DXXPT83Y,y-coordinates of outline points 84
+DXXPT84X,x-coordinates of outline points 85
+DXXPT84Y,y-coordinates of outline points 85
+DXXPT85X,x-coordinates of outline points 86
+DXXPT85Y,y-coordinates of outline points 86
+DXXPT86X,x-coordinates of outline points 87
+DXXPT86Y,y-coordinates of outline points 87
+DXXPT87X,x-coordinates of outline points 88
+DXXPT87Y,y-coordinates of outline points 88
+DXXPT88X,x-coordinates of outline points 89
+DXXPT88Y,y-coordinates of outline points 89
+DXXPT89X,x-coordinates of outline points 90
+DXXPT89Y,y-coordinates of outline points 90
+DXXPT90X,x-coordinates of outline points 91
+DXXPT90Y,y-coordinates of outline points 91
+DXXPT91X,x-coordinates of outline points 92
+DXXPT91Y,y-coordinates of outline points 92
+DXXPT92X,x-coordinates of outline points 93
+DXXPT92Y,y-coordinates of outline points 93
+DXXPT93X,x-coordinates of outline points 94
+DXXPT93Y,y-coordinates of outline points 94
+DXXPT94X,x-coordinates of outline points 95
+DXXPT94Y,y-coordinates of outline points 95
+DXXL2CC,L2 fracture invalidity code
+DXXL3CC,L3 fracture invalidity code
+DXXL4CC,L4 fracture invalidity code
+DXASPNST,Spine scan status
+DXXOSBCC,Total spine BMD invalidity code
+DXXL1BCC,L1 BMD invalidity code
+DXXL2BCC,L2 BMD invalidity code
+DXXL3BCC,L3 BMD invalidity code
+DXXL4BCC,L4 BMD invalidity code
+DXXOSBMD,Total spine BMD
+DXXOSBMC,Total spine BMC
+DXXOSA,Total spine area
+DXXL1BMD,L1 BMD
+DXXL1BMC,L1 BMC
+DXXL1A,L1 area
+DXXL2BMD,L2 BMD
+DXXL2BMC,L2 BMC
+DXXL2A,L2 area
+DXXL3BMD,L3 BMD
+DXXL3BMC,L3 BMC
+DXXL3A,L3 area
+DXXL4BMD,L4 BMD
+DXXL4BMC,L4 BMC
+DXXL4A,L4 area
+DXASPNK,Calculated K for spine
+DXASPND0,Calculated DO for spine
+DXXT10CC,T10 fracture invalidity code
+DXXT11CC,T11 fracture invalidity code
+DXXT12CC,T12 fracture invalidity code
+DXXT4CC,T4 fracture invalidity code
+DXXT5CC,T5 fracture invalidity code
+DXXT6CC,T6 fracture invalidity code
+DXXT7CC,T7 fracture invalidity code
+DXXT8CC,T8 fracture invalidity code
+DXXT9CC,T9 fracture invalidity code
+DXXVFAST,Vertebral fracture status summary
+DXXT4FX,T4 fracture score
+DXXT5FX,T5 fracture score
+DXXT6FX,T6 fracture score
+DXXT7FX,T7 fracture score
+DXXT8FX,T8 fracture score
+DXXT9FX,T9 fracture score
+DXXT10FX,T10 fracture score
+DXXT11FX,T11 fracture score
+DXXT12FX,T12 fracture score
+DXXL1FX,L1 fracture score
+DXXL2FX,L2 fracture score
+DXXL3FX,L3 fracture score
+DXXL4FX,L4 fracture score
+DXAEXSTS,Exam Status
+DXAHEBV,Head Bone Invalidity Code
+DXXHEA,Head Area (cm^2)
+DXXHEBMC,Head Bone Mineral Content (g)
+DXXHEBMD,Head Bone Mineral Density (g/cm^2)
+DXAHETV,Head Tissue Invalidity Code
+DXXHEFAT,Head Fat (g)
+DXDHELE,Head Lean excl BMC (g)
+DXXHELI,Head Lean incl BMC (g)
+DXDHETOT,Head Total (g)
+DXDHEPF,Head Percent Fat
+DXALABV,Left Arm Bone Invalidity Code
+DXXLAA,Left Arm Area (cm^2)
+DXXLABMC,Left Arm BMC (g)
+DXXLABMD,Left Arm BMD (g/cm^2)
+DXALATV,Left Arm Tissue Invalidity Code
+DXXLAFAT,Left Arm Fat (g)
+DXDLALE,Left Arm Lean excl BMC (g)
+DXXLALI,Left Arm Lean incl BMC (g)
+DXDLATOT,Left Arm Total (g)
+DXDLAPF,Left Arm Percent Fat
+DXALLBV,Left Leg Bone Invalidity Code
+DXXLLA,Left Leg Area (cm^2)
+DXXLLBMC,Left Leg BMC (g)
+DXXLLBMD,Left Leg BMD (g/cm^2)
+DXALLTV,Left Leg Tissue Invalidity Code
+DXXLLFAT,Left Leg Fat (g)
+DXDLLLE,Left Leg Lean excl BMC (g)
+DXXLLLI,Left Leg Lean incl BMC (g)
+DXDLLTOT,Left Leg Total (g)
+DXDLLPF,Left Leg Percent Fat
+DXARABV,Right Arm Bone Invalidity Code
+DXXRAA,Right Arm Area (cm^2)
+DXXRABMC,Right Arm BMC (g)
+DXXRABMD,Right Arm BMD (g/cm^2)
+DXARATV,Right Arm Tissue Invalidity Code
+DXXRAFAT,Right Arm Fat (g)
+DXDRALE,Right Arm Lean excl BMC (g)
+DXXRALI,Right Arm Lean incl BMC (g)
+DXDRATOT,Right Arm Total (g)
+DXDRAPF,Right Arm Percent Fat
+DXARLBV,Right Leg Bone Invalidity Code
+DXXRLA,Right Leg Area (cm^2)
+DXXRLBMC,Right Leg BMC (g)
+DXXRLBMD,Right Leg BMD(g/cm^2)
+DXARLTV,Right Leg Tissue Invalidity Code
+DXXRLFAT,Right Leg Fat (g)
+DXDRLLE,Right Leg Lean excl BMC (g)
+DXXRLLI,Right Leg Lean incl BMC (g)
+DXDRLTOT,Right Leg Total (g)
+DXDRLPF,Right Leg Percent Fat
+DXXLRA,Left Ribs Area (cm^2)
+DXXLRBMC,Left Ribs BMC (g)
+DXXLRBMD,Left Ribs BMD (g/cm^2)
+DXXRRA,Right Ribs Area (cm^2)
+DXXRRBMC,Right Ribs BMC (g)
+DXXRRBMD,Right Ribs BMD (g/cm^2)
+DXXTSA,Thoracic Spine Area (cm^2)
+DXXTSBMC,Thoracic Spine BMC (g)
+DXXTSBMD,Thoracic Spine BMD (g/cm^2)
+DXXLSA,Lumbar Spine Area (cm^2)
+DXXLSBMC,Lumbar Spine BMC (g)
+DXXLSBMD,Lumbar Spine BMD (g/cm^2)
+DXXPEA,Pelvis Area (cm^2)
+DXXPEBMC,Pelvis BMC (g)
+DXXPEBMD,Pelvis BMD (g/cm^2)
+DXATRBV,Trunk Bone Invalidity Code
+DXDTRA,Trunk Bone area (cm^2)
+DXDTRBMC,Trunk BMC (g)
+DXDTRBMD,Trunk Bone BMD (g/cm^2)
+DXATRTV,Trunk Tissue Invalidity Code
+DXXTRFAT,Trunk Fat (g)
+DXDTRLE,Trunk Lean excl BMC (g)
+DXXTRLI,Trunk Lean incl BMC (g)
+DXDTRTOT,Trunk Total (g)
+DXDTRPF,Trunk Percent Fat
+DXDSTA,Subtotal Area (cm^2)
+DXDSTBMC,Subtotal BMC (g)
+DXDSTBMD,Subtotal BMD (g/cm^2)
+DXDSTFAT,Subtotal Fat (g)
+DXDSTLE,Subtotal Lean excl BMC (g)
+DXDSTLI,Subtotal Lean incl BMC (g)
+DXDSTTOT,Subtotal (Total excl Head) (g)
+DXDSTPF,Subtotal Percent Fat
+DXDTOA,Total Area (cm^2)
+DXDTOBMC,Total Bone Mineral Content (g)
+DXDTOBMD,Total Bone Mineral Density (g/cm^2)
+DXDTOFAT,Total Fat (g)
+DXDTOLE,Total Lean excl BMC (g)
+DXDTOLI,Total Lean incl BMC (g)
+DXDTOTOT,Total Lean+Fat (g)
+DXDTOPF,Total Percent Fat
+FCX02DI,Fluorosis DI: #2
+FCX03DI,Fluorosis DI: #3
+FCX04DI,Fluorosis DI: #4
+FCX05DI,Fluorosis DI: #5
+FCX06DI,Fluorosis DI: #6
+FCX07DI,Fluorosis DI: #7
+FCX08DI,Fluorosis DI: #8
+FCX09DI,Fluorosis DI: #9
+FCX10DI,Fluorosis DI: #10
+FCX11DI,Fluorosis DI: #11
+FCX12DI,Fluorosis DI: #12
+FCX13DI,Fluorosis DI: #13
+FCX14DI,Fluorosis DI: #14
+FCX15DI,Fluorosis DI: #15
+FCX18DI,Fluorosis DI: #18
+FCX19DI,Fluorosis DI: #19
+FCX20DI,Fluorosis DI: #20
+FCX21DI,Fluorosis DI: #21
+FCX22DI,Fluorosis DI: #22
+FCX23DI,Fluorosis DI: #23
+FCX24DI,Fluorosis DI: #24
+FCX25DI,Fluorosis DI: #25
+FCX26DI,Fluorosis DI: #26
+FCX27DI,Fluorosis DI: #27
+FCX28DI,Fluorosis DI: #28
+FCX29DI,Fluorosis DI: #29
+FCX30DI,Fluorosis DI: #30
+FCX31DI,Fluorosis DI: #31
+MGDEXSTS,Grip test status
+MGD050,Ever had surgery on hands or wrists
+MGD060,Which hand or wrist had surgery
+MGQ070,Recent pain/aching/stiffness-right hand
+MGQ080,Cause of recent pain in right hand
+MGQ090,Pain in right hand gotten worse recently
+MGQ100,Recent pain/aching/stiffness-left hand
+MGQ110,Cause of recent pain in left hand
+MGQ120,Pain in left hand gotten worse recently
+MGD130,Dominant hand
+MGQ90DG,90 degree angle with index finger
+MGDSEAT,Testing position
+MGAPHAND,Hand assigned for practice trial
+MGATHAND,Begin the test with this hand.
+MGXH1T1,"Grip strength (kg), hand 1, test 1"
+MGXH1T1E,"Grip strength, hand 1, test 1 effort"
+MGXH2T1,"Grip strength (kg), hand 2, test 1"
+MGXH2T1E,"Grip strength, hand 2, test 1 effort"
+MGXH1T2,"Grip strength (kg), hand 1, test 2"
+MGXH1T2E,"Grip strength, hand 1, test 2 effort"
+MGXH2T2,"Grip strength (kg), hand 2, test 2"
+MGXH2T2E,"Grip strength, hand 2, test 2 effort"
+MGXH1T3,"Grip strength (kg), hand 1, test 3"
+MGXH1T3E,"Grip strength, hand 1, test 3 effort"
+MGXH2T3,"Grip strength (kg), hand 2, test 3"
+MGXH2T3E,"Grip strength, hand 2, test 3 effort"
+MGDCGSZ,Combined grip strength (kg)
+OHDEXSTS,Overall Oral Health Exam Status
+OHDDESTS,Dentition Status Code
+OHXIMP,Dental Implant: yes / no?
+OHX01TC,Tooth Count:  #1
+OHX02TC,Tooth Count:  #2
+OHX03TC,Tooth Count:  #3
+OHX04TC,Tooth Count:  #4
+OHX05TC,Tooth Count:  #5
+OHX06TC,Tooth Count:  #6
+OHX07TC,Tooth Count:  #7
+OHX08TC,Tooth Count:  #8
+OHX09TC,Tooth Count:  #9
+OHX10TC,Tooth Count:  #10
+OHX11TC,Tooth Count:  #11
+OHX12TC,Tooth Count:  #12
+OHX13TC,Tooth Count:  #13
+OHX14TC,Tooth Count:  #14
+OHX15TC,Tooth Count:  #15
+OHX16TC,Tooth Count:  #16
+OHX17TC,Tooth Count:  #17
+OHX18TC,Tooth Count:  #18
+OHX19TC,Tooth Count:  #19
+OHX20TC,Tooth Count:  #20
+OHX21TC,Tooth Count:  #21
+OHX22TC,Tooth Count:  #22
+OHX23TC,Tooth Count:  #23
+OHX24TC,Tooth Count:  #24
+OHX25TC,Tooth Count:  #25
+OHX26TC,Tooth Count:  #26
+OHX27TC,Tooth Count:  #27
+OHX28TC,Tooth Count:  #28
+OHX29TC,Tooth Count:  #29
+OHX30TC,Tooth Count:  #30
+OHX31TC,Tooth Count:  #31
+OHX32TC,Tooth Count:  #32
+OHX02CTC,Coronal Caries: Tooth Count #2
+OHX03CTC,Coronal Caries: Tooth Count #3
+OHX04CTC,Coronal Caries: Tooth Count #4
+OHX05CTC,Coronal Caries: Tooth Count #5
+OHX06CTC,Coronal Caries: Tooth Count #6
+OHX07CTC,Coronal Caries: Tooth Count #7
+OHX08CTC,Coronal Caries: Tooth Count #8
+OHX09CTC,Coronal Caries: Tooth Count #9
+OHX10CTC,Coronal Caries: Tooth Count #10
+OHX11CTC,Coronal Caries: Tooth Count #11
+OHX12CTC,Coronal Caries: Tooth Count #12
+OHX13CTC,Coronal Caries: Tooth Count #13
+OHX14CTC,Coronal Caries: Tooth Count #14
+OHX15CTC,Coronal Caries: Tooth Count #15
+OHX18CTC,Coronal Caries: Tooth Count #18
+OHX19CTC,Coronal Caries: Tooth Count #19
+OHX20CTC,Coronal Caries: Tooth Count #20
+OHX21CTC,Coronal Caries: Tooth Count #21
+OHX22CTC,Coronal Caries: Tooth Count #22
+OHX23CTC,Coronal Caries: Tooth Count #23
+OHX24CTC,Coronal Caries: Tooth Count #24
+OHX25CTC,Coronal Caries: Tooth Count #25
+OHX26CTC,Coronal Caries: Tooth Count #26
+OHX27CTC,Coronal Caries: Tooth Count #27
+OHX28CTC,Coronal Caries: Tooth Count #28
+OHX29CTC,Coronal Caries: Tooth Count #29
+OHX30CTC,Coronal Caries: Tooth Count #30
+OHX31CTC,Coronal Caries: Tooth Count #31
+OHX02CSC,Coronal Caries:  Surface condition #2
+OHX03CSC,Coronal Caries:  Surface condition #3
+OHX04CSC,Coronal Caries:  Surface condition #4
+OHX05CSC,Coronal Caries:  Surface condition #5
+OHX06CSC,Coronal Caries:  Surface condition #6
+OHX07CSC,Coronal Caries:  Surface condition #7
+OHX08CSC,Coronal Caries:  Surface condition #8
+OHX09CSC,Coronal Caries:  Surface condition #9
+OHX10CSC,Coronal Caries:  Surface condition #10
+OHX11CSC,Coronal Caries:  Surface condition #11
+OHX12CSC,Coronal Caries:  Surface condition #12
+OHX13CSC,Coronal Caries:  Surface condition #13
+OHX14CSC,Coronal Caries:  Surface condition #14
+OHX15CSC,Coronal Caries:  Surface condition #15
+OHX18CSC,Coronal Caries:  Surface condition #18
+OHX19CSC,Coronal Caries:  Surface condition #19
+OHX20CSC,Coronal Caries:  Surface condition #20
+OHX21CSC,Coronal Caries:  Surface condition #21
+OHX22CSC,Coronal Caries:  Surface condition #22
+OHX23CSC,Coronal Caries:  Surface condition #23
+OHX24CSC,Coronal Caries:  Surface condition #24
+OHX25CSC,Coronal Caries:  Surface condition #25
+OHX26CSC,Coronal Caries:  Surface condition #26
+OHX27CSC,Coronal Caries:  Surface condition #27
+OHX28CSC,Coronal Caries:  Surface condition #28
+OHX29CSC,Coronal Caries:  Surface condition #29
+OHX30CSC,Coronal Caries:  Surface condition #30
+OHX31CSC,Coronal Caries:  Surface condition #31
+OHX02SE,Dental Sealants:  #2
+OHX03SE,Dental Sealants:  #3
+OHX04SE,Dental Sealants:  #4
+OHX05SE,Dental Sealants:  #5
+OHX07SE,Dental Sealants:  #7
+OHX10SE,Dental Sealants:  #10
+OHX12SE,Dental Sealants:  #12
+OHX13SE,Dental Sealants:  #13
+OHX14SE,Dental Sealants:  #14
+OHX15SE,Dental Sealants:  #15
+OHX18SE,Dental Sealants:  #18
+OHX19SE,Dental Sealants:  #19
+OHX20SE,Dental Sealants:  #20
+OHX21SE,Dental Sealants:  #21
+OHX28SE,Dental Sealants:  #28
+OHX29SE,Dental Sealants:  #29
+OHX30SE,Dental Sealants:  #30
+OHX31SE,Dental Sealants:  #31
+OHDPDSTS,Periodontal Status Code
+OHDEXCLU,Medical Exclusion from Periodontal Exam
+OHX02CJD,LOA: Max R(2M) DF FGM-CEJ(mm)
+OHX02CJM,LOA: Max R(2M) MdF FGM-CEJ(mm)
+OHX02CJS,LOA: Max R(2M) MF FGM-CEJ(mm)
+OHX02CJP,LOA: Max R(2M) DL FGM-CEJ(mm)
+OHX02CJL,LOA: Max R(2M) MdL FGM-CEJ(mm)
+OHX02CJA,LOA: Max R(2M) ML FGM-CEJ(mm)
+OHX02PCD,LOA: Max R(2M) DF FGM-sulcus(mm)
+OHX02PCM,LOA: Max R(2M) MdF FGM-sulcus(mm)
+OHX02PCS,LOA: Max R(2M) MF FGM-sulcus(mm)
+OHX02PCP,LOA: Max R(2M) DL FGM-sulcus(mm)
+OHX02PCL,LOA: Max R(2M) MdL FGM-sulcus(mm)
+OHX02PCA,LOA: Max R(2M) ML FGM-sulcus(mm)
+OHX02LAD,LOA: Max R(2M) DF calculated AL(mm)
+OHX02LAM,LOA: Max R(2M) MdF calculated AL(mm)
+OHX02LAS,LOA: Max R(2M) MF calculated AL(mm)
+OHX02LAP,LOA: Max R(2M) DL calculated AL(mm)
+OHX02LAL,LOA: Max R(2M) MdL calculated AL(mm)
+OHX02LAA,LOA: Max R(2M) ML calculated AL(mm)
+OHX03CJD,LOA: Max R(1M) DF FGM-CEJ(mm)
+OHX03CJM,LOA: Max R(1M) MdF FGM-CEJ(mm)
+OHX03CJS,LOA: Max R(1M) MF FGM-CEJ(mm)
+OHX03CJP,LOA: Max R(1M) DL FGM-CEJ(mm)
+OHX03CJL,LOA: Max R(1M) MdL FGM-CEJ(mm)
+OHX03CJA,LOA: Max R(1M) ML FGM-CEJ(mm)
+OHX03PCD,LOA: Max R(1M) DF FGM-sulcus(mm)
+OHX03PCM,LOA: Max R(1M) MdF FGM-sulcus(mm)
+OHX03PCS,LOA: Max R(1M) MF FGM-sulcus(mm)
+OHX03PCP,LOA: Max R(1M) DL FGM-sulcus(mm)
+OHX03PCL,LOA: Max R(1M) MdL FGM-sulcus(mm)
+OHX03PCA,LOA: Max R(1M) ML FGM-sulcus(mm)
+OHX03LAD,LOA: Max R(1M) DF calculated AL(mm)
+OHX03LAM,LOA: Max R(1M) MdF calculated AL(mm)
+OHX03LAS,LOA: Max R(1M) MF calculated AL(mm)
+OHX03LAP,LOA: Max R(1M) DL calculated AL(mm)
+OHX03LAL,LOA: Max R(1M) MdL calculated AL(mm)
+OHX03LAA,LOA: Max R(1M) ML calculated AL(mm)
+OHX04CJD,LOA: Max R(2B) DF FGM-CEJ(mm)
+OHX04CJM,LOA: Max R(2B) MdF FGM-CEJ(mm)
+OHX04CJS,LOA: Max R(2B) MF FGM-CEJ(mm)
+OHX04CJP,LOA: Max R(2B) DL FGM-CEJ(mm)
+OHX04CJL,LOA: Max R(2B) MdL FGM-CEJ(mm)
+OHX04CJA,LOA: Max R(2B) ML FGM-CEJ(mm)
+OHX04PCD,LOA: Max R(2B) DF FGM-sulcus(mm)
+OHX04PCM,LOA: Max R(2B) MdF FGM-sulcus(mm)
+OHX04PCS,LOA: Max R(2B) MF FGM-sulcus(mm)
+OHX04PCP,LOA: Max R(2B) DL FGM-sulcus(mm)
+OHX04PCL,LOA: Max R(2B) MdL FGM-sulcus(mm)
+OHX04PCA,LOA: Max R(2B) ML FGM-sulcus(mm)
+OHX04LAD,LOA: Max R(2B) DF calculated AL(mm)
+OHX04LAM,LOA: Max R(2B) MdF calculated AL(mm)
+OHX04LAS,LOA: Max R(2B) MF calculated AL(mm)
+OHX04LAP,LOA: Max R(2B) DL calculated AL(mm)
+OHX04LAL,LOA: Max R(2B) MdL calculated AL(mm)
+OHX04LAA,LOA: Max R(2B) ML calculated AL(mm)
+OHX05CJD,LOA: Max R(1B) DF FGM-CEJ(mm)
+OHX05CJM,LOA: Max R(1B) MdF FGM-CEJ(mm)
+OHX05CJS,LOA: Max R(1B) MF FGM-CEJ(mm)
+OHX05CJP,LOA: Max R(1B) DL FGM-CEJ(mm)
+OHX05CJL,LOA: Max R(1B) MdL FGM-CEJ(mm)
+OHX05CJA,LOA: Max R(1B) ML FGM-CEJ(mm)
+OHX05PCD,LOA: Max R(1B) DF FGM-sulcus(mm)
+OHX05PCM,LOA: Max R(1B) MdF FGM-sulcus(mm)
+OHX05PCS,LOA: Max R(1B) MF FGM-sulcus(mm)
+OHX05PCP,LOA: Max R(1B) DL FGM-sulcus(mm)
+OHX05PCL,LOA: Max R(1B) MdL FGM-sulcus(mm)
+OHX05PCA,LOA: Max R(1B) ML FGM-sulcus(mm)
+OHX05LAD,LOA: Max R(1B) DF calculated AL(mm)
+OHX05LAM,LOA: Max R(1B) MdF calculated AL(mm)
+OHX05LAS,LOA: Max R(1B) MF calculated AL(mm)
+OHX05LAP,LOA: Max R(1B) DL calculated AL(mm)
+OHX05LAL,LOA: Max R(1B) MdL calculated AL(mm)
+OHX05LAA,LOA: Max R(1B) ML calculated AL(mm)
+OHX06CJD,LOA: Max R(C) DF FGM-CEJ(mm)
+OHX06CJM,LOA: Max R(C) MdF FGM-CEJ(mm)
+OHX06CJS,LOA: Max R(C) MF FGM-CEJ(mm)
+OHX06CJP,LOA: Max R(C) DL FGM-CEJ(mm)
+OHX06CJL,LOA: Max R(C) MdL FGM-CEJ(mm)
+OHX06CJA,LOA: Max R(C) ML FGM-CEJ(mm)
+OHX06PCD,LOA: Max R(C) DF FGM-sulcus(mm)
+OHX06PCM,LOA: Max R(C) MdF FGM-sulcus(mm)
+OHX06PCS,LOA: Max R(C) MF FGM-sulcus(mm)
+OHX06PCP,LOA: Max R(C) DL FGM-sulcus(mm)
+OHX06PCL,LOA: Max R(C) MdL FGM-sulcus(mm)
+OHX06PCA,LOA: Max R(C) ML FGM-sulcus(mm)
+OHX06LAD,LOA: Max R(C) DF calculated AL(mm)
+OHX06LAM,LOA: Max R(C) MdF calculated AL(mm)
+OHX06LAS,LOA: Max R(C) MF calculated AL(mm)
+OHX06LAP,LOA: Max R(C) DL calculated AL(mm)
+OHX06LAL,LOA: Max R(C) MdL calculated AL(mm)
+OHX06LAA,LOA: Max R(C) ML calculated AL(mm)
+OHX07CJD,LOA: Max R(LI) DF FGM-CEJ(mm)
+OHX07CJM,LOA: Max R(LI) MdF FGM-CEJ(mm)
+OHX07CJS,LOA: Max R(LI) MF FGM-CEJ(mm)
+OHX07CJP,LOA: Max R(LI) DL FGM-CEJ(mm)
+OHX07CJL,LOA: Max R(LI) MdL FGM-CEJ(mm)
+OHX07CJA,LOA: Max R(LI) ML FGM-CEJ(mm)
+OHX07PCD,LOA: Max R(LI) DF FGM-sulcus(mm)
+OHX07PCM,LOA: Max R(LI) MdF FGM-sulcus(mm)
+OHX07PCS,LOA: Max R(LI) MF FGM-sulcus(mm)
+OHX07PCP,LOA: Max R(LI) DL FGM-sulcus(mm)
+OHX07PCL,LOA: Max R(LI) MdL FGM-sulcus(mm)
+OHX07PCA,LOA: Max R(LI) ML FGM-sulcus(mm)
+OHX07LAD,LOA: Max R(LI) DF calculated AL(mm)
+OHX07LAM,LOA: Max R(LI) MdF calculated AL(mm)
+OHX07LAS,LOA: Max R(LI) MF calculated AL(mm)
+OHX07LAP,LOA: Max R(LI) DL calculated AL(mm)
+OHX07LAL,LOA: Max R(LI) MdL calculated AL(mm)
+OHX07LAA,LOA: Max R(LI) ML calculated AL(mm)
+OHX08CJD,LOA: Max R(CI) DF FGM-CEJ(mm)
+OHX08CJM,LOA: Max R(CI) MdF FGM-CEJ(mm)
+OHX08CJS,LOA: Max R(CI) MF FGM-CEJ(mm)
+OHX08CJP,LOA: Max R(CI) DL FGM-CEJ(mm)
+OHX08CJL,LOA: Max R(CI) MdL FGM-CEJ(mm)
+OHX08CJA,LOA: Max R(CI) ML FGM-CEJ(mm)
+OHX08PCD,LOA: Max R(CI) DF FGM-sulcus(mm)
+OHX08PCM,LOA: Max R(CI) MdF FGM-sulcus(mm)
+OHX08PCS,LOA: Max R(CI) MF FGM-sulcus(mm)
+OHX08PCP,LOA: Max R(CI) DL FGM-sulcus(mm)
+OHX08PCL,LOA: Max R(CI) MdL FGM-sulcus(mm)
+OHX08PCA,LOA: Max R(CI) ML FGM-sulcus(mm)
+OHX08LAD,LOA: Max R(CI) DF calculated AL(mm)
+OHX08LAM,LOA: Max R(CI) MdF calculated AL(mm)
+OHX08LAS,LOA: Max R(CI) MF calculated AL(mm)
+OHX08LAP,LOA: Max R(CI) DL calculated AL(mm)
+OHX08LAL,LOA: Max R(CI) MdL calculated AL(mm)
+OHX08LAA,LOA: Max R(CI) ML calculated AL(mm)
+OHX09CJD,LOA: Max L(CI) DF FGM-CEJ(mm)
+OHX09CJM,LOA: Max L(CI) MdF FGM-CEJ(mm)
+OHX09CJS,LOA: Max L(CI) MF FGM-CEJ(mm)
+OHX09CJP,LOA: Max L(CI) DL FGM-CEJ(mm)
+OHX09CJL,LOA: Max L(CI) MdL FGM-CEJ(mm)
+OHX09CJA,LOA: Max L(CI) ML FGM-CEJ(mm)
+OHX09PCD,LOA: Max L(CI) DF FGM-sulcus(mm)
+OHX09PCM,LOA: Max L(CI) MdF FGM-sulcus(mm)
+OHX09PCS,LOA: Max L(CI) MF FGM-sulcus(mm)
+OHX09PCP,LOA: Max L(CI) DL FGM-sulcus(mm)
+OHX09PCL,LOA: Max L(CI) MdL FGM-sulcus(mm)
+OHX09PCA,LOA: Max L(CI) ML FGM-sulcus(mm)
+OHX09LAD,LOA: Max L(CI) DF calculated AL(mm)
+OHX09LAM,LOA: Max L(CI) MdF calculated AL(mm)
+OHX09LAS,LOA: Max L(CI) MF calculated AL(mm)
+OHX09LAP,LOA: Max L(CI) DL calculated AL(mm)
+OHX09LAL,LOA: Max L(CI) MdL calculated AL(mm)
+OHX09LAA,LOA: Max L(CI) ML calculated AL(mm)
+OHX10CJD,LOA: Max L(LI) DF FGM-CEJ(mm)
+OHX10CJM,LOA: Max L(LI) MdF FGM-CEJ(mm)
+OHX10CJS,LOA: Max L(LI) MF FGM-CEJ(mm)
+OHX10CJP,LOA: Max L(LI) DL FGM-CEJ(mm)
+OHX10CJL,LOA: Max L(LI) MdL FGM-CEJ(mm)
+OHX10CJA,LOA: Max L(LI) ML FGM-CEJ(mm)
+OHX10PCD,LOA: Max L(LI) DF FGM-sulcus(mm)
+OHX10PCM,LOA: Max L(LI) MdF FGM-sulcus(mm)
+OHX10PCS,LOA: Max L(LI) MF FGM-sulcus(mm)
+OHX10PCP,LOA: Max L(LI) DL FGM-sulcus(mm)
+OHX10PCL,LOA: Max L(LI) MdL FGM-sulcus(mm)
+OHX10PCA,LOA: Max L(LI) ML FGM-sulcus(mm)
+OHX10LAD,LOA: Max L(LI) DF calculated AL(mm)
+OHX10LAM,LOA: Max L(LI) MdF calculated AL(mm)
+OHX10LAS,LOA: Max L(LI) MF calculated AL(mm)
+OHX10LAP,LOA: Max L(LI) DL calculated AL(mm)
+OHX10LAL,LOA: Max L(LI) MdL calculated AL(mm)
+OHX10LAA,LOA: Max L(LI) ML calculated AL(mm)
+OHX11CJD,LOA: Max L(C) DF FGM-CEJ(mm)
+OHX11CJM,LOA: Max L(C) MdF FGM-CEJ(mm)
+OHX11CJS,LOA: Max L(C) MF FGM-CEJ(mm)
+OHX11CJP,LOA: Max L(C) DL FGM-CEJ(mm)
+OHX11CJL,LOA: Max L(C) MdL FGM-CEJ(mm)
+OHX11CJA,LOA: Max L(C) ML FGM-CEJ(mm)
+OHX11PCD,LOA: Max L(C) DF FGM-sulcus(mm)
+OHX11PCM,LOA: Max L(C) MdF FGM-sulcus(mm)
+OHX11PCS,LOA: Max L(C) MF FGM-sulcus(mm)
+OHX11PCP,LOA: Max L(C) DL FGM-sulcus(mm)
+OHX11PCL,LOA: Max L(C) MdL FGM-sulcus(mm)
+OHX11PCA,LOA: Max L(C) ML FGM-sulcus(mm)
+OHX11LAD,LOA: Max L(C) DF calculated AL(mm)
+OHX11LAM,LOA: Max L(C) MdF calculated AL(mm)
+OHX11LAS,LOA: Max L(C) MF calculated AL(mm)
+OHX11LAP,LOA: Max L(C) DL calculated AL(mm)
+OHX11LAL,LOA: Max L(C) MdL calculated AL(mm)
+OHX11LAA,LOA: Max L(C) ML calculated AL(mm)
+OHX12CJD,LOA: Max L(1B) DF FGM-CEJ(mm)
+OHX12CJM,LOA: Max L(1B) MdF FGM-CEJ(mm)
+OHX12CJS,LOA: Max L(1B) MF FGM-CEJ(mm)
+OHX12CJP,LOA: Max L(1B) DL FGM-CEJ(mm)
+OHX12CJL,LOA: Max L(1B) MdL FGM-CEJ(mm)
+OHX12CJA,LOA: Max L(1B) ML FGM-CEJ(mm)
+OHX12PCD,LOA: Max L(1B) DF FGM-sulcus(mm)
+OHX12PCM,LOA: Max L(1B) MdF FGM-sulcus(mm)
+OHX12PCS,LOA: Max L(1B) MF FGM-sulcus(mm)
+OHX12PCP,LOA: Max L(1B) DL FGM-sulcus(mm)
+OHX12PCL,LOA: Max L(1B) MdL FGM-sulcus(mm)
+OHX12PCA,LOA: Max L(1B) ML FGM-sulcus(mm)
+OHX12LAD,LOA: Max L(1B) DF calculated AL(mm)
+OHX12LAM,LOA: Max L(1B) MdF calculated AL(mm)
+OHX12LAS,LOA: Max L(1B) MF calculated AL(mm)
+OHX12LAP,LOA: Max L(1B) DL calculated AL(mm)
+OHX12LAL,LOA: Max L(1B) MdL calculated AL(mm)
+OHX12LAA,LOA: Max L(1B) ML calculated AL(mm)
+OHX13CJD,LOA: Max L(2B) DF FGM-CEJ(mm)
+OHX13CJM,LOA: Max L(2B) MdF FGM-CEJ(mm)
+OHX13CJS,LOA: Max L(2B) MF FGM-CEJ(mm)
+OHX13CJP,LOA: Max L(2B) DL FGM-CEJ(mm)
+OHX13CJL,LOA: Max L(2B) MdL FGM-CEJ(mm)
+OHX13CJA,LOA: Max L(2B) ML FGM-CEJ(mm)
+OHX13PCD,LOA: Max L(2B) DF FGM-sulcus(mm)
+OHX13PCM,LOA: Max L(2B) MdF FGM-sulcus(mm)
+OHX13PCS,LOA: Max L(2B) MF FGM-sulcus(mm)
+OHX13PCP,LOA: Max L(2B) DL FGM-sulcus(mm)
+OHX13PCL,LOA: Max L(2B) MdL FGM-sulcus(mm)
+OHX13PCA,LOA: Max L(2B) ML FGM-sulcus(mm)
+OHX13LAD,LOA: Max L(2B) DF calculated AL(mm)
+OHX13LAM,LOA: Max L(2B) MdF calculated AL(mm)
+OHX13LAS,LOA: Max L(2B) MF calculated AL(mm)
+OHX13LAP,LOA: Max L(2B) DL calculated AL(mm)
+OHX13LAL,LOA: Max L(2B) MdL calculated AL(mm)
+OHX13LAA,LOA: Max L(2B) ML calculated AL(mm)
+OHX14CJD,LOA: Max L(1M) DF FGM-CEJ(mm)
+OHX14CJM,LOA: Max L(1M) MdF FGM-CEJ(mm)
+OHX14CJS,LOA: Max L(1M) MF FGM-CEJ(mm)
+OHX14CJP,LOA: Max L(1M) DL FGM-CEJ(mm)
+OHX14CJL,LOA: Max L(1M) MdL FGM-CEJ(mm)
+OHX14CJA,LOA: Max L(1M) ML FGM-CEJ(mm)
+OHX14PCD,LOA: Max L(1M) DF FGM-sulcus(mm)
+OHX14PCM,LOA: Max L(1M) MdF FGM-sulcus(mm)
+OHX14PCS,LOA: Max L(1M) MF FGM-sulcus(mm)
+OHX14PCP,LOA: Max L(1M) DL FGM-sulcus(mm)
+OHX14PCL,LOA: Max L(1M) MdL FGM-sulcus(mm)
+OHX14PCA,LOA: Max L(1M) ML FGM-sulcus(mm)
+OHX14LAD,LOA: Max L(1M) DF calculated AL(mm)
+OHX14LAM,LOA: Max L(1M) MdF calculated AL(mm)
+OHX14LAS,LOA: Max L(1M) MF calculated AL(mm)
+OHX14LAP,LOA: Max L(1M) DL calculated AL(mm)
+OHX14LAL,LOA: Max L(1M) MdL calculated AL(mm)
+OHX14LAA,LOA: Max L(1M) ML calculated AL(mm)
+OHX15CJD,LOA: Max L(2M) DF FGM-CEJ(mm)
+OHX15CJM,LOA: Max L(2M) MdF FGM-CEJ(mm)
+OHX15CJS,LOA: Max L(2M) MF FGM-CEJ(mm)
+OHX15CJP,LOA: Max L(2M) DL FGM-CEJ(mm)
+OHX15CJL,LOA: Max L(2M) MdL FGM-CEJ(mm)
+OHX15CJA,LOA: Max L(2M) ML FGM-CEJ(mm)
+OHX15PCD,LOA: Max L(2M) DF FGM-sulcus(mm)
+OHX15PCM,LOA: Max L(2M) MdF FGM-sulcus(mm)
+OHX15PCS,LOA: Max L(2M) MF FGM-sulcus(mm)
+OHX15PCP,LOA: Max L(2M) DL FGM-sulcus(mm)
+OHX15PCL,LOA: Max L(2M) MdL FGM-sulcus(mm)
+OHX15PCA,LOA: Max L(2M) ML FGM-sulcus(mm)
+OHX15LAD,LOA: Max L(2M) DF calculated AL(mm)
+OHX15LAM,LOA: Max L(2M) MdF calculated AL(mm)
+OHX15LAS,LOA: Max L(2M) MF calculated AL(mm)
+OHX15LAP,LOA: Max L(2M) DL calculated AL(mm)
+OHX15LAL,LOA: Max L(2M) MdL calculated AL(mm)
+OHX15LAA,LOA: Max L(2M) ML calculated AL(mm)
+OHX18CJD,LOA: Mnd L(2M) DF FGM-CEJ(mm)
+OHX18CJM,LOA: Mnd L(2M) MdF FGM-CEJ(mm)
+OHX18CJS,LOA: Mnd L(2M) MF FGM-CEJ(mm)
+OHX18CJP,LOA: Mnd L(2M) DL FGM-CEJ(mm)
+OHX18CJL,LOA: Mnd L(2M) MdL FGM-CEJ(mm)
+OHX18CJA,LOA: Mnd L(2M) ML FGM-CEJ(mm)
+OHX18PCD,LOA: Mnd L(2M) DF FGM-sulcus(mm)
+OHX18PCM,LOA: Mnd L(2M) MdF FGM-sulcus(mm)
+OHX18PCS,LOA: Mnd L(2M) MF FGM-sulcus(mm)
+OHX18PCP,LOA: Mnd L(2M) DL FGM-sulcus(mm)
+OHX18PCL,LOA: Mnd L(2M) MdL FGM-sulcus(mm)
+OHX18PCA,LOA: Mnd L(2M) ML FGM-sulcus(mm)
+OHX18LAD,LOA: Mnd L(2M) DF calculated AL(mm)
+OHX18LAM,LOA: Mnd L(2M) MdF calculated AL(mm)
+OHX18LAS,LOA: Mnd L(2M) MF calculated AL(mm)
+OHX18LAP,LOA: Mnd L(2M) DL calculated AL(mm)
+OHX18LAL,LOA: Mnd L(2M) MdL calculated AL(mm)
+OHX18LAA,LOA: Mnd L(2M) ML calculated AL(mm)
+OHX19CJD,LOA: Mnd L(1M) DF FGM-CEJ(mm)
+OHX19CJM,LOA: Mnd L(1M) MdF FGM-CEJ(mm)
+OHX19CJS,LOA: Mnd L(1M) MF FGM-CEJ(mm)
+OHX19CJP,LOA: Max L(1M) DL FGM-CEJ(mm)
+OHX19CJL,LOA: Mnd L(1M) MdL FGM-CEJ(mm)
+OHX19CJA,LOA: Mnd L(1M) ML FGM-CEJ(mm)
+OHX19PCD,LOA: Mnd L(1M) DF FGM-sulcus(mm)
+OHX19PCM,LOA: Mnd L(1M) MdF FGM-sulcus(mm)
+OHX19PCS,LOA: Mnd L(1M) MF FGM-sulcus(mm)
+OHX19PCP,LOA: Mnd L(1M) DL FGM-sulcus(mm)
+OHX19PCL,LOA: Mnd L(1M) MdL FGM-sulcus(mm)
+OHX19PCA,LOA: Mnd L(1M) ML FGM-sulcus(mm)
+OHX19LAD,LOA: Mnd L(1M) DF calculated AL(mm)
+OHX19LAM,LOA: Mnd L(1M) MdF calculated AL(mm)
+OHX19LAS,LOA: Mnd L(1M) MF calculated AL(mm)
+OHX19LAP,LOA: Mnd L(1M) DL calculated AL(mm)
+OHX19LAL,LOA: Mnd L(1M) MdL calculated AL(mm)
+OHX19LAA,LOA: Mnd L(1M) ML calculated AL(mm)
+OHX20CJD,LOA: Mnd L(2B) DF FGM-CEJ(mm)
+OHX20CJM,LOA: Mnd L(2B) MdF FGM-CEJ(mm)
+OHX20CJS,LOA: Mnd L(2B) MF FGM-CEJ(mm)
+OHX20CJP,LOA: Mnd L(2B) DL FGM-CEJ(mm)
+OHX20CJL,LOA: Mnd L(2B) MdL FGM-CEJ(mm)
+OHX20CJA,LOA: Mnd L(2B) ML FGM-CEJ(mm)
+OHX20PCD,LOA: Mnd L(2B) DF FGM-sulcus(mm)
+OHX20PCM,LOA: Mnd L(2B) MdF FGM-sulcus(mm)
+OHX20PCS,LOA: Mnd L(2B) MF FGM-sulcus(mm)
+OHX20PCP,LOA: Mnd L(2B) DL FGM-sulcus(mm)
+OHX20PCL,LOA: Mnd L(2B) MdL FGM-sulcus(mm)
+OHX20PCA,LOA: Mnd L(2B) ML FGM-sulcus(mm)
+OHX20LAD,LOA: Mnd L(2B) DF calculated AL(mm)
+OHX20LAM,LOA: Mnd L(2B) MdF calculated AL(mm)
+OHX20LAS,LOA: Mnd L(2B) MF calculated AL(mm)
+OHX20LAP,LOA: Mnd L(2B) DL calculated AL(mm)
+OHX20LAL,LOA: Mnd L(2B) MdL calculated AL(mm)
+OHX20LAA,LOA: Mnd L(2B) ML calculated AL(mm)
+OHX21CJD,LOA: Mnd L(1B) DF FGM-CEJ(mm)
+OHX21CJM,LOA: Mnd L(1B) MdF FGM-CEJ(mm)
+OHX21CJS,LOA: Mnd L(1B) MF FGM-CEJ(mm)
+OHX21CJP,LOA: Mnd L(1B) DL FGM-CEJ(mm)
+OHX21CJL,LOA: Mnd L(1B) MdL FGM-CEJ(mm)
+OHX21CJA,LOA: Mnd L(1B) ML FGM-CEJ(mm)
+OHX21PCD,LOA: Mnd L(1B) DF FGM-sulcus(mm)
+OHX21PCM,LOA: Mnd L(1B) MdF FGM-sulcus(mm)
+OHX21PCS,LOA: Mnd L(1B) MF FGM-sulcus(mm)
+OHX21PCP,LOA: Mnd L(1B) DL FGM-sulcus(mm)
+OHX21PCL,LOA: Mnd L(1B) MdL FGM-sulcus(mm)
+OHX21PCA,LOA: Mnd L(1B) ML FGM-sulcus(mm)
+OHX21LAD,LOA: Mnd L(1B) DF calculated AL(mm)
+OHX21LAM,LOA: Mnd L(1B) MdF calculated AL(mm)
+OHX21LAS,LOA: Mnd L(1B) MF calculated AL(mm)
+OHX21LAP,LOA: Mnd L(1B) DL calculated AL(mm)
+OHX21LAL,LOA: Mnd L(1B) MdL calculated AL(mm)
+OHX21LAA,LOA: Mnd L(1B) ML calculated AL(mm)
+OHX22CJD,LOA: Mnd L(C) DF FGM-CEJ(mm)
+OHX22CJM,LOA: Mnd L(C) MdF FGM-CEJ(mm)
+OHX22CJS,LOA: Mnd L(C) MF FGM-CEJ(mm)
+OHX22CJP,LOA: Mnd L(C) DL FGM-CEJ(mm)
+OHX22CJL,LOA: Mnd L(C) MdL FGM-CEJ(mm)
+OHX22CJA,LOA: Mnd L(C) ML FGM-CEJ(mm)
+OHX22PCD,LOA: Mnd L(C) DF FGM-sulcus(mm)
+OHX22PCM,LOA: Mnd L(C) MdF FGM-sulcus(mm)
+OHX22PCS,LOA: Mnd L(C) MF FGM-sulcus(mm)
+OHX22PCP,LOA: Mnd L(C) DL FGM-sulcus(mm)
+OHX22PCL,LOA: Mnd L(C) MdL FGM-sulcus(mm)
+OHX22PCA,LOA: Mnd L(C) ML FGM-sulcus(mm)
+OHX22LAD,LOA: Mnd L(C) DF calculated AL(mm)
+OHX22LAM,LOA: Mnd L(C) MdF calculated AL(mm)
+OHX22LAS,LOA: Mnd L(C) MF calculated AL(mm)
+OHX22LAP,LOA: Mnd L(C) DL calculated AL(mm)
+OHX22LAL,LOA: Mnd L(C) MdL calculated AL(mm)
+OHX22LAA,LOA: Mnd L(C) ML calculated AL(mm)
+OHX23CJD,LOA: Mnd L(LI) DF FGM-CEJ(mm)
+OHX23CJM,LOA: Mnd L(LI) MdF FGM-CEJ(mm)
+OHX23CJS,LOA: Mnd L(LI) MF FGM-CEJ(mm)
+OHX23CJP,LOA: Mnd L(LI) DL FGM-CEJ(mm)
+OHX23CJL,LOA: Mnd L(LI) MdL FGM-CEJ(mm)
+OHX23CJA,LOA: Mnd L(LI) ML FGM-CEJ(mm)
+OHX23PCD,LOA: Mnd L(LI) DF FGM-sulcus(mm)
+OHX23PCM,LOA: Mnd L(LI) MdF FGM-sulcus(mm)
+OHX23PCS,LOA: Mnd L(LI) MF FGM-sulcus(mm)
+OHX23PCP,LOA: Mnd L(LI) DL FGM-sulcus(mm)
+OHX23PCL,LOA: Mnd L(LI) MdL FGM-sulcus(mm)
+OHX23PCA,LOA: Mnd L(LI) ML FGM-sulcus(mm)
+OHX23LAD,LOA: Mnd L(LI) DF calculated AL(mm)
+OHX23LAM,LOA: Mnd L(LI) MdF calculated AL(mm)
+OHX23LAS,LOA: Mnd L(LI) MF calculated AL(mm)
+OHX23LAP,LOA: Mnd L(LI) DL calculated AL(mm)
+OHX23LAL,LOA: Mnd L(LI) MdL calculated AL(mm)
+OHX23LAA,LOA: Mnd L(LI) ML calculated AL(mm)
+OHX24CJD,LOA: Mnd L(CI) DF FGM-CEJ(mm)
+OHX24CJM,LOA: Mnd L(CI) MdF FGM-CEJ(mm)
+OHX24CJS,LOA: Mnd L(CI) MF FGM-CEJ(mm)
+OHX24CJP,LOA: Mnd L(CI) DL FGM-CEJ(mm)
+OHX24CJL,LOA: Mnd L(CI) MdL FGM-CEJ(mm)
+OHX24CJA,LOA: Mnd L(CI) ML FGM-CEJ(mm)
+OHX24PCD,LOA: Mnd L(CI) DF FGM-sulcus(mm)
+OHX24PCM,LOA: Mnd L(CI) MdF FGM-sulcus(mm)
+OHX24PCS,LOA: Mnd L(CI) MF FGM-sulcus(mm)
+OHX24PCP,LOA: Mnd L(CI) DL FGM-sulcus(mm)
+OHX24PCL,LOA: Mnd L(CI) MdL FGM-sulcus(mm)
+OHX24PCA,LOA: Mnd L(CI) ML FGM-sulcus(mm)
+OHX24LAD,LOA: Mnd L(CI) DF calculated AL(mm)
+OHX24LAM,LOA: Mnd L(CI) MdF calculated AL(mm)
+OHX24LAS,LOA: Mnd L(CI) MF calculated AL(mm)
+OHX24LAP,LOA: Mnd L(CI) DL calculated AL(mm)
+OHX24LAL,LOA: Mnd L(CI) MdL calculated AL(mm)
+OHX24LAA,LOA: Mnd L(CI) ML calculated AL(mm)
+OHX25CJD,LOA: Mnd R(CI) DF FGM-CEJ(mm)
+OHX25CJM,LOA: Mnd R(CI) MdF FGM-CEJ(mm)
+OHX25CJS,LOA: Mnd R(CI) MF FGM-CEJ(mm)
+OHX25CJP,LOA: Mnd R(CI) DL FGM-CEJ(mm)
+OHX25CJL,LOA: Mnd R(CI) MdL FGM-CEJ(mm)
+OHX25CJA,LOA: Mnd R(CI) ML FGM-CEJ(mm)
+OHX25PCD,LOA: Mnd R(CI) DF FGM-sulcus(mm)
+OHX25PCM,LOA: Mnd R(CI) MdF FGM-sulcus(mm)
+OHX25PCS,LOA: Mnd R(CI) MF FGM-sulcus(mm)
+OHX25PCP,LOA: Mnd R(CI) DL FGM-sulcus(mm)
+OHX25PCL,LOA: Mnd R(CI) MdL FGM-sulcus(mm)
+OHX25PCA,LOA: Mnd R(CI) ML FGM-sulcus(mm)
+OHX25LAD,LOA: Mnd R(CI) DF calculated AL(mm)
+OHX25LAM,LOA: Mnd R(CI) MdF calculated AL(mm)
+OHX25LAS,LOA: Mnd R(CI) MF calculated AL(mm)
+OHX25LAP,LOA: Mnd R(CI) DL calculated AL(mm)
+OHX25LAL,LOA: Mnd R(CI) MdL calculated AL(mm)
+OHX25LAA,LOA: Mnd R(CI) ML calculated AL(mm)
+OHX26CJD,LOA: Mnd R(LI) DF FGM-CEJ(mm)
+OHX26CJM,LOA: Mnd R(LI) MdF FGM-CEJ(mm)
+OHX26CJS,LOA: Mnd R(LI) MF FGM-CEJ(mm)
+OHX26CJP,LOA: Mnd R(LI) DL FGM-CEJ(mm)
+OHX26CJL,LOA: Mnd R(LI) MdL FGM-CEJ(mm)
+OHX26CJA,LOA: Mnd R(LI) ML FGM-CEJ(mm)
+OHX26PCD,LOA: Mnd R(LI) DF FGM-sulcus(mm)
+OHX26PCM,LOA: Mnd R(LI) MdF FGM-sulcus(mm)
+OHX26PCS,LOA: Mnd R(LI) MF FGM-sulcus(mm)
+OHX26PCP,LOA: Mnd R(LI) DL FGM-sulcus(mm)
+OHX26PCL,LOA: Mnd R(LI) MdL FGM-sulcus(mm)
+OHX26PCA,LOA: Mnd R(LI) ML FGM-sulcus(mm)
+OHX26LAD,LOA: Mnd R(LI) DF calculated AL(mm)
+OHX26LAM,LOA: Mnd R(LI) MdF calculated AL(mm)
+OHX26LAS,LOA: Mnd R(LI) MF calculated AL(mm)
+OHX26LAP,LOA: Mnd R(LI) DL calculated AL(mm)
+OHX26LAL,LOA: Mnd R(LI) MdL calculated AL(mm)
+OHX26LAA,LOA: Mnd R(LI) ML calculated AL(mm)
+OHX27CJD,LOA: Mnd R(C) DF FGM-CEJ(mm)
+OHX27CJM,LOA: Mnd R(C) MdF FGM-CEJ(mm)
+OHX27CJS,LOA: Mnd R(C) MF FGM-CEJ(mm)
+OHX27CJP,LOA: Mnd R(C) DL FGM-CEJ(mm)
+OHX27CJL,LOA: Mnd R(C) MdL FGM-CEJ(mm)
+OHX27CJA,LOA: Mnd R(C) ML FGM-CEJ(mm)
+OHX27PCD,LOA: Mnd R(C) DF FGM-sulcus(mm)
+OHX27PCM,LOA: Mnd R(C) MdF FGM-sulcus(mm)
+OHX27PCS,LOA: Mnd R(C) MF FGM-sulcus(mm)
+OHX27PCP,LOA: Mnd R(C) DL FGM-sulcus(mm)
+OHX27PCL,LOA: Mnd R(C) MdL FGM-sulcus(mm)
+OHX27PCA,LOA: Mnd R(C) ML FGM-sulcus(mm)
+OHX27LAD,LOA: Mnd R(C) DF calculated AL(mm)
+OHX27LAM,LOA: Mnd R(C) MdF calculated AL(mm)
+OHX27LAS,LOA: Mnd R(C) MF calculated AL(mm)
+OHX27LAP,LOA: Mnd R(C) DL calculated AL(mm)
+OHX27LAL,LOA: Mnd R(C) MdL calculated AL(mm)
+OHX27LAA,LOA: Mnd R(C) ML calculated AL(mm)
+OHX28CJD,LOA: Mnd R(1B) DF FGM-CEJ(mm)
+OHX28CJM,LOA: Mnd R(1B) MdF FGM-CEJ(mm)
+OHX28CJS,LOA: Mnd R(1B) MF FGM-CEJ(mm)
+OHX28CJP,LOA: Mnd R(1B) DL FGM-CEJ(mm)
+OHX28CJL,LOA: Mnd R(1B) MdL FGM-CEJ(mm)
+OHX28CJA,LOA: Mnd R(1B) ML FGM-CEJ(mm)
+OHX28PCD,LOA: Mnd R(1B) DF FGM-sulcus(mm)
+OHX28PCM,LOA: Mnd R(1B) MdF FGM-sulcus(mm)
+OHX28PCS,LOA: Mnd R(1B) MF FGM-sulcus(mm)
+OHX28PCP,LOA: Mnd R(1B) DL FGM-sulcus(mm)
+OHX28PCL,LOA: Mnd R(1B) MdL FGM-sulcus(mm)
+OHX28PCA,LOA: Mnd R(1B) ML FGM-sulcus(mm)
+OHX28LAD,LOA: Mnd R(1B) DF calculated AL(mm)
+OHX28LAM,LOA: Mnd R(1B) MdF calculated AL(mm)
+OHX28LAS,LOA: Mnd R(1B) MF calculated AL(mm)
+OHX28LAP,LOA: Mnd R(1B) DL calculated AL(mm)
+OHX28LAL,LOA: Mnd R(1B) MdL calculated AL(mm)
+OHX28LAA,LOA: Mnd R(1B) ML calculated AL(mm)
+OHX29CJD,LOA: Mnd R(2B) DF FGM-CEJ(mm)
+OHX29CJM,LOA: Mnd R(2B) MdF FGM-CEJ(mm)
+OHX29CJS,LOA: Mnd R(2B) MF FGM-CEJ(mm)
+OHX29CJP,LOA: Mnd R(2B) DL FGM-CEJ(mm)
+OHX29CJL,LOA: Mnd R(2B) MdL FGM-CEJ(mm)
+OHX29CJA,LOA: Mnd R(2B) ML FGM-CEJ(mm)
+OHX29PCD,LOA: Mnd R(2B) DF FGM-sulcus(mm)
+OHX29PCM,LOA: Mnd R(2B) MdF FGM-sulcus(mm)
+OHX29PCS,LOA: Mnd R(2B) MF FGM-sulcus(mm)
+OHX29PCP,LOA: Mnd R(2B) DL FGM-sulcus(mm)
+OHX29PCL,LOA: Mnd R(2B) MdL FGM-sulcus(mm)
+OHX29PCA,LOA: Mnd R(2B) ML FGM-sulcus(mm)
+OHX29LAD,LOA: Mnd R(2B) DF calculated AL(mm)
+OHX29LAM,LOA: Mnd R(2B) MdF calculated AL(mm)
+OHX29LAS,LOA: Mnd R(2B) MF calculated AL(mm)
+OHX29LAP,LOA: Mnd R(2B) DL calculated AL(mm)
+OHX29LAL,LOA: Mnd R(2B) MdL calculated AL(mm)
+OHX29LAA,LOA: Mnd R(2B) ML calculated AL(mm)
+OHX30CJD,LOA: Mnd R(1M) DF FGM-CEJ(mm)
+OHX30CJM,LOA: Mnd R(1M) MdF FGM-CEJ(mm)
+OHX30CJS,LOA: Mnd R(1M) MF FGM-CEJ(mm)
+OHX30CJP,LOA: Mnd R(1M) DL FGM-CEJ(mm)
+OHX30CJL,LOA: Mnd R(1M) MdL FGM-CEJ(mm)
+OHX30CJA,LOA: Mnd R(1M) ML FGM-CEJ(mm)
+OHX30PCD,LOA: Mnd R(1M) DF FGM-sulcus(mm)
+OHX30PCM,LOA: Mnd R(1M) MdF FGM-sulcus(mm)
+OHX30PCS,LOA: Mnd R(1M) MF FGM-sulcus(mm)
+OHX30PCP,LOA: Mnd R(1M) DL FGM-sulcus(mm)
+OHX30PCL,LOA: Mnd R(1M) MdL FGM-sulcus(mm)
+OHX30PCA,LOA: Mnd R(1M) ML FGM-sulcus(mm)
+OHX30LAD,LOA: Mnd R(1M) DF calculated AL(mm)
+OHX30LAM,LOA: Mnd R(1M) MdF calculated AL(mm)
+OHX30LAS,LOA: Mnd R(1M) MF calculated AL(mm)
+OHX30LAP,LOA: Mnd R(1M) DL calculated AL(mm)
+OHX30LAL,LOA: Mnd R(1M) MdL calculated AL(mm)
+OHX30LAA,LOA: Mnd R(1M) ML calculated AL(mm)
+OHX31CJD,LOA: Mnd R(2M) DF FGM-CEJ(mm)
+OHX31CJM,LOA: Mnd R(2M) MdF FGM-CEJ(mm)
+OHX31CJS,LOA: Mnd R(2M) MF FGM-CEJ(mm)
+OHX31CJP,LOA: Mnd R(2M) DL FGM-CEJ(mm)
+OHX31CJL,LOA: Mnd R(2M) MdL FGM-CEJ(mm)
+OHX31CJA,LOA: Mnd R(2M) ML FGM-CEJ(mm)
+OHX31PCD,LOA: Mnd R(2M) DF FGM-sulcus(mm)
+OHX31PCM,LOA: Mnd R(2M) MdF FGM-sulcus(mm)
+OHX31PCS,LOA: Mnd R(2M) MF FGM-sulcus(mm)
+OHX31PCP,LOA: Mnd R(2M) DL FGM-sulcus(mm)
+OHX31PCL,LOA: Mnd R(2M) MdL FGM-sulcus(mm)
+OHX31PCA,LOA: Mnd R(2M) ML FGM-sulcus(mm)
+OHX31LAD,LOA: Mnd R(2M) DF calculated AL(mm)
+OHX31LAM,LOA: Mnd R(2M) MdF calculated AL(mm)
+OHX31LAS,LOA: Mnd R(2M) MF calculated AL(mm)
+OHX31LAP,LOA: Mnd R(2M) DL calculated AL(mm)
+OHX31LAL,LOA: Mnd R(2M) MdL calculated AL(mm)
+OHX31LAA,LOA: Mnd R(2M) ML calculated AL(mm)
+OHDRCSTS,Recommendation Care Status Code
+OHAREC,Overall recommendation for care
+OHAROCDT,Decayed teeth
+OHAROCGP,Gum disease/problem
+OHAROCOH,Oral hygiene
+OHAROCCI,Impression of soft tissue condition
+OHAROCDE,Denture/Partial Denture/Plates
+OHARNF,No significant findings
+OHAROTH,Some other finding (specify w/referral)
+OHAPOS,Was participant exam position recumbent
+PAXDAYD,Day of PAM measurements for this day
+PAXDAYWD,Day of the week
+PAXSSNDP,Starting sample number for the day
+PAXMSTD,Start time: (HH:MM:SS)
+PAXTMD,Total minutes with data for this day
+PAXAISMD,Day count: 80hz data in idle sleep mode
+PAXVMD,"Day count: mins valid data, no QC flag"
+PAXMTSD,Day sum: MIMS triaxial value
+PAXWWMD,Day sum: valid wake wear minutes
+PAXSWMD,Day sum: valid sleep wear minutes
+PAXNWMD,Day sum: valid non-wear minutes
+PAXUMD,Day sum: valid unknown minutes
+PAXLXSD,Day sum: lux values for valid minutes
+PAXQFD,Day sum: data quality flag count
+PAXSTS,Physical activity monitor data status
+PAXSENID,PAM device ID
+PAXFDAY,Day of the week measurement started
+PAXLDAY,The last day when the measurements taken
+PAXFTIME,First data timestamp in GT3X (HH:MM:SS)
+PAXETLDY,Timestamp at end of last day (HH:MM:SS)
+PAXHAND,PAM worn on non-dominant hand
+PAXORENT,Wrist PAM orientation
+PAXDAYH,Day of PAM measurements for this hour
+PAXDAYWH,Day of the week for this hour
+PAXSSNHP,Starting sample number for the hour
+PAXTMH,Total minutes with data for this hour
+PAXAISMH,Hour count: 80hz data in idle sleep mode
+PAXVMH,"Hour count: mins valid data, no QC flag"
+PAXMTSH,Hour sum: MIMS triaxial value
+PAXWWMH,Hour sum: valid wake wear minutes
+PAXSWMH,Hour sum: valid sleep wear minutes
+PAXNWMH,Hour sum: valid non-wear minutes
+PAXUMH,Hour sum: valid unknown minutes
+PAXLXSH,Hour sum: lux values for valid minutes
+PAXQFH,Hour sum: data quality flag count
+PAXDAYM,Day of PAM measurements for this minute
+PAXDAYWM,Day of the week for this minute
+PAXSSNMP,Starting sample number for minute
+PAXTSM,Total seconds with data for this minute
+PAXAISMM,Minute count: 80hz data idle sleep mode
+PAXMTSM,MIMS triaxial value for the minute
+PAXMXM,MIMS X-axis value for the minute
+PAXMYM,MIMS Y-axis value for the minute
+PAXMZM,MIMS Z-axis value for the minute
+PAXPREDM,Minute wake/sleep/non-wear prediction
+PAXTRANM,Transition flag for wake/sleep/non-wear
+PAXLXSM,Sum: lux values in this minute
+PAXLXSDM,Std deviation: lux values in this minute
+PAXQFM,Minute sum: data quality flag count
+PAXFLGSM,Quality flags triggered
+CSXEXSTS,Overall Taste & Smell Exam Status
+CSXEXCMT,Taste & Smell Exam Status Comment Code
+CSQ245,Ever had quinine allergy?
+CSQ241,Currently pregnant or breast feeding?
+CSQ260a,Sneeze Frequently?
+CSQ260d,Have Discolored Nasal Mucus?
+CSQ260g,Have Nasal Blockage?
+CSQ260i,Have Sinus Pain?
+CSQ260n,Runny Nose?
+CSQ260m,None of the above?
+CSQ270,Type of Nasal Blockage
+CSQ450,Low intermediate light (85 candelas/m2)
+CSQ460,High intermediate light(439 candelas/m2)
+CSQ470,Medium test light (193 candelas/m2)
+CSQ480,Low test light (4.3 candelas/m2)
+CSQ490,High test light (1000 candelas/m2)
+CSXQUIPG,Tongue Tip Test: 1 mM Quinine gLMS
+CSXQUIPT,Tongue Tip 1mM Quinine: What Was Taste?
+CSXNAPG,Tongue Tip Test: 1M NaCl gLMS
+CSXNAPT,Tongue Tip 1M NaCl: What Was Taste?
+CSXQUISG,Whole Mouth Test: 1 mM Quinine gLMS
+CSXQUIST,Whole Mouth 1 mM Quinine: What Was Taste
+CSXSLTSG,Whole Mouth Test: 1 M NaCl gLMS
+CSXSLTST,Whole Mouth 1 M NaCl: What Was Taste?
+CSXNASG,Whole Mouth Test: .32 M NaCl gLMS
+CSXNAST,Whole Mouth .32 NaCl: What Was Taste?
+CSXTSEQ,Whole Mouth Taste Test Sequence
+CSXCHOOD,Smell Test: Chocolate Scent
+CSXSBOD,Smell Test: Strawberry Scent
+CSXSMKOD,Smell Test: Smoke Scent
+CSXLEAOD,Smell Test: Leather Scent
+CSXSOAOD,Smell Test: Soap Scent
+CSXGRAOD,Smell Test: Grape Scent
+CSXONOD,Smell Test: Onion Scent
+CSXNGSOD,Smell Test: Natural Gas Scent
+CSXSLTRT,Whole Mouth Repeat: 1M NaCl gLMS
+CSXSLTRG,Repeat 1M NaCl: What Was Taste?
+CSXNART,Whole Mouth Repeat: 0.32M NaCl gLMS
+CSXNARG,Repeat .32M NaCl: What Was Taste?
+CSAEFFRT,Participant's Understanding of Test
+WTSA2YR,Subsample A weights
+LBXACR,Acrylamide (pmol/g Hb)
+LBDACRLC,Acrylamide comment code
+LBXGLY,Glycideamide (pmol/g Hb)
+LBDGLYLC,Glycidamide comment code
+WTFSM,Smoking weights
+URXUMA,"Albumin, urine (ug/mL)"
+URXUMS,"Albumin, urine (mg/L)"
+URXUCR,"Creatinine, urine (mg/dL)"
+URXCRS,"Creatinine, urine (umol/L)"
+URDACT,Albumin creatinine ratio (mg/g)
+WTALD2YR,Two Year Aldehyde Subsample Weights
+LBXBZAL,Benzaldehyde (ng/mL)
+LBDBZLC,Benzaldehyde Comment Code
+LBX4AL,Butyraldehyde (ng/mL)
+LBD4ALC,Butyraldehyde Comment Code
+LBXCRAL,Crotonaldehyde (ng/mL)
+LBDCRLC,Crotonaldehyde Comment Code
+LBX10AL,Decanaldehyde (ng/mL)
+LBD10ALC,Decanaldehyde Comment Code
+LBX7AL,Heptanaldehyde (ng/mL)
+LBD7ALC,Heptanaldehyde Comment Code
+LBX6AL,Hexanaldehyde (ng/mL)
+LBD6ALC,Hexanaldehyde Comment Code
+LBXI5AL,Isopentanaldehyde (ng/mL)
+LBDI5ALC,Isopentanaldehyde Comment Code
+LBX9AL,Nonanaldehyde (ng/mL)
+LBD9ALC,Nonanaldehyde Comment Code
+LBX8AL,Octanaldehyde (ng/mL)
+LBD8ALC,Octanaldehyde Comment Code
+LBXTLAL,o-Tolualdehyde (ng/mL)
+LBDTLALC,o-Tolualdehyde Comment Code
+LBX5AL,Pentanaldehyde (ng/mL)
+LBD5ALC,Pentanaldehyde Comment Code
+LBX3AL,Propanaldehyde (ng/mL)
+LBD3ALC,Propanaldehyde Comment Code
+WTALDS2Y,Two Year Aldehyde Smoking Weights
+WTSAF2YR,Fasting Subsample 2 Year MEC Weight
+LBXAPB,Apolipoprotein (B) (mg/dL)
+LBDAPBSI,Apolipoprotein (B) (g/L)
+URX1NP,"1-Aminonaphthalene, urine (pg/mL)"
+URD1NPLC,"1-Aminonaphthalene, urine Comment Code"
+URX2NP,"2-Aminonaphthalene, urine (pg/mL)"
+URD2NPLC,"2-Aminonaphthalene, urine Comment Code"
+URX4BP,"4-Aminobiphenyl, urine (pg/mL)"
+URD4BPLC,"4-Aminobiphenyl, urine Comment Code"
+URXANS,"o-Anisidine, urine (pg/mL)"
+URDANSLC,"o-Anisidine, urine Comment Code"
+URXDMN,"2,6-Dimethylaniline, urine (pg/mL)"
+URDDMNLC,"2,6-Dimethylaniline, urine Comment Code"
+URXOTD,"o-Toluidine, urine (pg/mL)"
+URDOTDLC,"o-Toluidine, urine Comment Code"
+URXUAS,"Urinary arsenic, total (ug/L)"
+URDUASLC,"Urinary arsenic, total Comment Code"
+URXUAS3,Urinary Arsenous acid (ug/L)
+URDUA3LC,Urinary Arsenous acid comment code
+URXUAS5,Urinary Arsenic acid (ug/L)
+URDUA5LC,Urinary Arsenic acid comment code
+URXUAB,Urinary Arsenobetaine (ug/L)
+URDUABLC,Urinary Arsenobetaine comment code
+URXUAC,Urinary Arsenocholine (ug/L)
+URDUACLC,Urinary Arsenocholine comment code
+URXUDMA,Urinary Dimethylarsinic acid (ug/L)
+URDUDALC,Urinary Dimethylarsinic acid comment cod
+URXUMMA,Urinary Monomethylacrsonic acid (ug/L)
+URDUMMAL,Urinary MMA acid comment code
+SAMPLEID,Pool identification number
+RIDAGGRP,Age group
+RIANSMP,Number of samples in a pool
+WTBSMSMA,Sum of adjusted subsample B weights
+LBCBB1,"2,2',4,4',5,5'-hexabromobiphenyl (pg/g)"
+LBCBB1LA,"2,2',4,4',5,5'-hxbrmbiphl lpd adj (ng/g)"
+LBDBB1LC,"2,2',4,4',5,5'-hexabromobiphenyl comnt"
+LBCBR1,"2,2',4-tribromodiphenyl ether (pg/g)"
+LBCBR1LA,"2,2',4-tribrmobiphl ether lpd adj (ng/g)"
+LBDBR1LC,"2,2',4-tribromodiphenyl ether comment"
+LBCBR11,Decabromodiphenyl ether (pg/g)
+LBCBR11L,Decabromodiphenyl ether lipid adj (ng/g)
+LBDBR11C,Decabromodiphenyl ether comment
+LBCBR2,"2,4,4'-tribromodiphenyl ether (pg/g)"
+LBCBR2LA,"2,4,4'-tribrmdphenyl ethr lpd adj (ng/g)"
+LBDBR2LC,"2,4,4'-tribromodiphenyl ether comment"
+LBCBR3,"2,2',4,4'-tetrabromodiphenyl ethr (pg/g)"
+LBCBR3LA,"2,2',4,4'-tebrmdphnyl ethr lpd adj(ng/g)"
+LBDBR3LC,"2,2',4,4'-tetrabromphenyl ether comment"
+LBCBR4,"2,2',3,4,4'-pentbromodiphenyl ethr(pg/g)"
+LBCBR4LA,"2,2',3,4,4'-pntabromphnyl lpd adj (ng/g)"
+LBDBR4LC,"2,2',3,4,4'-pentabromphenyl ether comt"
+LBCBR5,"2,2',4,4',5-pentabromodiphnyl ethr(pg/g)"
+LBCBR5LA,"2,2',4,4',5-pntabromphenyl lpd adj(ng/g)"
+LBDBR5LC,"2,2',4,4',5-pentabromphenyl ether comt"
+LBCBR6,"2,2',4,4',6-pentabromodiphyl ether(pg/g)"
+LBCBR6LA,"2,2',4,4',6-pentabromdphyl lpd adj(ng/g)"
+LBDBR6LC,"2,2',4,4',6-pentabromdphenyl ether comt"
+LBCBR66,"2,3',4,4'-tetrabromodiphenyl ether(pg/g)"
+LBCBR66L,"2,3',4,4'-tetrabromodiphyl lpd adj(ng/g)"
+LBDBR66C,"2,3',4,4'-tetrabromodiphenyl ether comt"
+LBCBR7,"2,2',4,4',5,5'-hxbromodiphnyl ethr(pg/g)"
+LBCBR7LA,"2,2',4,4',5,5'-hxbrmphenyl lpd adj(ng/g)"
+LBDBR7LC,"2,2',4,4',5,5'-hexabromphenyl ether comt"
+LBCBR8,"2,2',4,4',5,6'-hxabromodiphyl ethr(pg/g)"
+LBCBR8LA,"2,2',4,4',5,6'-hxbrmphenyl lpd adj(ng/g)"
+LBDBR8LC,"2,2',4,4',5,6'-hexabromphenyl ether comt"
+LBCBR9,"2,2',3,4,4',5',6-hptbrodiphyl ethr(pg/g)"
+LBCBR9LA,"2,2',3,4,4',5',6-hptbrphnl lpd adj(ng/g)"
+LBDBR9LC,"2,2',3,4,4',5',6-heptabrophenl ether cmt"
+WTSC2YR,Two-year C subsample weights
+URXMU1,1-methyluric acid (umol/L)
+URDMU1LC,1-methyluric acid comment code
+URXMU2,3-methyluric acid (umol/L)
+URDMU2LC,3-methyluric acid comment code
+URXMU3,7-methyluric acid (umol/L)
+URDMU3LC,7-methyluric acid comment code
+URXMU4,"1,3-dimethyluric acid (umol/L)"
+URDMU4LC,"1,3-dimethyluric acid comment code"
+URXMU5,"1,7-dimethyluric acid (umol/L)"
+URDMU5LC,"1,7-dimethyluric acid comment code"
+URXMU6,"3,7-dimethyluric acid (umol/L)"
+URDMU6LC,"3,7-dimethyluric acid comment code"
+URXMU7,"1,3,7-trimethyluric acid (umol/L)"
+URDMU7LC,"1,3,7-trimethyluric acid comment code"
+URXMX1,1-methylxanthine (umol/L)
+URDMX1LC,1-methylxanthine comment code
+URXMX2,3-methylxanthine (umol/L)
+URDMX2LC,3-methylxanthine comment code
+URXMX3,7-methylxanthine (umol/L)
+URDMX3LC,7-methylxanthine comment code
+URXMX4,"1,3-dimethylxanthine(theophylline)umol/L"
+URDMX4LC,"1,3-dimethylxanthine comment code"
+URXMX5,"1,7-dimethylxanthine(paraxanthine)umol/L"
+URDMX5LC,"1,7-dimethylxanthine comment code"
+URXMX6,"3,7-dimethylxanthine(theobromine)umol/L"
+URDMX6LC,"3,7-dimethylxanthine comment code"
+URXMX7,"1,3,7-trimethylxanthine(caffeine)umol/L"
+URDMX7LC,"1,3,7-trimethylxanthine comment code"
+URXAMU,5-actylamino-6-amno-3-methyluracil(uM/L)
+URDAMULC,5-actylamno-6-amno-3-methylucl cmnt code
+URXUCL,"Chlamydia, urine"
+SSCTEIA,Chlamydia Pgp3 ELISA
+SSCTMBA,Chlamydia Pgp3 MBA
+SSCTEIOD,Chlamydia Pgp3 EIA Optical Density
+SSCTMBFI,Chlamydia Pgp3 MBA medium fluorest inten
+LBDHDD,Direct HDL-Cholesterol (mg/dL)
+LBDHDDSI,Direct HDL-Cholesterol (mmol/L)
+LBXTR,Triglyceride (mg/dL)
+LBDTRSI,Triglyceride (mmol/L)
+LBDLDL,LDL-cholesterol (mg/dL)
+LBDLDLSI,LDL-cholesterol (mmol/L)
+LBXTC,Total Cholesterol( mg/dL)
+LBDTCSI,Total Cholesterol( mmol/L)
+LBXWBCSI,White blood cell count (1000 cells/uL)
+LBXLYPCT,Lymphocyte percent (%)
+LBXMOPCT,Monocyte percent (%)
+LBXNEPCT,Segmented neutrophils percent (%)
+LBXEOPCT,Eosinophils percent (%)
+LBXBAPCT,Basophils percent (%)
+LBDLYMNO,Lymphocyte number (1000 cells/uL)
+LBDMONO,Monocyte number (1000 cells/uL)
+LBDNENO,Segmented neutrophils num (1000 cell/uL)
+LBDEONO,Eosinophils number (1000 cells/uL)
+LBDBANO,Basophils number (1000 cells/uL)
+LBXRBCSI,Red blood cell count (million cells/uL)
+LBXHGB,Hemoglobin (g/dL)
+LBXHCT,Hematocrit (%)
+LBXMCVSI,Mean cell volume (fL)
+LBXMCHSI,Mean cell hemoglobin (pg)
+LBXMC,MCHC (g/dL)
+LBXRDW,Red cell distribution width (%)
+LBXPLTSI,Platelet count (1000 cells/uL)
+LBXMPSI,Mean platelet volume (fL)
+LBXSCU,Serum Copper (ug/dL)
+LBDSCUSI,Serum Copper (umol/L)
+LBXSSE,Serum Selenium (ug/L)
+LBDSSESI,Serum Selenium (umol/L)
+LBXSZN,Serum Zinc (ug/dL)
+LBDSZNSI,Serum Zinc (umol/L)
+LBXCOT,"Cotinine, Serum (ng/mL)"
+LBDCOTLC,"Cotinine, Serum Comment Code"
+LBDHCTLC,"Hydroxycotinine, Serum Comment Code"
+URXCOTT,"Total Cotinine, urine (ng/mL)"
+URDCOTLC,"Total Cotinine, urine Comment Code"
+URXHCTT,"Total Hydroxycotinine, urine (ng/mL)"
+URDHCTLC,"Total Hydroxycotinine, urine Comt Code"
+URXANBT,"Anabasine, urine (ng/mL)"
+URDANBLC,"Anabasine, urine Comment Code"
+URXANTT,"Anatabine, urine (ng/mL)"
+URDANTLC,"Anatabine, urine Comment Code"
+URXCOXT,"Cotinine-n-oxide, urine (ng/mL)"
+URDCOXLC,"Cotinine-n-oxide, urine Comment Code"
+URXNICT,"Nicotine, urine (ng/mL)"
+URDNICLC,"Nicotine, urine Comment Code"
+URXNNCT,"Nornicotine, urine (ng/mL)"
+URDNCTLC,"Nornicotine, urine Comment Code"
+URXNOXT,"Nicotine-1 N-oxide, urine (ng/mL)"
+URDNOXLC,"Nicotine-1 N-oxide, urine Comment Code"
+URDTNE2,TNE - 2 (nmol/mL)
+URDTNE3,TNE - 3 (nmol/mL)
+URDTNE6,TNE - 6 (nmol/mL)
+URXDEE,DEET (ug/L)
+URDDEELC,DEET comment code
+URXDEA,DEET acid (ug/L)
+URDDEALC,DEET acid comment code
+URXDHD,Desethyl hydroxy DEET (ug/L)
+URDDHDLC,Desethyl hydroxy DEET Comment Code
+PHQ020,Coffee or tea with cream or sugar?
+PHACOFHR,Coffee/tea fast time (hours)
+PHACOFMN,Coffee/tea fast time (minutes)
+PHQ030,"Alcohol, such as beer, wine, or liquor?"
+PHAALCHR,Alcohol fast time (hours)
+PHAALCMN,Alcohol fast time (minutes)
+PHQ040,"Gum, mints, lozenges or cough drops"
+PHAGUMHR,"Gum, mints cough drops fast time (hours)"
+PHAGUMMN,"Gum, mints, cough fast time (minutes)"
+PHQ050,"Antacids, laxatives, or anti-diarrheals?"
+PHAANTHR,"Antacids, laxatives fast time (hours)"
+PHAANTMN,"Antacids, laxatives fast time (minutes)"
+PHQ060,Dietary supplements?
+PHASUPHR,Dietary supplements fast time (hours)
+PHASUPMN,Dietary supplements fast time (minutes)
+PHAFSTHR,"Total length of ""food fast,"" hours"
+PHAFSTMN,"Total length of  ""food fast,"" minutes"
+PHDSESN,Session in which SP was examined
+LBDPFL,"Fluoride, plasma (umol/L) average 2"
+LBDPFLLC,"Fluoride, plasma comment code"
+LBDWFL,"Fluoride, water (mg/L) average 2 values"
+LBDWFLLC,"Fluoride, water comment code"
+LBDRFO,RBC folate (ng/mL)
+LBDRFOSI,RBC folate (nmol/L)
+LBDFOTSI,Serum total folate (nmol/L)
+LBDFOT,Serum total folate (ng/mL)
+LBXSF1SI,5-Methyl-tetrahydrofolate (nmol/L)
+LBDSF1LC,5-Methyl-tetrahydrofolate cmt
+LBXSF2SI,Folic acid (nmol/L)
+LBDSF2LC,Folic acid cmt
+LBXSF3SI,5-Formyl-tetrahydrofolate (nmol/L)
+LBDSF3LC,5-Formyl-tetrahydrofolate cmt
+LBXSF4SI,Tetrahydrofolate (nmol/L)
+LBDSF4LC,Tetrahydrofolate cmt
+LBXSF5SI,"5,10-Methenyl-tetrahydrofolate (nmol/L)"
+LBDSF5LC,"5,10-Methenyl-tetrahydrofolate cmt"
+LBXSF6SI,Mefox oxidation product (nmol/L)
+LBDSF6LC,Mefox oxidation product cmt
+LBXFOR,Formaldehyde (nmol/g HB)
+LBDFORLC,Formaldehyde comment code
+LBXGH,Glycohemoglobin (%)
+LBXHA,Hepatitis A antibody
+LBXHBC,Hepatitis B core antibody
+LBDHBG,Hepatitis B surface antigen
+LBDHD,Hepatitis D (anti-HDV)
+LBXHBS,Hepatitis B Surface Antibody
+LBDHCI,Hepatitis C Antibody (confirmed)
+LBXHCR,Hepatitis C RNA (HCV-RNA)
+LBXHCG,Hepatitis C genotype
+LBDHEG,Hepatitis E IgG (anti-HEV)
+LBDHEM,Hepatitis E IgM (anti-HEV)
+LBXHE1,Herpes Simplex Virus Type 1
+LBXHE2,Herpes Simplex Virus Type 2
+URXAAC,A-a-C (pg/mL)
+URDAACLC,A-a-C (pg/mL) Comment Code
+URXGLP1,Glu-P-1 (pg/mL)
+URDGP1LC,Glu-P-1 (pg/mL) Comment Code
+URXGLP2,GLU-P-2 (pg/mL)
+URDGP2LC,GLU-P-2 (pg/mL) Comment Code
+URXHM,Harman (pg/mL)
+URDHMLC,Harman (pg/mL) Comment Code
+URXIQ,IQ (pg/mL)
+URDIQLC,IQ (pg/mL) Comment Code
+URXMAAC,MeA-a-C (pg/mL)
+URDMACLC,MeA-a-C (pg/mL) Comment Code
+URXNHM,Norharman (pg/mL)
+URDNHMLC,Norharman (pg/mL) Comment Code
+URXPHIP,PhlP (pg/mL)
+URDPHPLC,PhlP (pg/mL) Comment Code
+URXTRP1,Trp-P-1 (pg/mL)
+URDTP1LC,Trp-P-1 (pg/mL) Comment Code
+URXTRP2,Trp-P-2 (pg/mL)
+URDTP2LC,Trp-P-2 (pg/mL) Comment Code
+LBDHI,HIV antibody test result
+ORXGH,HPV High Globulin Band result
+ORXGL,HPV Low Globulin Band result
+ORXH06,HPV Type 6
+ORXH11,HPV Type 11
+ORXH16,HPV Type 16
+ORXH18,HPV Type 18
+ORXH26,HPV Type 26
+ORXH31,HPV Type 31
+ORXH33,HPV Type 33
+ORXH35,HPV Type 35
+ORXH39,HPV Type 39
+ORXH40,HPV Type 40
+ORXH42,HPV Type 42
+ORXH45,HPV Type 45
+ORXH51,HPV Type 51
+ORXH52,HPV Type 52
+ORXH53,HPV Type 53
+ORXH54,HPV Type 54
+ORXH55,HPV Type 55
+ORXH56,HPV Type 56
+ORXH58,HPV Type 58
+ORXH59,HPV Type 59
+ORXH61,HPV Type 61
+ORXH62,HPV Type 62
+ORXH64,HPV Type 64
+ORXH66,HPV Type 66
+ORXH67,HPV Type 67
+ORXH68,HPV Type 68
+ORXH69,HPV Type 69
+ORXH70,HPV Type 70
+ORXH71,HPV Type 71
+ORXH72,HPV Type 72
+ORXH73,HPV Type 73
+ORXH81,HPV Type 81
+ORXH82,HPV Type 82
+ORXH83,HPV Type 83
+ORXH84,HPV Type 84
+ORXHPC,HPV CP 6108
+ORXHPI,HPV Type IS39
+ORXHPV,Oral HPV Result
+LBXHP2C,Cobas HPV Swab High Risk
+LBDRPCR,Roche HPV linear array summary result
+LBDRHP,Roche LA high positive globin control
+LBDRLP,Roche LA low positive globin control
+LBDR06,HPV type 6
+LBDR11,HPV type 11
+LBDR16,HPV type 16
+LBDR18,HPV type 18
+LBDR26,HPV type 26
+LBDR31,HPV type 31
+LBDR33,HPV type 33
+LBDR35,HPV type 35
+LBDR39,HPV type 39
+LBDR40,HPV type 40
+LBDR42,HPV type 42
+LBDR45,HPV type 45
+LBDR51,HPV type 51
+LBDR52,HPV type 52
+LBDR53,HPV type 53
+LBDR54,HPV type 54
+LBDR55,HPV type 55
+LBDR56,HPV type 56
+LBDR58,HPV type 58
+LBDR59,HPV type 59
+LBDR61,HPV type 61
+LBDR62,HPV type 62
+LBDR64,HPV type 64
+LBDR66,HPV type 66
+LBDR67,HPV type 67
+LBDR68,HPV type 68
+LBDR69,HPV type 69
+LBDR70,HPV type 70
+LBDR71,HPV type 71
+LBDR72,HPV type 72
+LBDR73,HPV type 73
+LBDR81,HPV type 81
+LBDR82,HPV type 82
+LBDR83,HPV type 83
+LBDR84,HPV type 84
+LBDR89,HPV type 89
+LBDRPI,HPV type IS39
+LBXIN,Insulin (uU/mL)
+LBDINSI,Insulin (pmol/L)
+URXUIO,"Iodine, urine (ug/L)"
+SSKLOTH,Klotho (pg/ml)
+WTSH2YR,Blood metal weights
+LBXBPB,Blood lead (ug/dL)
+LBDBPBSI,Blood lead (umol/L)
+LBDBPBLC,Blood lead comment code
+LBXBCD,Blood cadmium (ug/L)
+LBDBCDSI,Blood cadmium (umol/L)
+LBDBCDLC,Blood cadmium comment code
+LBXTHG,"Blood mercury, total (ug/L)"
+LBDTHGSI,"Blood mercury, total (umol/L)"
+LBDTHGLC,"Blood mercury, total comment code"
+LBXBSE,Blood selenium (ug/L)
+LBDBSESI,Blood selenium (umol/L)
+LBDBSELC,Blood selenium comment code
+LBXBMN,Blood manganese (ug/L)
+LBDBMNSI,Blood manganese (umol/L)
+LBDBMNLC,Blood manganese comment code
+URXUHG,"Mercury, urine (ug/L)"
+URDUHGLC,"Mercury, urine comment code"
+LBXIHG,"Mercury, inorganic (ug/L)"
+LBDIHGSI,"Mercury, inorganic (umol/L )"
+LBDIHGLC,"Mercury, inorganic  comment code"
+LBXBGE,"Mercury, ethyl (ug/L)"
+LBDBGELC,"Mercury, ethyl comment code"
+LBXBGM,"Mercury, methyl (ug/L)"
+LBDBGMLC,"Mercury, methyl comment code"
+URXUBA,"Barium, urine (ug/L)"
+URDUBALC,Urinary Barium comment code
+URXUCD,"Cadmium, urine (ug/L)"
+URDUCDLC,Urinary Cadmium comment code
+URXUCO,"Cobalt, urine (ug/L)"
+URDUCOLC,Urinary Cobalt (ug/L) comment code
+URXUCS,"Cesium, urine (ug/L)"
+URDUCSLC,Urinary Cesium comment code
+URXUMO,"Molybdenum, urine (ug/L)"
+URDUMOLC,Urinary Molybdenum comment code
+URXUMN,"Manganese, urine (ug/L)"
+URDUMNLC,Urinary Mn comment code
+URXUPB,"Lead, urine (ug/L)"
+URDUPBLC,Urinary Lead comment code
+URXUSB,"Antimony, urine (ug/L)"
+URDUSBLC,Urinary Antimony comment code
+URXUSN,"Tin, urine (ug/L)"
+URDUSNLC,Tin comment code
+URXUSR,"Strontium, urine (ug/L)"
+URDUSRLC,Strontium comment code
+URXUTL,"Thallium, urine (ug/L)"
+URDUTLLC,Urinary Thallium comment code
+URXUTU,"Tungsten, urine (ug/L)"
+URDUTULC,Urinary Tungsten comment code
+URXUUR,"Uranium, urinary (ug/L)"
+URDUURLC,Urinary Uranium comment code
+LBXMMASI,Methylmalonic Acid (nmol/L)
+LBDMMALC,Methylmalonic Acid comment code
+LBC028,PCB 28 (pg/g)
+LBC028LA,PCB 28 Lipid Adj (ng/g)
+LBD028LC,PCB 28 Comment Code
+LBC066,PCB 66 (pg/g)
+LBC066LA,PCB 66 Lipid Adj (ng/g)
+LBD066LC,PCB 66 Comment Code
+LBC074,PCB 74 (pg/g)
+LBC074LA,PCB 74 Lipid Adj (ng/g)
+LBD074LC,PCB 74 Comment Code
+LBC099,PCB 99 (pg/g)
+LBC099LA,PCB 99 Lipid Adj (ng/g)
+LBD099LC,PCB 99 Comment Code
+LBC105,PCB 105 (pg/g)
+LBC105LA,PCB 105 Lipid Adj (ng/g)
+LBD105LC,PCB 105 Comment Code
+LBC114,PCB 114 (pg/g)
+LBC114LA,PCB 114 Lipid Adj (ng/g)
+LBD114LC,PCB 114 Comment Code
+LBC118,PCB 118 (pg/g)
+LBC118LA,PCB 118 Lipid Adj (ng/g)
+LBD118LC,PCB 118 Comment Code
+LBC138,PCB 138 (pg/g)
+LBC138LA,PCB 138 Lipid Adj (ng/g)
+LBD138LC,PCB 138 Comment Code
+LBC146,PCB 146 (pg/g)
+LBC146LA,PCB 146 Lipid Adj (ng/g)
+LBD146LC,PCB 146 Comment Code
+LBC153,PCB 153 (pg/g)
+LBC153LA,PCB 153 Lipid Adj (ng/g)
+LBD153LC,PCB 153 Comment Code
+LBC156,PCB 156 (pg/g)
+LBC156LA,PCB 156 Lipid Adj (ng/g)
+LBD156LC,PCB 156 Comment Code
+LBC157,PCB 157 (pg/g)
+LBC157LA,PCB 157 Lipid Adj (ng/g)
+LBD157LC,PCB 157 Comment Code
+LBC167,PCB 167 (pg/g)
+LBC167LA,PCB 167 Lipid Adj (ng/g)
+LBD167LC,PCB 167 Comment Code
+LBC170,PCB 170 (pg/g)
+LBC170LA,PCB 170 Lipid Adj (ng/g)
+LBD170LC,PCB 170 Comment Code
+LBC178,PCB 178 (pg/g)
+LBC178LA,PCB 178 Lipid Adj (ng/g)
+LBD178LC,PCB 178 Comment Code
+LBC180,PCB 180 (pg/g)
+LBC180LA,PCB 180 Lipid Adj (ng/g)
+LBD180LC,PCB 180 Comment Code
+LBC183,PCB 183 (pg/g)
+LBC183LA,PCB 183 Lipid Adj (ng/g)
+LBD183LC,PCB 183 Comment Code
+LBC187,PCB 187 (pg/g)
+LBC187LA,PCB 187 Lipid Adj (ng/g)
+LBD187LC,PCB 187 Comment Code
+LBC189,PCB 189 (pg/g)
+LBC189LA,PCB 189 Lipid Adj (ng/g)
+LBD189LC,PCB 189 Comment Code
+LBC194,PCB 194 (pg/g)
+LBC194LA,PCB 194 Lipid Adj (ng/g)
+LBD194LC,PCB 194 Comment Code
+LBC196,PCB 196 (pg/g)
+LBC196LA,PCB 196 Lipid Adj (ng/g)
+LBD196LC,PCB 196 Comment Code
+LBC199,PCB 199 (pg/g)
+LBC199LA,PCB 199 Lipid Adj (ng/g)
+LBD199LC,PCB 199 Comment Code
+LBC206,PCB 206 (pg/g)
+LBC206LA,PCB 206 Lipid Adj (ng/g)
+LBD206LC,PCB 206 Comment Code
+LBC209,PCB 209 (pg/g)
+LBC209LA,PCB 209 Lipid Adj (ng/g)
+LBD209LC,PCB 209 Comment Code
+WTSOG2YR,OGTT Subsample 2 Year MEC Weight
+LBXGLT,Two Hour Glucose(OGTT) (mg/dL)
+LBDGLTSI,Two Hour Glucose(OGTT) (mmol/L)
+GTDSCMMN,Glucose challenge Administer Time in min
+GTDDR1MN,Time from fast glucose & challenge(min)
+GTDBL2MN,Time from fasting glucose & OGTT (min)
+GTDDR2MN,Time from glucose challenge & OGTT(min)
+GTXDRANK,Amount of glucose challenge drank
+GTDCODE,Incomplete OGTT Comment Code
+URXUP8,Urinary perchlorate (ng/mL)
+URDUP8LC,Urinary perchlorate comment code
+URXNO3,Urinary nitrate (ng/mL)
+URDNO3LC,Urinary nitrate comment code
+URXSCN,Urinary thiocyanate (ng/mL)
+URDSCNLC,Urinary thiocyanate comment code
+WTSB2YR,Subsample B weights
+LBXPFDE,Perfluorodecanoic acid (ug/L)
+LBDPFDEL,Perfluorodecanoic acid comment
+LBXPFHS,Perfluorohexane sulfonic acid (ug/L)
+LBDPFHSL,Perfluorohexane sulfonic acid comment
+LBXMPAH,2-(N-methyl-PFOSA) acetate (ug/L)
+LBDMPAHL,2-(N-methyl-PFOSA) acetate comment
+LBXPFBS,Perfluorobutane sulfonic acid (ug/L)
+LBDPFBSL,Perfluorobutane sulfonic acid comment
+LBXPFHP,Perfluoroheptanoic acid (ug/L)
+LBDPFHPL,Perfluoroheptanoic acid comment
+LBXPFNA,Perfluorononanoic acid (ug/L)
+LBDPFNAL,Perfluorononanoic acid comment
+LBXPFUA,Perfluoroundecanoic acid (ug/L)
+LBDPFUAL,Perfluoroundecanoic acid comment
+LBXPFDO,Perfluorododecanoic acid (ug/L)
+LBDPFDOL,Perfluorododecanoic acid comment
+URXBP3,Urinary Benzophenone-3 (ng/mL)
+URDBP3LC,Urinary Benzophenone-3 comment
+URXBPH,Urinary Bisphenol A (ng/mL)
+URDBPHLC,Urinary Bisphenol A comment
+URXBPF,Urinary Bisphenol F (ug/L)
+URDBPFLC,Urinary Bisphenol F comment
+URXBPS,Urinary Bisphenol S (ug/L)
+URDBPSLC,Urinary Bisphenol S comment
+URXTLC,Urinary Triclocarban (ng/mL)
+URDTLCLC,Urinary Triclocarban comment
+URXTRS,Urinary Triclosan (ng/mL)
+URDTRSLC,Urinary Triclosan comment
+URXBUP,Butyl paraben (ng/ml)
+URDBUPLC,Butyl paraben comment
+URXEPB,Ethyl paraben (ng/ml)
+URDEPBLC,Ethyl paraben comment
+URXMPB,Methyl paraben (ng/ml)
+URDMPBLC,Methyl paraben comment
+URXPPB,Propyl paraben (ng/ml)
+URDPPBLC,Propyl paraben comment
+URX14D,"2,5-dichlorophenol (ug/L)"
+URD14DLC,"2,5-dichlorophenol comment"
+URXDCB,"2,4-dichlorophenol (ug/L)"
+URDDCBLC,"2,4-dichlorophenol comment"
+LBCBHC,Beta-hexachlorocyclohexane (pg/g)
+LBCBHCLA,B-hexachlorocyclohexane Lipid Adj (ng/g)
+LBDBHCLC,Beta-hexachlorocyclohexane comment code
+LBCHCB,Hexachlorobenzene (pg/g)
+LBCHCBLA,Hexachlorobenzene Lipid Adj (ng/g)
+LBDHCBLC,Hexachlorobenzene comment code
+LBCMIR,Mirex (pg/g)
+LBCMIRLA,Mirex Lipid Adj (ng/g)
+LBDMIRLC,Mirex comment code
+LBCOXY,Oxychlordane (pg/g)
+LBCOXYLA,Oxychlordane Lipid Adj (ng/g)
+LBDOXYLC,Oxychlordane comment code
+LBCPDE,"p,p'-DDE (pg/g)"
+LBCPDELA,"p,p'-DDE Lipid Adj (ng/g)"
+LBDPDELC,"p,p'-DDE comment code"
+LBCPDT,"p,p'-DDT (pg/g)"
+LBCPDTLA,"p,p'-DDT Lipid Adj (ng/g)"
+LBDPDTLC,"p,p'-DDT comment code"
+LBCTNA,trans-Nonachlor (pg/g)
+LBCTNALA,trans-Nonachlor Lipid Adj (ng/g)
+LBDTNALC,trans-Nonachlor comment code
+URXCNP,Mono(carboxynonyl) Phthalate (ng/mL)
+URDCNPLC,Mono(carboxynonyl) Phthalate cmt code
+URXCOP,Mono(carboxyoctyl) Phthalate (ng/mL)
+URDCOPLC,Mono(carboxyoctyl) phthalate cmt code
+URXECP,MECP phthalate (ng/mL)
+URDECPLC,MECP phthalate comment code
+URXMBP,Mono-n-butyl phthalate (ng/mL)
+URDMBPLC,Mono-n-butyl phthalate comment code
+URXMC1,Mono-(3-carboxypropyl) phthalate (ng/mL)
+URDMC1LC,Mono-(3-carboxypropyl) phthalate cmt
+URXMEP,Mono-ethyl phthalate (ng/mL)
+URDMEPLC,Mono-ethyl phthalate comment code
+URXMHH,MEHP phthalate (ng/mL)
+URDMHHLC,MEHP phthalate comment code
+URXMHNC,MHNCH (ng/mL)
+URDMCHLC,MHNCH comment code
+URXMHP,Mono-(2-ethyl)-hexyl phthalate (ng/mL)
+URDMHPLC,Mono-(2-ethyl)-hexyl phthalate cmt code
+URXMIB,Mono-isobutyl phthalate (ng/mL)
+URDMIBLC,Mono-isobutyl phthalate comment code
+URXMNP,Mono-isononyl phthalate (ng/mL)
+URDMNPLC,Mono-isononyl phthalate comment code
+URXMOH,MEOH phthalate (ng/mL)
+URDMOHLC,MEOH phthalate comment code
+URXMZP,Mono-benzyl phthalate (ng/mL)
+URDMZPLC,Mono-benzyl phthalate comment code
+LBXGLU,Fasting Glucose (mg/dL)
+LBDGLUSI,Fasting Glucose (mmol/L)
+URXP01,1-Hydroxynaphthalene (ng/L)
+URDP01LC,1-Hydroxynaphthalene Comment Code
+URXP02,2-Hydroxynaphthalene (ng/L)
+URDP02LC,2-Hydroxynaphthalene Comment Code
+URXP03,3-Hydroxyfluorene (ng/L)
+URDP03LC,3-Hydroxyfluorene Comment Code
+URXP04,2-Hydroxyfluorene (ng/L)
+URDP04LC,2-Hydroxyfluorene Comment Code
+URXP06,1-Hydroxyphenanthrene (ng/L)
+URDP06LC,1-Hydroxyphenanthrene Comment Code
+URXP10,1-Hydroxypyrene (ng/L)
+URDP10LC,1-Hydroxypyrene Comment Code
+URXP25,2 & 3-Hydroxyphenanthrene (ng/L)
+URDP25LC,2 & 3-Hydroxyphenanthrene Comment Code
+WTSB2YRA,Adjusted subsample weight
+URXPREG,Pregnancy test result
+URX24D,"2,4-D (ug/L)"
+URD24DLC,"2,4-D Comment Code"
+URXCPM,"3,5,6-trichloropyridinol (ug/L)"
+URDCPMLC,"3,5,6-trichloropyridinol Comment Code"
+URX4FP,4-fluoro-3-phenoxy-benzoic acid (ug/L)
+URD4FPLC,4-fluoro-3-phenoxy-benzoic acid Cmt Code
+URXOPM,3-phenoxybenzoic acid (ug/L)
+URDOPMLC,3-phenoxybenzoic acid Comment Code
+URXOXY,Oxypyrimidine (ug/L)
+URDOXYLC,Oxypyrimidine Comment Code
+URXPAR,para-Nitrophenol (ug/L)
+URDPARLC,para-Nitrophenol Comment Code
+URXTCC,Dichlorovnl-dimeth prop carboacid (ug/L)
+URDTCCLC,Dichlorovnl-dimeth prop carboacid Code
+LBXTST,"Testosterone, total (ng/dL)"
+LBDTSTLC,Testosterone comment code
+LBXEST,Estradiol (pg/mL)
+LBDESTLC,Estradiol Comment Code
+LBXSHBG,SHBG (nmol/L)
+LBDSHGLC,SHBG Comment Code
+LBXSAL,Albumin (g/dL)
+LBDSALSI,Albumin (g/L)
+LBXSAPSI,Alkaline phosphatase (IU/L)
+LBXSASSI,Aspartate aminotransferase AST (U/L)
+LBXSATSI,Alanine aminotransferase ALT (U/L)
+LBXSBU,Blood urea nitrogen (mg/dL)
+LBDSBUSI,Blood urea nitrogen (mmol/L)
+LBXSC3SI,Bicarbonate (mmol/L)
+LBXSCA,Total calcium (mg/dL)
+LBDSCASI,Total calcium (mmol/L)
+LBXSCH,Cholesterol (mg/dL)
+LBDSCHSI,Cholesterol (mmol/L)
+LBXSCK,Creatine Phosphokinase(CPK) (IU/L)
+LBXSCLSI,Chloride (mmol/L)
+LBXSCR,Creatinine (mg/dL)
+LBDSCRSI,Creatinine (umol/L)
+LBXSGB,Globulin (g/dL)
+LBDSGBSI,Globulin (g/L)
+LBXSGL,"Glucose, refrigerated serum (mg/dL)"
+LBDSGLSI,"Glucose, refrigerated serum (mmol/L)"
+LBXSGTSI,Gamma glutamyl transferase (U/L)
+LBXSIR,"Iron, refrigerated serum (ug/dL)"
+LBDSIRSI,"Iron, refrigerated serum  (umol/L)"
+LBXSKSI,Potassium (mmol/L)
+LBXSLDSI,Lactate dehydrogenase (U/L)
+LBXSNASI,Sodium (mmol/L)
+LBXSOSSI,Osmolality (mmol/Kg)
+LBXSPH,Phosphorus (mg/dL)
+LBDSPHSI,Phosphorus (mmol/L)
+LBXSTB,Total bilirubin (mg/dL)
+LBDSTBSI,Total bilirubin (umol/L)
+LBXSTP,Total protein (g/dL)
+LBDSTPSI,Total protein (g/L)
+LBXSTR,"Triglycerides, refrigerated (mg/dL)"
+LBDSTRSI,"Triglycerides, refrigerated  (mmol/L)"
+LBXSUA,Uric acid (mg/dL)
+LBDSUASI,Uric acid (umol/L)
+LBXTTG,Tissue transglutaminase(IgA-TTG)
+LBXEMA,Endomyseal antibody (IgA EMA)
+URXNAL,Urinary Total NNAL (ng/mL)
+URDNALLC,Urinary Total NNAL Comment Code
+URXNAB,"N'-Nitrosanabasine, urine (ng/mL)"
+URDNABLC,N'-Nitrosanabasine (NAB) Comment Code
+URXNAT,"N'-Nitrosanatabine, urine (ng/mL)"
+URDNATLC,N'-Nitrosanatabine (NAT) Comment Code
+URXNNN,"N'-Nitrosonornicotine, urine (ng/mL)"
+URDNNNLC,N'-Nitrosonornicotine (NNN) Comment Code
+URXUTRI,"Trichomonas, urine"
+URXVOL1,The volume of urine collection #1 (mL)
+URDFLOW1,Urine #1 Flow Rate (mL/min)
+URDTIME1,Minutes b/w last urination  & urine # 1
+URXVOL2,The volume of urine collection #2 (mL)
+URDFLOW2,Urine #2 Flow Rate (mL/min)
+URDTIME2,Minutes b/w urine # 1 & urine # 2
+URXVOL3,The volume of urine collection #3 (mL)
+URDFLOW3,Urine #3 Flow Rate (mL/min)
+URDTIME3,Minutes b/w urine # 2 & urine # 3
+LBDB12,Vitamin B12(pg/mL)
+LBDB12SI,Vitamin B12 (pmol/L)
+URXNDEA,N-Nitrosodiethylamine (NDEA) (ng/L)
+URDNDELC,NDEA Comment Code
+URXNMEA,N-Nitrosoethylmethylamine (NMEA) (ng/L)
+URDMEALC,NMEA Comment Code
+URXNMOR,N-Nitrosomorpholine (NMOR) (ng/L)
+URDMORLC,NMOR Comment Code
+URXNPIP,N-Nitrosopiperidine (NPIP) (ng/L)
+URDPIPLC,NPIP Comment Code
+URXNPYR,N-Nitrosopyrrolidine (NPYR) (ng/L)
+URDPYRLC,NPYR Comment Code
+URX1DC,"N-Acel-S-(1,2-dichlorovinl)-L-cys(ng/mL)"
+URD1DCLC,"N-acel-S-(1,2-dichlorovinl)-L-cys comt"
+URX2DC,"N-acel-S-(2,2-dichlorvinyl)-L-cys(ng/mL)"
+URD2DCLC,"N-acel-S-(2,2-dichlorvinyl)-L-cys comt"
+URX2MH,2-methylhippuric acid (ng/mL)
+URD2MHLC,2-methylhippuric acid comment code
+URX34M,3-methipurc acd & 4-methipurc acd(ng/mL)
+URD34MLC,3-methipurc acd & 4-methipurc acid comt
+URXAAM,N-ace-S-(2-carbamoylethyl)-L-cys(ng/mL)
+URDAAMLC,N-ace-S-(2-carbamoylethyl)-L-cys comt
+URXAMC,N-ace-S-(N-methlcarbamoyl)-L-cys(ng/mL)
+URDAMCLC,N-ace-S-(N-methlcarbamoyl)-L-cys comt
+URXATC,2-amnothiazolne-4-carbxylic acid(ng/mL)
+URDATCLC,2-amnothiazolne-4-carbxylic acid comt
+URXBMA,N-acetyl-S-(benzyl)-L-cysteine(ng/mL)
+URDBMALC,N-acetyl-S-(benzyl)-L-cysteine comt
+URXBPM,N-acetyl-S-(n-propyl)-L-cysteine(ng/mL)
+URDBPMLC,N-acetyl-S-(n-propyl)-L-cysteine comt
+URXCEM,N-acetyl-S- (2-carbxyethyl)-L-cys(ng/mL)
+URDCEMLC,N-acetyl-S-(2-carbxyethyl)-L-cys comt
+URXCYM,N-acetyl-S-(2-cyanoethyl)-L-cyst(ng/mL)
+URDCYMLC,N-acetyl-S-(2-cyanoethyl)-L-cyst comt
+URXDHB,"N-ace-S- (3,4-dihidxybutl)-L-cys(ng/mL)"
+URDDHBLC,"N-ace-S- (3,4-dihidxybutl)-L-cys comt"
+URXDPM,N-ace-S-(dimethylphenyl)-L-cys(ng/mL)
+URDDPMLC,N-ace-S-(dimethylphenyl)-L-cys comt
+URXGAM,N-ac-S-(2-carbmo-2-hydxel)-L-cys(ng/mL)
+URDGAMLC,N-ac-S-(2-carbmo-2-hydxel)-L-cys comt
+URXHEM,N-ace-S-(2-hydroxyethyl)-L-cys(ng/mL)
+URDHEMLC,N-ace-S-(2-hydroxyethyl)-L-cys comt
+URXHP2,N-ace-S-(2-hydroxypropyl)-L-cys(ng/mL)
+URDHP2LC,N-ace-S-(2-hydroxypropyl)-L-cys comt
+URXHPM,N-ace-S-(3-hydroxypropyl)-L-cys(ng/mL)
+URDHPMLC,N-ace-S-(3-hydroxypropyl)-L-cys comt
+URXMAD,Mandelic acid(ng/mL)
+URDMADLC,Mandelic acid comment code
+URXMB1,N-A-S-(1-hydrxMet)-2-Prpn)-L-cys(ng/mL)
+URDMB1LC,N-A-S-(1-hydrxmet)-2-Prpn)-L-cys comt
+URXMB2,N-Ac-S-(2-hydrxy-3-butnyl)-L-cys(ng/mL)
+URDMB2LC,N-Ac-S-(2-hydrxy-3-butnyl)-L-cys comt
+URXMB3,N-A-S-(4-hydrxy-2butn-l-yl)-L-cys(ng/mL)
+URDMB3LC,N-A-S-(4-hydrxy-2butn-l-yl)-L-cys comt
+URXPHE,N-ace-S-(phenl-2-hydxyetl)-L-cys(ng/mL)
+URDPHELC,N-ace-S-(phenl-2-hydxyetl)-L-cys comt
+URXPHG,Phenylglyoxylic acid(ng/mL)
+URDPHGLC,Phenylglyoxylic acid comment code
+URXPMA,N-acetyl-S-(phenyl)-L-cysteine(ng/mL)
+URDPMALC,N-acetyl-S-(phenyl)-L-cysteine comt
+URXPMM,N-A-S-(3-hydrxprpl-1-metl)-L-cys(ng/mL)
+URDPMMLC,N-A-S-(3-hydrxprpl-1-metl)-L-cys comt
+URXTCV,N-acetyl-S-(trichlorovinyl)-L-cys(ng/mL)
+URDTCVLC,N-acetyl-S-(trichlorovinyl)-L-cys comt
+URXTTC,2-thoxothazlidne-4-carbxylic acid(ng/mL)
+URDTTCLC,2-thoxothazlidne-4-carbxylic comt
+WTSVS2YR,VOC Smoking Subsample Weight
+LBX2DF,"Blood 2,5-Dimethylfuran (ng/mL)"
+LBD2DFLC,"Blood 2,5-Dimethylfuran Comment Code"
+LBX4CE,"Blood 1,1,1,2-Tetrachloroethane (ng/mL)"
+LBD4CELC,"Blood 1,1,1,2-Tetrachloroethane Cmt Code"
+LBXV06,Blood Hexane (ng/mL)
+LBDV06LC,Blood Hexane Comment Code
+LBXV07N,Blood Heptane (ng/mL)
+LBDV07LC,Blood Heptane Comment Code
+LBXV08N,Blood Octane (ng/mL)
+LBDV08LC,Blood Octane Comment Code
+LBXV1D,"Blood 1,2-Dichlorobenzene (ng/mL)"
+LBDV1DLC,"Blood 1,2-Dichlorobenzene Comment Code"
+LBXV2A,"Blood 1,2-Dichloroethane (ng/mL)"
+LBDV2ALC,"Blood 1,2-Dichloroethane Comment Code"
+LBXV3B,"Blood 1,3-Dichlorobenzene (ng/mL)"
+LBDV3BLC,"Blood 1,3-Dichlorobenzene Comment Code"
+LBXV4C,Blood Tetrachloroethene (ng/mL)
+LBDV4CLC,Blood Tetrachloroethene Comment Code
+LBXVBF,Blood Bromoform (ng/mL)
+LBDVBFLC,Blood Bromoform Comment Code
+LBXVBM,Blood Bromodichloromethane (ng/mL)
+LBDVBMLC,Blood Bromodichloromethane Comment Code
+LBXVBZ,Blood Benzene (ng/mL)
+LBDVBZLC,Blood Benzene Comment Code
+LBXVC6,Blood Cyclohexane (ng/mL)
+LBDVC6LC,Blood Cyclohexane Comment Code
+LBXVCB,Blood Chlorobenzene (ng/mL)
+LBDVCBLC,Blood Chlorobenzene Comment Code
+LBXVCF,Blood Chloroform (ng/mL)
+LBDVCFLC,Blood Chloroform Comment Code
+LBXVCM,Blood Dibromochloromethane (ng/mL)
+LBDVCMLC,Blood Dibromochloromethane Comment Code
+LBXVCT,Blood Carbon Tetrachloride (ng/mL)
+LBDVCTLC,Blood Carbon Tetrachloride Comment Code
+LBXVDB,"Blood 1,4-Dichlorobenzene (ng/mL)"
+LBDVDBLC,"Blood 1,4-Dichlorobenzene Comment Code"
+LBXVDE,"Blood 1,2-Dibromoethane (ng/mL)"
+LBDVDELC,"Blood 1,2-Dibromoethane Comment Code"
+LBXVDEE,Blood Diethyl Ether (ng/mL)
+LBDVEELC,Blood Diethyl Ether Comment Code
+LBXVDX,"Blood 1,4-Dioxane (ng/mL)"
+LBDVDXLC,"Blood 1,4-Dioxane Comment Code"
+LBXVEA,Blood Ethyl Acetate (ng/mL)
+LBDVEALC,Blood Ethyl Acetate Comment Code
+LBXVEB,Blood Ethylbenzene (ng/mL)
+LBDVEBLC,Blood Ethylbenzene Comment Code
+LBXVEC,Blood Chloroethane (ng/mL)
+LBDVECLC,Blood Chloroethane Comment Code
+LBXVFN,Blood Furan (ng/mL)
+LBDVFNLC,Blood Furan Comment Code
+LBXVIPB,Blood Isopropylbenzene (ng/mL)
+LBDVIPLC,Blood Isopropylbenzene Comment Code
+LBXVMC,Blood Methylene Chloride (ng/mL)
+LBDVMCLC,Blood Methylene Chloride Comment Code
+LBXVME,Blood MTBE (ng/mL)
+LBDVMELC,Blood MTBE Comment Code
+LBXVMCP,Blood Methylcyclopentane (ng/mL)
+LBDVMPLC,Blood Methylcyclopentane Comment Code
+LBXVNB,Blood Nitrobenzene (ng/mL)
+LBDVNBLC,Blood Nitrobenzene Comment Code
+LBXVOX,Blood o-Xylene (ng/mL)
+LBDVOXLC,Blood o-Xylene Comment Code
+LBXVTC,Blood Trichloroethene (ng/mL)
+LBDVTCLC,Blood Trichloroethene Comment Code
+LBXVTE,"Blood 1,1,1-Trichloroethane (ng/mL)"
+LBDVTELC,"Blood 1,1,1-Trichloroethane Comment Code"
+LBXVTFT,Blood aaa - Trifluorotoluene (ng/mL)
+LBDVFTLC,Blood aaa -Trifluorotoluene Comment Code
+LBXVTHF,Blood Tetrahydrofuran (ng/mL)
+LBDVHTLC,Blood Tetrahydrofuran Comment Code
+LBXVTO,Blood Toluene (ng/mL)
+LBDVTOLC,Blood Toluene Comment Code
+LBXVTP,"Blood 1,2,3-Trichloropropane (ng/mL)"
+LBDVTPLC,"Blood 1,2,3-Trichloropropane Comt Code"
+LBXVVB,Blood Vinyl Bromide (ng/mL)
+LBDVVBLC,Blood Vinyl Bromide Comment Code
+LBXVXY,Blood m-/p-Xylene (ng/mL)
+LBDVXYLC,Blood m-/p-Xylene Comment Code
+VTQ210,Attached garage?
+VTQ220,Private well?
+VTQ200A,Store paints or fuels inside home?
+VTQ231A,Moth balls or crystals?
+VTQ241A,Did you cook with natural gas?
+VTQ241B,How long ago did you cook w natural gas?
+VTQ244A,Did you pump gas in to your car?
+VTQ244B,Long ago did you pump gas in your car?
+VTQ265A,Spend 10+ minutes near cigarette smoke?
+VTQ265B,Long since being near person smoking?
+VTQ271A,"In last 48 hrs, bathe for 5+ minutes?"
+VTQ271B,"How long, in hrs, since you bathed?"
+VTQ281A,In past 48 hrs breathe paint fumes?
+VTQ281B,"How long, since breathed paint fumes?"
+VTQ281C,In past 48 hrs breathe diesel fumes?
+VTQ281D,"How long, since breathed diesel fumes?"
+VTQ281E,Breathe fingernail polish fumes?
+VTQ281F,How long since breathed polish fumes?
+WTSVOC2Y,VOC Subsample Weight
+ACD011A,Speak English at home - NHW or NHB
+ACD011B,Speak Spanish at home - NHW or NHB
+ACD011C,Speak other language at home -NHW or NHB
+ACD040,Language(s) spoken at home - Hispanics
+ACD110,Language(s) spoken at home - Asians
+ALQ101,Had at least 12 alcohol drinks/1 yr?
+ALQ110,Had at least 12 alcohol drinks/lifetime?
+ALQ120Q,How often drink alcohol over past 12 mos
+ALQ120U,"# days drink alcohol per wk, mo, yr"
+ALQ130,Avg # alcoholic drinks/day - past 12 mos
+ALQ141Q,# days have 4/5 drinks - past 12 mos
+ALQ141U,"# days per week, month, year?"
+ALQ151,Ever have 4/5 or more drinks every day?
+ALQ160,# days have 4/5 or more drinks in 2 hrs
+BPQ020,Ever told you had high blood pressure
+BPQ030,Told had high blood pressure - 2+ times
+BPD035,Age told had hypertension
+BPQ040A,Taking prescription for hypertension
+BPQ050A,Now taking prescribed medicine for HBP
+BPQ056,Take blood pressure at home last 12 mos?
+BPD058,How often checked BP at home last 12 mos
+BPQ059,Doctor tell you to take BP at home?
+BPQ080,Doctor told you - high cholesterol level
+BPQ060,Ever had blood cholesterol checked
+BPQ070,When blood cholesterol last checked
+BPQ090D,Told to take prescriptn for cholesterol
+BPQ100D,Now taking prescribed medicine
+CDQ001,SP ever had pain or discomfort in chest
+CDQ002,SP get it walking uphill or in a hurry
+CDQ003,During an ordinary pace on level ground
+CDQ004,If so does SP continue or slow down
+CDQ005,Does standing relieve pain/discomfort
+CDQ006,How soon is the pain relieved
+CDQ009A,Pain in right arm
+CDQ009B,Pain in right chest
+CDQ009C,Pain in neck
+CDQ009D,Pain in upper sternum
+CDQ009E,Pain in lower sternum
+CDQ009F,Pain in left chest
+CDQ009G,Pain in left arm
+CDQ009H,Pain in epigastric area
+CDQ008,Severe pain in chest more than half hour
+CDQ010,Shortness of breath on stairs/inclines
+CFASTAT,Cognitive functioning status
+CFALANG,Language - Cognitive Functioning
+CFDCCS,CERAD: Completion Status
+CFDCRNC,CERAD: Reason Not Complete
+CFDCST1,CERAD: Score Trial 1 Recall
+CFDCST2,CERAD: Score Trial 2 Recall
+CFDCST3,CERAD: Score Trial 3 Recall
+CFDCSR,CERAD: Score Delayed Recall
+CFDCIT1,CERAD: Intrusion word count Trial 1
+CFDCIT2,CERAD: Intrusion word count Trial 2
+CFDCIT3,CERAD: Intrusion word count Trial 3
+CFDCIR,CERAD: Intrusion word count Recall
+CFDAPP,Animal Fluency: Sample Practice Pretest
+CFDARNC,Animal Fluency: Reason Not Done
+CFDAST,Animal Fluency: Score Total
+CFDDPP,Digit Symbol: Sample Practice Pretest
+CFDDRNC,Digit Symbol: Reason Not Done
+CFDDS,Digit Symbol: Score
+CBD070,Money spent at supermarket/grocery store
+CBD090,Money spent on nonfood items
+CBD110,Money spent on food at other stores
+CBD120,Money spent on eating out
+CBD130,Money spent on carryout/delivered foods
+CKQ010,Strenuous exercise in the past 3 days?
+CKQ020,Did exercise make muscles sore/painful
+CKQ030,"Past 3 days muscle injury, bruise, injct"
+CKQ040,Injury/injct made muscles sore/painful
+CKD060,Other muscle pain/soreness last 3 days
+CKQ070Q,Quantity: how long pain/aching/soreness
+CKQ070U,Unit: how long pain/aching/soreness
+HSD010,General health condition
+HSQ500,SP have head cold or chest cold
+HSQ510,SP have stomach or intestinal illness?
+HSQ520,"SP have flu, pneumonia, ear infection?"
+HSQ571,SP donated blood in past 12 months?
+HSQ580,How long ago was last blood donation?
+HSQ590,Blood ever tested for HIV virus?
+HSAQUEX,Source of Health Status Data
+DED031,Skin reaction to sun after non-exposure
+DEQ034A,Stay in the shade?
+DEQ034C,Wear a long sleeved shirt
+DEQ034D,Use sunscreen?
+DEQ038G,In past yr did you have sunburn?
+DEQ038Q,# of times in past yr you had a sunburn
+DED120,Minutes outdoors 9am - 5pm work day
+DED125,Minutes outdoors 9am - 5pm not work day
+DIQ010,Doctor told you have diabetes
+DID040,Age when first told you had diabetes
+DIQ160,Ever told you have prediabetes
+DIQ170,Ever told have health risk for diabetes
+DIQ172,Feel could be at risk for diabetes
+DIQ175A,Family history
+DIQ175B,Overweight
+DIQ175C,Age
+DIQ175D,Poor diet
+DIQ175E,Race
+DIQ175F,Had a baby weighed over 9 lbs. at birth
+DIQ175G,Lack of physical activity
+DIQ175H,High blood pressure
+DIQ175I,High blood sugar
+DIQ175J,High cholesterol
+DIQ175K,Hypoglycemic
+DIQ175L,Extreme hunger
+DIQ175M,Tingling/numbness in hands or feet
+DIQ175N,Blurred vision
+DIQ175O,Increased fatigue
+DIQ175P,Anyone could be at risk
+DIQ175Q,Doctor warning
+DIQ175R,"Other, specify"
+DIQ175S,Gestational diabetes
+DIQ175T,Frequent urination
+DIQ175U,Thirst
+DIQ175V,Craving for sweet/eating a lot of sugar
+DIQ175W,Medication
+DIQ175X,Polycystic ovarian syndrome
+DIQ180,Had blood tested past three years
+DIQ050,Taking insulin now
+DID060,How long taking insulin
+DIQ060U,Unit of measure (month/year)
+DIQ070,Take diabetic pills to lower blood sugar
+DIQ230,How long ago saw a diabetes specialist
+DIQ240,Is there one Dr you see for diabetes
+DID250,Past year how many times seen doctor
+DID260,How often check blood for glucose/sugar
+DIQ260U,Unit of measure (day/week/month/year)
+DIQ275,Past year Dr checked for A1C
+DIQ280,What was your last A1C level
+DIQ291,What does Dr say A1C should be
+DIQ300S,What was your recent SBP
+DIQ300D,What was your recent DBP
+DID310S,What does Dr say SBP should be
+DID310D,What does Dr say DBP should be
+DID320,What was most recent LDL number
+DID330,What does Dr say LDL should be
+DID341,Past year times Dr check feet for sores
+DID350,How often do you check your feet
+DIQ350U,Unit of measure (day/week/month/year)
+DIQ360,Last time had pupils dilated for exam
+DIQ080,Diabetes affected eyes/had retinopathy
+DBQ010,Ever breastfed or fed breastmilk
+DBD030,Age stopped breastfeeding(days)
+DBD041,Age first fed formula(days)
+DBD050,Age stopped receiving formula(days)
+DBD055,Age started other than breastmilk/fomula
+DBD061,Age first fed milk(days)
+DBQ073A,Type of milk first fed - whole milk
+DBQ073B,Type of milk first fed - 2% milk
+DBQ073C,Type of milk first fed - 1% milk
+DBQ073D,Type of milk first fed - fat free milk
+DBQ073E,Type of milk first fed - soy milk
+DBQ073U,Type of milk first fed - other
+DBD085,CHECK ITEM
+DBQ700,How healthy is the diet
+DBQ197,Past 30 day milk product consumption
+DBQ223A,You drink whole or regular milk
+DBQ223B,You drink 2% fat milk
+DBQ223C,You drink 1% fat milk
+DBQ223D,You drink fat free/skim milk
+DBQ223E,You drink soy milk
+DBQ223U,You drink another type of milk
+DBQ229,Regular milk use 5 times per week
+DBQ235A,How often drank milk age 5-12
+DBQ235B,How often drank milk age 13-17
+DBQ235C,How often drank milk age 18-35
+DBQ301,Community/Government meals delivered
+DBQ330,Eat meals at Community/Senior center
+DBQ360,Attend kindergarten thru high school
+DBQ370,School serves school lunches
+DBD381,# of times/week get school lunch
+DBQ390,"School lunch free, reduced or full price"
+DBQ400,School serve complete breakfast each day
+DBD411,# of times/week get school breakfast
+DBQ421,School breakfast free/reduced/full price
+DBQ424,Summer program meal free/reduced price
+DBD895,# of meals not home prepared
+DBD900,# of meals from fast food or pizza place
+DBD905,# of ready-to-eat foods in past 30 days
+DBD910,# of frozen meals/pizza in past 30 days
+CBQ596,Heard of My Plate
+CBQ606,Looked up My Plate on internet
+CBQ611,Tried My Plate plan
+CBQ505,Eat at fast food/pizza places
+CBQ535,Saw nutrition info on fast food menu
+CBQ540,Used nutrition info to choose fast foods
+CBQ545,Would use fast food nutrition info
+CBQ550,Eat at restaurants w/ waiter
+CBQ552,Is it a chain-restaurant?
+CBQ580,Saw nutrition info on restaurant menu
+CBQ585,Used nutrition info in restaurant
+CBQ590,Would use restaurant nutrition info
+DLQ010,Have serious difficulty hearing?
+DLQ020,Have serious difficulty seeing?
+DLQ040,Have serious difficulty concentrating ?
+DLQ050,Have serious difficulty walking ?
+DLQ060,Have difficulty dressing or bathing?
+DLQ080,Have difficulty doing errands alone ?
+DUQ200,Ever used marijuana or hashish
+DUQ210,Age when first tried marijuana
+DUQ211,Used marijuana every month for a year?
+DUQ213,Age started regularly using marijuana
+DUQ215Q,Time since last used marijuana regularly
+DUQ215U,Time since used marijuana regularly/unit
+DUQ217,How often would you use marijuana?
+DUQ219,How many joints or pipes smoke in a day?
+DUQ220Q,Last time used marijuana or hashish
+DUQ220U,Last time used marijuana or hashish/unit
+DUQ230,# days used marijuana or hashish/month
+DUQ240,Ever used cocaine/heroin/methamphetamine
+DUQ250,Ever use any form of cocaine
+DUQ260,Age first used cocaine
+DUQ270Q,"Last time you used cocaine, in any form"
+DUQ270U,Last time you used cocaine/unit
+DUQ272,# of time you used cocaine
+DUQ280,# of days used cocaine/month
+DUQ290,Ever used heroin
+DUQ300,Age first used heroin
+DUQ310Q,Last time used heroin
+DUQ310U,Last time used heroin/unit
+DUQ320,# of days used heroin/month
+DUQ330,Ever used methamphetamine
+DUQ340,Age first used methamphetamine
+DUQ350Q,Last time used methamphetamine
+DUQ350U,Last time used methamphetamine/unit
+DUQ352,# times used methamphetamine
+DUQ360,# days used methamphetamine/month
+DUQ370,Ever use a needle to inject illegal drug
+DUQ380A,Drugs injected - Cocaine
+DUQ380B,Drugs injected - Heroin
+DUQ380C,Drugs injected - Methamphetamine
+DUQ380D,Drugs injected - Steroids
+DUQ380E,Drugs injected - Any other drugs
+DUQ390,Age first injected drugs
+DUQ400Q,Last time injected drugs
+DUQ400U,Last time injected drugs/unit
+DUQ410,# times injected drugs/lifetime
+DUQ420,How often did you inject drugs
+DUQ430,Ever been in rehabilitation program
+ECD010,Mother's age when born
+ECQ020,Mother smoked when pregnant
+ECD070A,"Weight at birth, pounds"
+ECD070B,"Weight at birth, ounces"
+ECQ080,Weight more/less than 5.5 lbs
+ECQ090,Weight more/less than 9.0 lbs
+WHQ030E,How do you consider your child's weight
+MCQ080E,Your child was overweight
+ECQ150,Help your child control weight
+FSD032A,HH Worried run out of food
+FSD032B,HH Food didn't last
+FSD032C,HH Couldn't afford balanced meals
+FSD041,HH Adults cut size or skip meals
+FSD052,HH How often adults cut size/skip meals
+FSD061,HH Eat less than should
+FSD071,"HH Hungry, but didn't eat"
+FSD081,"HH Lost weight, no money for food"
+FSD092,HH Adults not eat whole day
+FSD102,HH How often adults not eat for day
+FSD032D,HH Relied on low-cost food for child
+FSD032E,HH Couldn't feed child balanced meal
+FSD032F,HH Child not eating enough
+FSD111,HH Cut size of child meals
+FSD122,HH Child skip meals
+FSD132,HH How often child skip meals
+FSD141,HH Child hungry in last 12 months
+FSD146,HH Child not eat whole day
+FSDHH,Household food security category
+FSDAD,Adult food security category
+FSDCH,Child food security category
+FSD151,HH Emergency food received
+FSQ165,HH FS benefit: ever received
+FSQ012,HH FS benefit: receive in last 12 months
+FSD012N,HH FS benefit: number people received
+FSD230,HH FS benefit: currently receive
+FSD225,HH FS benefit: time since last received
+FSQ235,HH FS benefit: amount received last time
+FSQ162,HH WIC benefit: receive in last 12 month
+FSD650ZC,CH WIC benefit: receive in last 12 month
+FSD660ZC,CH WIC benefit: currently receive
+FSD675,CH WIC benefit: received in infancy
+FSD680,CH WIC benefit: received b/w 1-4 yrs old
+FSD670ZC,CH WIC benefit: # of months received
+FSQ690,CH WIC benefit: Mom received while preg.
+FSQ695,CH WIC benefit: starting month of preg.
+FSD650ZW,WM WIC benefit: receive in last 12 month
+FSD660ZW,WM WIC benefit: currently receive
+FSD670ZW,WM WIC benefit: # of months received
+HIQ011,Covered by health insurance
+HIQ031A,Covered by private insurance
+HIQ031B,Covered by Medicare
+HIQ031C,Covered by Medi-Gap
+HIQ031D,Covered by Medicaid
+HIQ031E,Covered by SCHIP
+HIQ031F,Covered by military health care
+HIQ031G,Covered by Indian Health Service
+HIQ031H,Covered by state-sponsored health plan
+HIQ031I,Covered by other government insurance
+HIQ031J,Covered by single service plan
+HIQ031AA,No coverage of any type
+HIQ260,Have Medicare?
+HIQ105,Insurance card available or not
+HIQ270,Do plans cover prescriptions?
+HIQ210,Time when no insurance in past year?
+HEQ010,Ever told you have Hepatitis B?
+HEQ020,Ever prescribed meds treat Hepatitis B?
+HEQ030,Ever told you have Hepatitis C?
+HEQ040,Ever prescribed meds treat Hepatitis C?
+HUQ010,General health condition
+HUQ020,Health now compared with 1 year ago
+HUQ030,Routine place to go for healthcare
+HUQ041,Type place most often go for healthcare
+HUQ051,#times receive healthcare over past year
+HUQ061,How long since last healthcare visit
+HUQ071,Overnight hospital patient in last year
+HUD080,#times overnite hospital patient/last yr
+HUQ090,Seen mental health professional/past yr
+HOD050,Number of rooms in home
+HOQ065,"Home owned, bought, rented, other"
+IMQ011,Received Hepatitis A vaccine
+IMQ020,Received Hepatitis B 3 dose series
+IMQ040,Received HPV vaccine
+IMQ070,Received HPV vaccine
+IMQ080,HPV vaccine received
+IMQ090,Age first dose HPV
+IMQ045,"Received HPV, # of doses"
+INQ020,Income from wages/salaries
+INQ012,Income from self employment
+INQ030,Income from Social Security or RR
+INQ060,Income from other disability pension
+INQ080,Income from retirement/survivor pension
+INQ090,Income from Supplemental Security Income
+INQ132,Income from state/county cash assistance
+INQ140,Income from interest/dividends or rental
+INQ150,Income from other sources
+IND235,Monthly family income
+INDFMMPI,Family monthly poverty level index
+INDFMMPC,Family monthly poverty level category
+INQ244,Family has savings more than $5000
+IND247,Total savings/cash assets for the family
+KIQ022,Ever told you had weak/failing kidneys
+KIQ025,Received dialysis in past 12 months
+KIQ026,Ever had kidney stones?
+KID028,How many times passed a kidney stone?
+KIQ005,How often have urinary leakage
+KIQ010,How much urine lose each time?
+KIQ042,Leak urine during physical activities
+KIQ430,How frequently does this occur?
+KIQ044,Urinated before reaching the toilet
+KIQ450,How frequently does this occur?
+KIQ046,Leak urine during nonphysical activities
+KIQ470,How frequently does this occur?
+KIQ050,How much did urine leakage bother you
+KIQ052,How much were daily activities affected
+KIQ480,How many times urinate in night?
+MCQ010,Ever been told you have asthma
+MCQ025,Age when first had asthma
+MCQ035,Still have asthma
+MCQ040,Had asthma attack in past year
+MCQ050,Emergency care visit for asthma/past yr
+AGQ030,Did SP have episode of hay fever/past yr
+MCQ053,Taking treatment for anemia/past 3 mos
+MCQ070,Ever been told you have psoriasis?
+MCQ075,Degree of Psoriasis
+MCQ080,Doctor ever said you were overweight
+MCQ082,Ever been told you have celiac disease?
+MCQ084,Difficulties in thinking or remembering
+MCQ086,Are you on a gluten-free diet?
+MCQ092,Ever receive blood transfusion
+MCD093,Year receive blood transfusion
+MCQ149,Menstrual periods started yet?
+MCQ151,Age at first menstrual period
+MCQ160a,Doctor ever said you had arthritis
+MCQ180a,Age when told you had arthritis
+MCQ195,Which type of arthritis was it?
+MCQ160n,Doctor ever told you that you had gout?
+MCQ180n,Age when told you had gout.
+MCQ160b,Ever told had congestive heart failure
+MCQ180b,Age when told you had heart failure
+MCQ160c,Ever told you had coronary heart disease
+MCQ180c,Age when told had coronary heart disease
+MCQ160d,Ever told you had angina/angina pectoris
+MCQ180d,Age when told you had angina pectoris
+MCQ160e,Ever told you had heart attack
+MCQ180e,Age when told you had heart attack
+MCQ160f,Ever told you had a stroke
+MCQ180f,Age when told you had a stroke
+MCQ160g,Ever told you had emphysema
+MCQ180g,Age when told you had emphysema
+MCQ160m,Ever told you had thyroid problem
+MCQ170m,Do you still have thyroid problem
+MCQ180m,Age when told you had thyroid problem
+MCQ160k,Ever told you had chronic bronchitis
+MCQ170k,Do you still have chronic bronchitis
+MCQ180k,Age when told you had chronic bronchitis
+MCQ160l,Ever told you had any liver condition
+MCQ170l,Do you still have a liver condition
+MCQ180l,Age when told you had a liver condition
+MCQ160o,Ever told you had COPD?
+MCQ203,Ever been told you have jaundice?
+MCQ206,Age when told you have jaundice?
+MCQ220,Ever told you had cancer or malignancy
+MCQ230a,What kind of cancer
+MCQ230b,What kind of cancer
+MCQ230c,What kind of cancer
+MCQ230d,What kind of cancer
+MCQ240a,Age when bladder cancer first diagnosed
+MCQ240aa,Age testicular cancer first diagnosed
+MCQ240b,Age when blood cancer first diagnosed
+MCQ240bb,Age when thyroid cancer first diagnosed
+MCQ240c,Age when bone cancer first diagnosed
+MCQ240cc,Age when uterine cancer first diagnosed
+MCQ240d,Age when brain cancer first diagnosed
+MCQ240dd,Age other type of cancer first diagnosed
+MCQ240dk,How old when cancer first diagnosed?
+MCQ240e,Age when breast cancer first diagnosed
+MCQ240f,Age when cervical cancer first diagnosed
+MCQ240g,Age when colon cancer first diagnosed
+MCQ240h,Age esophageal cancer first diagnosed
+MCQ240i,Age gallbladder cancer first diagnosed
+MCQ240j,Age when kidney cancer first diagnosed
+MCQ240k,Age larynx/windpipe cancer diagnosed
+MCQ240l,Age when leukemia first diagnosed
+MCQ240m,Age when liver cancer first diagnosed
+MCQ240n,Age when lung cancer first diagnosed
+MCQ240o,Age lymphoma/Hodgkins'  diagnosed
+MCQ240p,Age when melanoma first diagnosed
+MCQ240q,Age mouth\tongue\lip cancer diagnosed
+MCQ240r,Age nervous system cancer diagnosed
+MCQ240s,Age when ovarian cancer first diagnosed
+MCQ240t,Age pancreatic cancer first diagnosed
+MCQ240u,Age prostate cancer first diagnosed
+MCQ240v,Age when rectal cancer first diagnosed
+MCQ240w,Age non-melanoma skin cancer diagnosed
+MCQ240x,Age unknown skin cancer first diagnosed
+MCQ240y,Age soft tissue cancer first diagnosed
+MCQ240z,Age stomach cancer first diagnosed
+MCQ300a,Close relative had heart attack?
+MCQ300b,Close relative had asthma?
+MCQ300c,Close relative had diabetes?
+MCQ365a,Doctor told you to lose weight
+MCQ365b,Doctor told you to exercise
+MCQ365c,Doctor told you to reduce salt in diet
+MCQ365d,Doctor told you to reduce fat/calories
+MCQ370a,Are you now controlling or losing weight
+MCQ370b,Are you now increasing exercise
+MCQ370c,Are you now reducing salt in diet
+MCQ370d,Are you now reducing fat in diet
+MCQ380,"Past 7 days, had trouble remembering"
+DPQ010,Have little interest in doing things
+DPQ020,"Feeling down, depressed, or hopeless"
+DPQ030,Trouble sleeping or sleeping too much
+DPQ040,Feeling tired or having little energy
+DPQ050,Poor appetite or overeating
+DPQ060,Feeling bad about yourself
+DPQ070,Trouble concentrating on things
+DPQ080,Moving or speaking slowly or too fast
+DPQ090,Thought you would be better off dead
+DPQ100,Difficulty these problems have caused
+OCD150,Type of work done last week
+OCQ180,Hours worked last week at all jobs
+OCQ210,Usually work 35 or more hours per week
+OCD231,Industry group code: current job
+OCD241,Occupation group code: current job
+OCQ260,Description of job/work situation
+OCD270,Number of months working in the main job
+OCQ380,Main reason did not work last week
+OCD390G,Kind of work you have done the longest
+OCD391,Industry group code: longest job
+OCD392,Occupation group code: longest job
+OCD395,Duration of longest job (months)
+OHQ030,When did you last visit a dentist
+OHQ033,Main reason for last dental visit
+OHQ770,Past yr need dental but couldn't get it
+OHQ780A,Could not afford the cost
+OHQ780B,Did not want to spend the money
+OHQ780C,Insurance did not cover procedures
+OHQ780D,Dental office is too far away
+OHQ780E,Office not open at convenient time
+OHQ780F,Another dentist recommended not doing it
+OHQ780G,Afraid or do not like dentists
+OHQ780H,Unable to take time off from work
+OHQ780I,Too busy
+OHQ780J,Expected dental problems to go away
+OHQ780K,Other reason could not get dental care
+OHQ555G,Age started brushing teeth
+OHQ555Q,Age started brushing teeth
+OHQ555U,Age started brushing teeth
+OHQ560G,Age started using toothpaste
+OHQ560Q,Age started using toothpaste
+OHQ560U,Age started using toothpaste
+OHQ565,Ever given prescription fluoride drops?
+OHQ570Q,Age started prescription fluoride drops
+OHQ570U,Age started prescription fluoride drops
+OHQ575G,Age stopped prescription fluoride drops
+OHQ575Q,Age stopped prescription fluoride drops
+OHQ575U,Age stopped prescription fluoride drops
+OHQ580,Ever given prescription fluoride tablets
+OHQ585Q,Age started prescription fluoride tablet
+OHQ585U,Age started prescription fluoride tablet
+OHQ590G,Age stopped prescription fluoride tablet
+OHQ590Q,Age stopped prescription fluoride tablet
+OHQ590U,Age stopped prescription fluoride tablet
+OHQ610,Told benefits of giving up cigarettes
+OHQ612,Told benefits of checking blood sugar
+OHQ614,Told importance of checking for cancer
+OHQ620,How often last yr had aching in mouth?
+OHQ640,Last yr had diff w/ job because of mouth
+OHQ680,Last yr embarrassed because of mouth
+OHQ835,Do you think you might have gum disease?
+OHQ845,Rate the health of your teeth and gums
+OHQ848G,# times you brush your teeth in 1 day?
+OHQ848Q,# times you brush your teeth in 1 day?
+OHQ849,How much toothpaste do you use?
+OHQ850,Ever had treatment for gum disease?
+OHQ855,Any teeth became loose without an injury
+OHQ860,Ever been told of bone loss around teeth
+OHQ865,Noticed a tooth that doesn't look right
+OHQ870,How many days use dental floss/device
+OHQ875,Days used mouthwash for dental problem
+OHQ880,Oral cancer exam where Dr pulls tonge
+OHQ885,Oral cancer exam where Dr feels neck
+OHQ895,When did you have oral/mouth cancer exam
+OHQ900,What type of prof performed oral exam
+OSQ010a,Broken or fractured a hip
+OSQ010b,Broken or fractured a wrist
+OSQ010c,Broken or fractured spine
+OSQ020a,# Times broken/fractured hip
+OSQ020b,# Times broken/fractured wrist
+OSQ020c,# Times broken/fractured spine
+OSD030aa,Age when fractured hip 1st time
+OSQ040aa,Under/over 50 when fracd. hip 1st time
+OSD050aa,Reason hip fracture occurred 1st time
+OSD030ab,Age when fractured hip 2nd time
+OSQ040ab,Under/over 50 when fracd. hip 2nd time
+OSD050ab,Reason hip fracture occurred 2nd time
+OSD030ac,Age when fractured hip 3rd time
+OSQ040ac,Under/over 50 when fracd. hip 3rd time
+OSD050ac,Reason hip fracture occurred 3rd time
+OSD030ba,Age when fractured wrist 1st time
+OSQ040ba,Under/over 50 when fracd. wrist 1st time
+OSD050ba,Reason wrist fracture occurred 1st time
+OSD030bb,Age when fractured wrist 2nd time
+OSQ040bb,Under/over 50 when fracd. wrist 2nd time
+OSD050bb,Reason wrist fracture occurred 2nd time
+OSD030bc,Age when fractured wrist 3rd time
+OSQ040bc,Under/over 50 when fracd. wrist 3rd time
+OSD050bc,Reason wrist fracture occurred 3rd time
+OSD030bd,Age when fractured wrist 4th time
+OSQ040bd,Under/over 50 when fracd. wrist 4th time
+OSD050bd,Reason wrist fracture occurred 4th time
+OSD030be,Age when fractured wrist 5th time
+OSQ040be,Under/over 50 when fracd. wrist 5th time
+OSD030bf,Age when fractured wrist 6th time
+OSQ040bf,Under/over 50 when fracd. wrist 6th time
+OSD030bg,Age when fractured wrist 7th time
+OSQ040bg,Under/over 50 when fracd. wrist 7th time
+OSD030bh,Age when fractured wrist 8th time
+OSQ040bh,Under/over 50 when fracd. wrist 8th time
+OSD030bi,Age when fractured wrist 9th time
+OSQ040bi,Under/over 50 when fracd. wrist 9th time
+OSD030bj,Age when fractured wrist 10th time
+OSQ040bj,Under/over 50 when fracd wrist 10th time
+OSD030ca,Age when fractured spine 1st time
+OSQ040ca,Under/over 50 when fracd. spine 1st time
+OSD050ca,Reason spine fracture occurred 1st time
+OSD030cb,Age when fractured spine 2nd time
+OSQ040cb,Under/over 50 when fracd. spine 2nd time
+OSD050cb,Reason spine fracture occurred 2nd time
+OSD030cc,Age when fractured spine 3rd time
+OSQ040cc,Under/over 50 when fracd. spine 3rd time
+OSQ080,Doctor ever told any other fractures?
+OSQ090a,Fracture result of severe trauma?
+OSQ100a,Where fracture occurred
+OSD110a,How old when fracture occurred?
+OSQ120a,Any other fractures?
+OSQ090b,Fracture result of severe trauma?
+OSQ100b,Where fracture occurred
+OSD110b,How old when fracture occurred?
+OSQ120b,Any other fractures?
+OSQ090c,Fracture result of severe trauma?
+OSQ100c,Where fracture occurred
+OSD110c,How old when fracture occurred?
+OSQ120c,Any other fractures?
+OSQ090d,Fracture result of severe trauma?
+OSQ100d,Where fracture occurred
+OSD110d,How old when fracture occurred?
+OSQ120d,Any other fractures?
+OSQ090e,Fracture result of severe trauma?
+OSQ100e,Where fracture occurred
+OSD110e,How old when fracture occurred?
+OSQ120e,Any other fractures?
+OSQ090f,Fracture result of severe trauma?
+OSQ120f,Any other fractures?
+OSQ090g,Fracture result of severe trauma?
+OSQ100g,Where fracture occurred
+OSD110g,How old when fracture occurred?
+OSQ120g,Any other fractures?
+OSQ090h,Fracture result of severe trauma?
+OSQ120h,Any other fractures?
+OSQ060,Ever told had osteoporosis/brittle bones
+OSQ072,Doctor prescribe RX for osteoporosis?
+OSQ130,Ever taken prednisone or cortisone daily
+OSQ140q,How long used prednisone or cortisone?
+OSQ140u,How long used prednisone or cortisone?
+OSQ150,Parents ever told had osteoporosis?
+OSQ160a,Mother was told had osteoporosis
+OSQ160b,Father was told had osteoporosis
+OSQ170,Did mother ever fracture hip?
+OSQ180,How old mother when fractured hip?
+OSQ190,Over or under 50 years old?
+OSQ200,Did father ever fracture hip?
+OSQ210,How old father when fractured hip?
+OSQ220,Over or under 50 years old?
+PUQ100,Products used in home to control insects
+PUQ110,Products used to kill weeds?
+PAQ605,Vigorous work activity
+PAQ610,Number of days vigorous work
+PAD615,Minutes vigorous-intensity work
+PAQ620,Moderate work activity
+PAQ625,Number of days moderate work
+PAD630,Minutes moderate-intensity work
+PAQ635,Walk or bicycle
+PAQ640,Number of days walk or bicycle
+PAD645,Minutes walk/bicycle for transportation
+PAQ650,Vigorous recreational activities
+PAQ655,Days vigorous recreational activities
+PAD660,Minutes vigorous recreational activities
+PAQ665,Moderate recreational activities
+PAQ670,Days moderate recreational activities
+PAD675,Minutes moderate recreational activities
+PAD680,Minutes sedentary activity
+PAQ706,Days physically active at least 60 min.
+PAQ710,Hours watch TV or videos past 30 days
+PAQ715,Hours use computer past 30 days
+PAQ722,Any physical activities past 7 days
+PAQ724a,Physical activity aerobics
+PAQ724b,Physical activity baseball
+PAQ724c,Physical activity basketball
+PAQ724d,Physical activity bike riding
+PAQ724e,Physical activity cheerleading
+PAQ724f,Physical activity dance
+PAQ724g,Physical activity field hockey
+PAQ724h,Physical activity football
+PAQ724i,Physical activity golf
+PAQ724j,Physical activity gymnastics
+PAQ724k,Physical activity hiking
+PAQ724l,Physical activity ice hockey
+PAQ724m,Physical activity ice skating
+PAQ724n,Physical activity jumping rope
+PAQ724o,Physical activity lacrosse
+PAQ724p,Physical activity martial arts
+PAQ724q,Physical activity playing games
+PAQ724r,Physical activity roller blading
+PAQ724s,Physical activity running
+PAQ724t,Physical activity scooter riding
+PAQ724u,Physical activity skateboarding
+PAQ724v,Physical activity soccer
+PAQ724w,Physical activity swimming
+PAQ724x,Physical activity tennis
+PAQ724y,Physical activity track & field
+PAQ724z,Physical activity volleyball
+PAQ724aa,Physical activity walking
+PAQ724ab,Physical activity wrestling
+PAQ724ac,Physical activity frisbee
+PAQ724ad,Physical activity backyard games
+PAQ724ae,Physical activity trampoline
+PAQ724af,Physical activity horseback riding
+PAQ724cm,Physical activity other
+PAQ731,Days played active video games
+PAD733,Minutes play active video games
+PAQ677,Past wk # days cardiovascular exercise
+PAQ678,Past wk # days strengthened muscles
+PAQ740,Use school facilities at lunch
+PAQ742,Use school facilities for physical activ
+PAQ744,Have PE during school days?
+PAQ746,How often do you have PE or gym?
+PAQ748,How long is the PE or gym class?
+PAQ755,Participate in school sports?
+PAQ759a,Participate in baseball
+PAQ759b,Participate in basketball
+PAQ759c,Participate in bocce ball
+PAQ759d,Participate in cheerleading
+PAQ759e,Participate in football
+PAQ759f,Participate in golf
+PAQ759g,Participate in gymnastics
+PAQ759h,Participate in hockey
+PAQ759i,Participate in lacrosse
+PAQ759j,Participate in soccer
+PAQ759k,Participate in swimming/diving
+PAQ759l,Participate in tennis
+PAQ759m,Participate in track and field
+PAQ759n,Participate in volleyball
+PAQ759o,Participate in wrestling
+PAQ759p,Participate in other specify
+PAQ759q,Participate in dance
+PAQ759r,Participate in frisbee
+PAQ759s,Participate in running
+PAQ759t,Participate in trampoline
+PAQ759u,Participate in martial arts
+PAQ759v,Participate in walking
+PAQ762,Do you have recess during school?
+PAQ764,How often do you have recess?
+PAQ766,How long is the recess period?
+PAQ679,How much exercise for good health
+PAQ750,Enjoy participating in PE or recess
+PAQ770,Receive physical fitness award past yr
+PAQ772a,Fitness award Fitnessgram
+PAQ772b,Fitness award President's Challenge
+PAQ772c,Fitness award other specify
+PAAQUEX,Questionnaire source flag for weighting
+PFQ020,"Crawl, walk, run, play limitations"
+PFQ030,Long term impairment/health problem
+PFQ033,Impairment requiring special equipment
+PFQ041,Receive Special Ed or Early Intervention
+PFQ049,Limitations keeping you from working
+PFQ051,Limited in amount of work you can do
+PFQ054,Need special equipment to walk
+PFQ057,Experience confusion/memory problems
+PFQ059,"Physical, mental, emotional limitations"
+PFQ061A,Managing money difficulty
+PFQ061B,Walking for a quarter mile difficulty
+PFQ061C,Walking up ten steps difficulty
+PFQ061D,"Stooping, crouching, kneeling difficulty"
+PFQ061E,Lifting or carrying difficulty
+PFQ061F,House chore difficulty
+PFQ061G,Preparing meals difficulty
+PFQ061H,Walking between rooms on same floor
+PFQ061I,Standingup from armless chair difficulty
+PFQ061J,Getting in and out of bed difficulty
+PFQ061K,"Using fork, knife, drinking from cup"
+PFQ061L,Dressing yourself difficulty
+PFQ061M,Standing for long periods difficulty
+PFQ061N,Sitting for long periods difficulty
+PFQ061O,Reaching up over head difficulty
+PFQ061P,Grasp/holding small objects difficulty
+PFQ061Q,"Going out to movies, events difficulty"
+PFQ061R,Attending social event difficulty
+PFQ061S,Leisure activity at home difficulty
+PFQ061T,Push or pull large objects difficulty
+PFQ063A,Health problems causing difficulty
+PFQ063B,Health problems causing difficulty
+PFQ063C,Health problems causing difficulty
+PFQ063D,Health problems causing difficulty
+PFQ063E,Health problems causing difficulty
+PFQ090,Require special healthcare equipment
+RXDUSE,"Taken prescription medicine, past month"
+RXDDRUG,Generic drug name
+RXDDRGID,Generic drug code
+RXQSEEN,Medicine container seen by interviewer
+RXDDAYS,Number of days taken medicine
+RXDRSC1,ICD-10-CM code 1
+RXDRSC2,ICD-10-CM code 2
+RXDRSC3,ICD-10-CM code 3
+RXDRSD1,ICD-10-CM code 1 description
+RXDRSD2,ICD-10-CM code 2 description
+RXDRSD3,ICD-10-CM code 3 description
+RXDCOUNT,Number of prescription medicines taken
+RXQ510,Dr told to take daily low-dose aspirin?
+RXQ515,"Followed advice, took low-dose aspirin?"
+RXQ520,Taking low-dose aspirin on your own?
+RXQ525G,Schedule/frequency of aspirin use
+RXQ525Q,Another ASA schedule: number of doses
+RXQ525U,Another ASA schedule: frequency of doses
+RXD530,Aspirin dose in milligrams (mg)
+RHQ010,Age when first menstrual period occurred
+RHQ020,Age range at first menstrual period
+RHQ031,Had regular periods in past 12 months
+RHD043,Reason not having regular periods
+RHQ060,Age at last menstrual period
+RHQ070,Age range at last menstrual period
+RHQ074,Tried for a year to become pregnant?
+RHQ076,Seen a DR b/c unable to become pregnant?
+RHQ078,Ever treated for a pelvic infection/PID?
+RHQ131,Ever been pregnant?
+RHD143,Are you pregnant now?
+RHQ160,How many times have been pregnant?
+RHQ162,"During pregnancy, told you have diabetes"
+RHQ163,Age told you had diabetes while pregnant
+RHQ166,How many vaginal deliveries?
+RHQ169,How many cesarean deliveries?
+RHQ172,Any babies weigh 9 lbs or more?
+RHD173,Age when delivered baby 9 lbs or more?
+RHQ171,How many deliveries live birth result?
+RHD180,Age at first live birth
+RHD190,Age at last live birth
+RHQ197,How many months ago have baby?
+RHQ200,Now breastfeeding a child?
+RHD280,Had a hysterectomy?
+RHQ291,Age when had hysterectomy
+RHQ305,Had both ovaries removed?
+RHQ332,Age when both ovaries removed
+RHQ420,Ever taken birth control pills?
+RHQ540,Ever use female hormones?
+RHQ542A,Hormone pills used
+RHQ542B,Hormone patches used
+RHQ542C,Hormone cream/suppository/injection used
+RHQ542D,Other form of female hormone used
+RHQ554,Use hormone pills w/estrogen only
+RHQ560Q,How long taking estrogen-only pills?
+RHQ560U,"Unit of measure: months, years"
+RHQ570,Used estrogen/progestin combo pills
+RHQ576Q,How long taking estrogen/progestin?
+RHQ576U,"Unit of measure: months, years"
+RHQ580,Used estrogen-only patches?
+RHQ586Q,How long using estrogen only patches?
+RHQ586U,"Unit of measure: months, years"
+RHQ596,Used estrogen/progestin combo patches?
+RHQ602Q,How long use estrogen/progestin patch
+RHQ602U,"Unit of measure: months, years"
+SXD021,"Ever had vaginal, anal, or oral sex"
+SXQ800,Ever had vaginal sex with a woman
+SXQ803,Ever performed oral sex on a woman
+SXQ806,Ever had anal sex with a woman
+SXQ809,"Ever had any sex with a man: anal, oral"
+SXQ700,Ever had vaginal sex with a man
+SXQ703,Ever performed oral sex on a man
+SXQ706,Ever had anal sex with a man
+SXQ709,Ever had any kind of sex with a woman
+SXD031,How old when first had sex
+SXD171,# female sex partners/lifetime
+SXD510,# female sex partners/year
+SXQ824,# female vaginal sex partners/lifetime
+SXQ827,# female vaginal sex partners/year
+SXD633,Age first performed oral sex on a woman
+SXQ636,# female performed oral sex/lifetime
+SXQ639,# female performed oral sex/year
+SXD642,Performed oral sex new female (days)
+SXQ410,# men anal/oral sex partners/lifetime
+SXQ550,# men anal/oral sex partners/year
+SXQ836,# men anal sex partners/lifetime
+SXQ841,# men anal sex partners/year
+SXQ853,Ever performed oral sex on a man
+SXD621,How old when first had oral sex
+SXQ624,# male oral sex partners/lifetime
+SXQ627,# male oral sex partners/year
+SXD630,Last performed oral sex new male (days)
+SXQ645,Use protection when performing oral sex
+SXQ648,Had sex with new partner/year
+SXQ610,# times had vaginal or anal sex/year
+SXQ251,# times had sex without condom/year
+SXQ590,# sex partners five years older/year
+SXQ600,# sex partners five years younger/year
+SXD101,# male sex partners/lifetime
+SXD450,# male sex partners/year
+SXQ724,# male vaginal sex partners/lifetime
+SXQ727,# male vaginal sex partners/year
+SXQ130,# female sex partners/lifetime
+SXQ490,# female sex partners/year
+SXQ741,Ever performed oral sex on a woman
+SXQ753,"Ever told by doctor, you had HPV"
+SXQ260,Doctor ever told you had genital herpes
+SXQ265,Doctor ever told you had genital warts
+SXQ267,Age when told you had genital warts
+SXQ270,Doctor ever told you had gonorrhea
+SXQ272,Doctor ever told you had chlamydia
+SXQ280,Are you circumcised or uncircumcised
+SXQ292,Describe sexual orientation (male)
+SXQ294,Describe sexual orientation (female)
+SLD010H,How much sleep do you get (hours)?
+SLQ050,Ever told doctor had trouble sleeping?
+SLQ060,Ever told by doctor have sleep disorder?
+SMQ020,Smoked at least 100 cigarettes in life
+SMD030,Age started smoking cigarettes regularly
+SMQ040,Do you now smoke cigarettes
+SMQ050Q,How long since quit smoking cigarettes
+SMQ050U,Unit of measure (day/week/month/year)
+SMD055,Age last smoked cigarettes regularly
+SMD057,# cigarettes smoked per day when quit
+SMQ078,How soon after waking do you smoke
+SMD641,# days smoked cigs during past 30 days
+SMD650,Avg # cigarettes/day during past 30 days
+SMD093,May I please see the pack of cigarettes
+SMDUPCA,Cig 12-digit Universal Product Code-UPC
+SMD100BR,Cigarette Brand/sub-brand
+SMD100FL,Cigarette Filter type
+SMD100MN,Cigarette Menthol indicator
+SMD100LN,Cigarette Length
+SMD100TR,FTC Tar Content
+SMD100NI,FTC Nicotine Content
+SMD100CO,FTC Carbon Monoxide Content
+SMQ621,Cigarettes smoked in entire life
+SMD630,Age first smoked whole cigarette
+SMQ661,Brand of cigarettes smoked past 30 days
+SMQ665A,Marlboro variety
+SMQ665B,Camel variety
+SMQ665C,Newport variety
+SMQ665D,Other brand
+SMQ670,Tried to quit smoking
+SMQ848,# times stopped smoking cigarettes
+SMQ852Q,How long were you able to stop smoking
+SMQ852U,Unit of measure (day/week/month/year)
+SMAQUEX2,Questionnaire Mode Flag
+SMD460,# of people who live here smoke tobacco?
+SMD470,# of people who smoke inside this home?
+SMD480,In past week # days person smoked inside
+SMQ681,Smoked tobacco last 5 days?
+SMQ690A,Used last 5 days - Cigarettes
+SMQ710,# days smoked cigarettes last 5 days
+SMQ720,# cigarettes smoked per day
+SMQ725,When did resp. smoke last cigarette?
+SMQ690B,Used last 5 days - Pipes
+SMQ740,# days smoked pipe over last 5 days
+SMQ690C,Used last 5 days - Cigars
+SMQ770,# days smoked cigars over last 5 days
+SMQ690G,"Used last 5 days - Hookah, water pipes"
+SMQ845,# days smoked water pipe last 5 days
+SMQ690H,Used last 5 days - E-cigarettes
+SMQ849,# days smoked e-cigarette last 5 days
+SMQ851,Used smokeless tobacco last 5 days?
+SMQ690D,Used last 5 days - Chewing tobacco
+SMQ800,# days used chewing tobacco last 5 day
+SMQ690E,Used last 5 days - Snuff
+SMQ817,# days used snuff over last 5 days
+SMQ690I,Used last 5 days - Snus
+SMQ857,# days used snus over last 5 days
+SMQ690J,Used last 5 days - Dissolvables
+SMQ861,# days used dissolvable over last 5 days
+SMQ863,Used nicotine replacement last 5 days?
+SMQ690F,"Used last 5 days - Patch, gum, other"
+SMQ830,# days used nicotine quit smoking aids?
+SMQ840,When last used nicotine quit smoking aid
+SMDANY,Used any tobacco product last 5 days?
+SMAQUEX,Questionnaire Mode Flag
+SMQ856,Last 7-d worked at job not at home?
+SMQ858,Last 7-d at job someone smoked indoors?
+SMQ860,Last 7-d spent time in a restaurant?
+SMQ862,Last 7-d at rest someone smoked indoors?
+SMQ866,Last 7-d spent time in a bar?
+SMQ868,Last 7-d in bar someone smoked indoors?
+SMQ870,Last 7-d rode in a car?
+SMQ872,Last 7-d someone smoked in car?
+SMQ874,Last 7-d spent time in another home?
+SMQ876,Last 7-d in home someone smoked indoors?
+SMQ878,Last 7-d in other indoor area?
+SMQ880,Last 7-d in other indoor someone smoked?
+CSQ010,Had problem with smell past 12 months?
+CSQ020,Had change ability to smell since age 25
+CSQ030,"Smells bother you, but not others"
+CSQ040,Had phantom odor?
+CSQ060,When noticed change in ability to smell
+CSQ070,Frequency of problem w/ ability to smell
+CSQ080,Had problem with taste past 12 months?
+CSQ090A,Ability to Taste Salt
+CSQ090B,Ability to Taste Sourness
+CSQ090C,Ability to Taste Sweetness
+CSQ090D,Ability to Taste Bitterness
+CSQ100,Change in ability to taste food flavors?
+CSQ110,Persistent taste in mouth past 12 months
+CSQ120A,"Taste in mouth, Sweet"
+CSQ120B,"Taste in mouth, Sour"
+CSQ120C,"Taste in mouth, Salty"
+CSQ120D,"Taste in mouth, Bitter"
+CSQ120E,"Taste in mouth, Metallic"
+CSQ120F,"Taste in mouth, Burning or Tingling"
+CSQ120G,"Taste in mouth, Bad or Foul"
+CSQ120H,"Taste in mouth, Something else"
+CSQ140,When noticed change in ability to taste
+CSQ160,Discussed T/S problem with Dr.?
+CSQ170,When T/S problem last discussed with Dr.
+CSQ180,Treatment for T/S problem last 12 months
+CSQ190,T/S problem interferes with daily life?
+CSQ200,Persistent cold/flu last 12 months?
+CSQ202,Had persistent dry mouth in past 12 mth
+CSQ204,Frequent nasal congestion in past 12 mth
+CSQ210,Ever had Wisdom Teeth Removed
+CSQ220,Ever had Tonsils Removed
+CSQ240,Head Injury/Loss of consciousness
+CSQ250,Broke Nose/Serious Injury to Face/Skull
+CSQ260,Ever had two or more sinus infections
+AUQ136,Ever had 3 or more ear infections?
+AUQ138,Ever had a tube placed in your ear?
+VTQ251A,"Spend time in pool, hot tub, steam room?"
+VTQ251B,"How long ago since at pool, hot tub?"
+VTQ261A,In last 48 hrs use dry cleaning solvent?
+VTQ261B,Long since use dry cleaning solvents?
+WHD010,Current self-reported height (inches)
+WHD020,Current self-reported weight (pounds)
+WHQ030,How do you consider your weight
+WHQ040,"Like to weigh more, less or same"
+WHD050,Self-reported weight - 1 yr ago (pounds)
+WHQ060,Weight change intentional
+WHQ070,Tried to lose weight in past year
+WHD080A,Ate less to lose weight
+WHD080B,Switched to foods with lower calories
+WHD080C,Ate less fat to lose weight
+WHD080D,Exercised to lose weight
+WHD080E,Skipped meals
+WHD080F,Ate diet foods or products
+WHD080G,Used a liquid diet formula
+WHD080H,Joined a weight loss program
+WHD080I,Took prescription diet pills
+WHD080J,Took non-RX suppl. to lose weight
+WHD080K,Took laxatives or vomited
+WHD080M,Drank a lot of water
+WHD080N,Followed a special diet
+WHD080O,Ate fewer carbohydrates
+WHD080P,Started to smoke or began to smoke again
+WHD080Q,"Ate more fruits, vegetables, salads"
+WHD080R,Changed eating habits
+WHD080S,"Ate less sugar, candy, sweets"
+WHD080T,Ate less junk food or fast food
+WHD080u,Had weight loss to lose weight
+WHD080L,Other
+WHD110,Self-reported weight-10 yrs ago (pounds)
+WHD120,Self-reported weight-age 25 (pounds)
+WHD130,Self-reported height - age 25 (inches)
+WHD140,Self-reported greatest weight (pounds)
+WHQ150,Age when heaviest weight
+WHQ030M,How do you consider your weight
+WHQ500,Trying to do about weight
+WHQ520,How often tried to lose weight
