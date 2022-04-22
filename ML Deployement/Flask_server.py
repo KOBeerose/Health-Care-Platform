@@ -12,11 +12,13 @@ import pandas as pd
 from sklearn.externals import joblib
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-def loading_models():
-    LR = joblib.load("../ML Deployement/Models/LR.sav")
-    RF_CLF = joblib.load("../ML Deployement/Models/RF_CLF.sav")
-    SVM_CLF = joblib.load("../ML Deployement/Models/SVM_CLF.sav")
 
+
+LR = joblib.load("../ML Deployement/Models/LR.sav")
+RF_CLF = joblib.load("../ML Deployement/Models/RF_CLF.sav")
+SVM_CLF = joblib.load("../ML Deployement/Models/SVM_CLF.sav")
+
+models_dict = {"LR":LR, "RF_CLF":RF_CLF, "SVM_CLF":SVM_CLF}
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'the quick brown fox jumps over the lazy dog'
@@ -34,10 +36,15 @@ def predict():
     if request.method == "GET":
         return get_res
 
+    if request.method == "POST":
+        model = request.json['model']
+        if model == "":
+            return jsonify({"error": "no model specified"})
+        clf = models_dict["model"]
+
     clf = joblib.load(model_file_name)
     print('model loaded')
-    model_columns = joblib.load(model_columns_file_name)
-    print('model columns loaded')
+
     if clf:
         try:
             json_ = request.json
