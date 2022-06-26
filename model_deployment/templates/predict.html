@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" type="text/css"/>
+  </head>
+  <body>
+    <div class="testbox1">
+      <form action="/predict" method="POST" target="_blank">
+        <div class="banner">
+        </div>
+        <h2 style="text-align: center;">  Fill out following form to predict wether the person is likely to have Diabetes or not </h2></br>
+
+        <div class="prediction_res">
+          <div class="thumbnail">
+            {% if prediction [0]== 0 %}
+            <h3>You're fine</h3>
+            <img src="static/images/happyface.jpeg" class="emoji" />
+            <div class = "recomendations">
+              <h2 style="text-align: center;" class= "recom">You Are Doing Great!</h2>
+              <h2 style="text-align: center;" class= "recom">Keep Up!</h2>
+            </div>
+            {% endif %}
+          </div>
+          <div class="thumbnail">
+            {% if prediction[0] == 1 %}
+            <h3>You are in Risk</h3>
+            <img src="static/images/sadface.png" class="emoji" />
+            <div class = "recomendations">
+              <h2 class= "recom">Recommendations:</h2>
+              <ul>
+                <li>Eat less sugar and follow a diet.</li>
+
+              </ul>
+            </div>
+            {% endif %}
+          </div>
+          <div class="thumbnail">
+            {% if prediction [0]== 2 %}
+            <h3>You have Diabetes</h3>
+            <img src="static/images/danger.png" class="emoji" />
+            <div class = "recomendations">
+              <h2 style="text-align: center;" class= "recom">You Have to see a doctor RIGHT NOW!</h2>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </form>
+    </div>
+    
+  </body>
+</html>

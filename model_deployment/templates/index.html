@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Health Care Platform</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styling.css') }}" type="text/css"/>
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/predict" method="POST" target="_blank">
+        <div class="banner">
+        </div>
+        <h2 style="text-align: center;">  Fill out following form to predict wether the person is likely to have Diabetes or not </h2>
+        <div class="item">
+          <label for="Gender">Gender</label>
+          <select id="Gender" name="Gender">
+            <option disabled selected value> -- select an option -- </option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </div>
+
+        <div class="item">
+          <label for="Years_in_US">Years in The US</label>
+          <input type="number" id="Years_in_US" name="Years_in_US">  Enter number of years passed in the United States.
+        </div>
+
+
+      <div class="item">
+          <label for="Family_income">Family Income</label>
+          <input type="number"  step="0.01" min = "0" id="Family_income" name="Family_income">  The sum of your family income.
+        </div>
+
+
+         <div class="item">
+          <label for="ArmCircum">Arm Circum</label>
+          <input type="number" step="0.1" min = "0" id="ArmCircum" name="ArmCircum">  The value of your Arm Circum.
+       
+
+        <div class="item">
+          <label for="SaggitalAbdominal">Saggital Abdominal</label>
+          <input type="number" step="0.1" min = "0" id="SaggitalAbdominal" name="SaggitalAbdominal"> The value of your Saggital Abdominal.
+        </div>
+        
+        <div class="item">
+          <label for="GripStrength">Grip Strength</label>
+          <input type="number" step="0.1" min = "0" id="GripStrength" name="GripStrength"> The value of your Grip Strength.
+        </div>
+
+        <div class="item">
+         
+          <label for="Breast_fed">Breast fed</label>
+          <select id="Breast_fed" name="Breast_fed">
+            <option disabled selected value> -- select an option -- </option>
+            <option value="2">Yes</option>
+            <option value="1">No</option>
+          </select>
+          Indicates whether the sample person was an infant who was breast fed on either of the two recall days.
+        </div>
+
+        <div class="btn-block">
+          <button type="submit" href="/">SUBMIT</button>
+        </div>
+      </form>
+      <br>
+        <p style="text-align:center;">Made with 🖤 By ELGHABI & ELBATOURI</p>
+    </div>
+
+  </body>
+</html>
